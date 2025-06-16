@@ -1,0 +1,1073 @@
+[02:48:22] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-LTS; Eclipse Adoptium Temurin-21.0.7+6) on Linux 6.1.0-35-cloud-amd64 (amd64)
+[02:48:22] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-227-ver/1.21.4@7675321 (2025-04-28T19:07:04Z) for Minecraft 1.21.4
+[02:48:22] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[02:48:29] [ServerMain/INFO]: [PluginInitializerManager] Initialized 78 plugins
+[02:48:29] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (5):
+ - Akropolis (1.8.1), EconomyShopGUI-Premium (5.21.0), FancyHolograms (2.4.2), FancyNpcs (2.5.0), nightcore (2.7.5.2)
+[02:48:29] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (73):
+ - AdvancedBan (2.3.0), AreaResetterPro (1.3.4-PAPER-1.21), AxAFKZone (1.6.3), AxGraves (1.21.1), AxTrade (1.15.1), AxVaults (2.6.5), BULPearl (3.1.6), Banknotes (1.8.0), BetterRTP (3.6.13), BetterTeams (4.11.0), ChatGames (1.2.1), ClearLag (3.2.2), CoinsEngine (2.4.2), CommandWhitelist (2.11.0), CrazyEnchantments (2.5.2), DailyRewards (${project.version}), DecentHolograms (2.8.17), DeluxeCoinflip (2.9.6), DeluxeCombat (1.70.3), DeluxeMenus (1.14.1-DEV-199), DeluxeTags (1.8.2-Release), DeluxeWithdraw (2025.04), DiscordSRV (1.29.0), EZColors (2.2.6), EconomyBridge (1.2.1), Essentials (2.21.1-dev+14-3f5b122), EssentialsSpawn (2.21.1-dev+14-3f5b122), ExcellentCrates (6.2.0), FastAsyncWorldEdit (2.13.1-SNAPSHOT-1065;cca3b71), FreedomChat (1.7.2), GSit (2.2.0), GriefPrevention (16.18.4), Images (2.5.4), Infiniteannouncements (2.5.0), InvSeePlusPlus (0.29.18-SNAPSHOT), InvSeePlusPlus_Clear (0.29.18-SNAPSHOT), InvSeePlusPlus_Give (0.29.18-SNAPSHOT), ItemEdit (3.7.0), LPC (3.6.1), LoneLibs (1.0.65), LuckPerms (5.4.131), Maintenance (4.3.0), Multiverse-Core (4.3.14), NBTAPI (2.15.0), NexusAuctionHouse (2.0.1), Parkour (7.2.5), PlaceholderAPI (2.11.6), PlayerKits2 (1.17.1), PlayerPoints (3.3.0), ProtocolLib (5.4.0-SNAPSHOT-742), PvPManager (3.19.3), SkinsRestorer (15.6.6), Skript (2.11.0), SmartSpawner (1.2.8), SuperVanish (6.2.20), SynkLibs (1.8.1), TAB (5.0.7), TheGlow (1.2.1-STABLE), UltraCosmetics (3.11.2-RELEASE), Vault (1.7.3-b131), ViaBackwards (5.4.0-SNAPSHOT), ViaRewind (4.0.8-SNAPSHOT), ViaVersion (5.4.0-SNAPSHOT), Vouchers (3.28.0), Vulcan (2.9.5), WorldGuard (7.0.13+82fdc65), ajLeaderboards (2.9.0), floodgate (2.2.4-SNAPSHOT (b116-0e3163c)), packetevents (2.7.0), xAntiIP (1.0), xAntiSpam (1.0-SNAPSHOT), zDiscord (1.5.0-SNAPSHOT), zMenu (1.0.4.1)
+[02:48:33] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[02:48:35] [ServerMain/INFO]: Loaded 1370 recipes
+[02:48:35] [ServerMain/INFO]: Loaded 1481 advancements
+[02:48:35] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[02:48:35] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 197.0ms
+[02:48:35] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[02:48:35] [Server thread/INFO]: Loading properties
+[02:48:36] [Server thread/INFO]: This server is running Paper version 1.21.4-227-ver/1.21.4@7675321 (2025-04-28T19:07:04Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[02:48:36] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[02:48:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:48:36] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:48:36] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[02:48:36] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[02:48:36] [Server thread/INFO]: Default game type: SURVIVAL
+[02:48:36] [Server thread/INFO]: Generating keypair
+[02:48:36] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:6022
+[02:48:36] [Server thread/INFO]: Using epoll channel type
+[02:48:36] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[02:48:36] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[02:48:37] [Server thread/INFO]: [SpigotLibraryLoader] [PlayerPoints] Loading 2 libraries... please wait
+[02:48:37] [Server thread/INFO]: [SpigotLibraryLoader] [PlayerPoints] Loaded library /home/container/libraries/com/mysql/mysql-connector-j/9.1.0/mysql-connector-j-9.1.0.jar
+[02:48:37] [Server thread/INFO]: [SpigotLibraryLoader] [PlayerPoints] Loaded library /home/container/libraries/com/google/protobuf/protobuf-java/4.26.1/protobuf-java-4.26.1.jar
+[02:48:37] [Server thread/INFO]: [SpigotLibraryLoader] [PlayerPoints] Loaded library /home/container/libraries/org/xerial/sqlite-jdbc/3.46.0.0/sqlite-jdbc-3.46.0.0.jar
+[02:48:37] [Server thread/INFO]: [SpigotLibraryLoader] [PlayerPoints] Loaded library /home/container/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[02:48:37] [Server thread/INFO]: [nightcore] Server version detected as Paper 1.21.4. Using paper-bridge.
+[02:48:38] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loading 5 libraries... please wait
+[02:48:38] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
+[02:48:38] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
+[02:48:38] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[02:48:38] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[02:48:38] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+[02:48:38] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
+[02:48:38] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
+[02:48:38] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
+[02:48:38] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[02:48:38] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[02:48:38] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
+[02:48:38] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
+[02:48:38] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
+[02:48:38] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
+[02:48:38] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
+[02:48:38] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
+[02:48:38] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[02:48:38] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-text-serializer-legacy/4.16.0/adventure-text-serializer-legacy-4.16.0.jar
+[02:48:39] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loading 2 libraries... please wait
+[02:48:39] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /home/container/libraries/com/github/cryptomorin/XSeries/13.3.0/XSeries-13.3.0.jar
+[02:48:39] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /home/container/libraries/com/zaxxer/HikariCP/6.3.0/HikariCP-6.3.0.jar
+[02:48:39] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /home/container/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[02:48:39] [Server thread/INFO]: [SpigotLibraryLoader] [PvPManager] Loading 2 libraries... please wait
+[02:48:39] [Server thread/INFO]: [SpigotLibraryLoader] [PvPManager] Loaded library /home/container/libraries/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar
+[02:48:39] [Server thread/INFO]: [SpigotLibraryLoader] [PvPManager] Loaded library /home/container/libraries/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar
+[02:48:39] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[02:48:46] [Server thread/WARN]: Legacy plugin Banknotes v1.8.0 does not specify an api-version.
+[02:48:46] [Server thread/INFO]: [SpigotLibraryLoader] [LoneLibs] Loading 1 libraries... please wait
+[02:48:46] [Server thread/INFO]: [SpigotLibraryLoader] [LoneLibs] Loaded library /home/container/libraries/org/fusesource/jansi/jansi/2.4.1/jansi-2.4.1.jar
+[02:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [Vouchers] Loading 1 libraries... please wait
+[02:48:47] [Server thread/INFO]: [SpigotLibraryLoader] [Vouchers] Loaded library /home/container/libraries/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar
+[02:48:47] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.0-SNAPSHOT
+[02:48:47] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.0-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[02:48:47] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[02:48:47] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[02:48:48] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[02:48:48] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[02:48:48] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[02:48:48] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.131
+[02:48:49] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[02:48:49] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.14
+[02:48:49] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[02:48:49] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.13.1-SNAPSHOT-1065;cca3b71
+[02:48:50] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@23ef68e0]
+[02:48:50] [Server thread/INFO]: [Akropolis] Loading server plugin Akropolis v1.8.1
+[02:48:50] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.13+82fdc65
+[02:48:50] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.0-SNAPSHOT
+[02:48:50] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0-SNAPSHOT-742
+[02:48:50] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.4) has not yet been tested! Proceed with caution.
+[02:48:51] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.1-dev+14-3f5b122
+[02:48:51] [Server thread/INFO]: [GriefPrevention] Loading server plugin GriefPrevention v16.18.4
+[02:48:51] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.8-SNAPSHOT
+[02:48:51] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.8.17
+[02:48:51] [Server thread/INFO]: [PlayerPoints] Loading server plugin PlayerPoints v3.3.0
+[02:48:51] [Server thread/INFO]: [PlayerPoints] Initializing using RoseGarden v1.4.6
+[02:48:51] [Server thread/INFO]: [DeluxeCoinflip] Loading server plugin DeluxeCoinflip v2.9.6
+[02:48:51] [Server thread/INFO]: [nightcore] Loading server plugin nightcore v2.7.5.2
+[02:48:51] [Server thread/INFO]: [SuperVanish] Loading server plugin SuperVanish v6.2.20
+[02:48:51] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.11.0
+[02:48:51] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[02:48:51] [Server thread/INFO]: [floodgate] Took 558ms to boot Floodgate
+[02:48:51] [Server thread/INFO]: [CrazyEnchantments] Loading server plugin CrazyEnchantments v2.5.2
+[02:48:51] [Server thread/INFO]: [BetterRTP] Loading server plugin BetterRTP v3.6.13
+[02:48:51] [Server thread/INFO]: [NBTAPI] Loading server plugin NBTAPI v2.15.0
+[02:48:51] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.4! Trying to find NMS support
+[02:48:51] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R3' loaded!
+[02:48:51] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'NBTAPI' to create a bStats instance!
+[02:48:51] [Server thread/INFO]: [GSit] Loading server plugin GSit v2.2.0
+[02:48:51] [Thread-9/INFO]: [NBTAPI] [NBTAPI] The NBT-API seems to be up-to-date!
+[02:48:51] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.7.0
+[02:48:53] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.11.0
+[02:48:53] [Server thread/INFO]: [BetterTeams] Checking if the file config.yml is up to date
+[02:48:53] [Server thread/INFO]: [BetterTeams] File is up to date
+[02:48:53] [Server thread/INFO]: [CoinsEngine] Loading server plugin CoinsEngine v2.4.2
+[02:48:53] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.29.0
+[02:48:53] [Server thread/INFO]: [SynkLibs] Loading server plugin SynkLibs v1.8.1
+[02:48:53] [Server thread/INFO]: [EconomyShopGUI-Premium] Loading server plugin EconomyShopGUI-Premium v5.21.0
+[02:48:53] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.6
+[02:48:53] [Server thread/INFO]: [EconomyBridge] Loading server plugin EconomyBridge v1.2.1
+[02:48:53] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
+[02:48:53] [Server thread/INFO]: [InvSee++] Loading server plugin InvSeePlusPlus v0.29.18-SNAPSHOT
+[02:48:53] [Server thread/INFO]: [FancyNpcs] Loading server plugin FancyNpcs v2.5.0
+[02:48:53] [Server thread/INFO]: [zDiscord] Loading server plugin zDiscord v1.5.0-SNAPSHOT
+[02:48:53] [Server thread/INFO]: [xAntiSpam] Loading server plugin xAntiSpam v1.0-SNAPSHOT
+[02:48:53] [Server thread/INFO]: [LPC] Loading server plugin LPC v3.6.1
+[02:48:53] [Server thread/INFO]: [ItemEdit] Loading server plugin ItemEdit v3.7.0
+[02:48:53] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.1-dev+14-3f5b122
+[02:48:53] [Server thread/INFO]: [DeluxeCombat] Loading server plugin DeluxeCombat v1.70.3
+[02:48:53] [Server thread/INFO]: [AxGraves] Loading server plugin AxGraves v1.21.1
+[02:48:53] [Server thread/INFO]: [AreaResetterPro] Loading server plugin AreaResetterPro v1.3.4-PAPER-1.21
+[02:48:53] [Server thread/INFO]: [UltraCosmetics] Loading server plugin UltraCosmetics v3.11.2-RELEASE
+[02:48:53] [Server thread/INFO]: [NexusAuctionHouse] Loading server plugin NexusAuctionHouse v2.0.1
+[02:48:53] [Server thread/INFO]: [SmartSpawner] Loading server plugin SmartSpawner v1.2.8
+[02:48:53] [Server thread/INFO]: [FreedomChat] Loading server plugin FreedomChat v1.7.2
+[02:48:53] [Server thread/INFO]: [BULPearl] Loading server plugin BULPearl v3.1.6
+[02:48:53] [Server thread/INFO]: [PlayerKits2] Loading server plugin PlayerKits2 v1.17.1
+[02:48:53] [Server thread/INFO]: [ajLeaderboards] Loading server plugin ajLeaderboards v2.9.0
+[02:48:53] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
+[02:48:53] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
+[02:48:53] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for jar-relocator
+[02:48:53] [Server thread/INFO]: [ajLeaderboards] Checksum matched for jar-relocator
+[02:48:53] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm
+[02:48:53] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm
+[02:48:53] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm-commons
+[02:48:53] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm-commons
+[02:48:53] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
+[02:48:53] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
+[02:48:53] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for HikariCP
+[02:48:53] [Server thread/INFO]: [ajLeaderboards] Checksum matched for HikariCP
+[02:48:53] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for slf4j-api
+[02:48:53] [Server thread/INFO]: [ajLeaderboards] Checksum matched for slf4j-api
+[02:48:53] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for h2
+[02:48:53] [Server thread/INFO]: [ajLeaderboards] Checksum matched for h2
+[02:48:53] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for okhttp
+[02:48:53] [Server thread/INFO]: [ajLeaderboards] Checksum matched for okhttp
+[02:48:53] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for okio
+[02:48:53] [Server thread/INFO]: [ajLeaderboards] Checksum matched for okio
+[02:48:53] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for okio-jvm
+[02:48:53] [Server thread/INFO]: [ajLeaderboards] Checksum matched for okio-jvm
+[02:48:53] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib-jdk8
+[02:48:53] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib-jdk8
+[02:48:53] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib
+[02:48:53] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib
+[02:48:53] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib-common
+[02:48:53] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib-common
+[02:48:53] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for annotations
+[02:48:53] [Server thread/INFO]: [ajLeaderboards] Checksum matched for annotations
+[02:48:53] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib-jdk7
+[02:48:53] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib-jdk7
+[02:48:53] [Server thread/INFO]: [ExcellentCrates] Loading server plugin ExcellentCrates v6.2.0
+[02:48:53] [Server thread/INFO]: [PvPManager] Loading server plugin PvPManager v3.19.3
+[02:48:53] [Server thread/INFO]: [AxTrade] Loading server plugin AxTrade v1.15.1
+[02:48:53] [Server thread/INFO]: [AxVaults] Loading server plugin AxVaults v2.6.5
+[02:48:54] [Server thread/INFO]: [ChatGames] Loading server plugin ChatGames v1.2.1
+[02:48:54] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[02:48:54] [Server thread/INFO]: [Banknotes] Loading server plugin Banknotes v1.8.0
+[02:48:54] [Server thread/INFO]: [InvSee++_Give] Loading server plugin InvSeePlusPlus_Give v0.29.18-SNAPSHOT
+[02:48:54] [Server thread/INFO]: [InvSee++_Clear] Loading server plugin InvSeePlusPlus_Clear v0.29.18-SNAPSHOT
+[02:48:54] [Server thread/INFO]: [CommandWhitelist] Loading server plugin CommandWhitelist v2.11.0
+[02:48:54] [Server thread/INFO]: [EZColors] Loading server plugin EZColors v2.2.6
+[02:48:54] [Server thread/INFO]: [Parkour] Loading server plugin Parkour v7.2.5
+[02:48:54] [Server thread/INFO]: [Maintenance] Loading server plugin Maintenance v4.3.0
+[02:48:54] [Server thread/INFO]: [LoneLibs] Loading server plugin LoneLibs v1.0.65
+[02:48:54] [Server thread/INFO]: [TheGlow] Loading server plugin TheGlow v1.2.1-STABLE
+[02:48:54] [Server thread/INFO]: [Infiniteannouncements] Loading server plugin Infiniteannouncements v2.5.0
+[02:48:54] [Server thread/INFO]: [DeluxeWithdraw] Loading server plugin DeluxeWithdraw v2025.04
+[02:48:54] [Server thread/INFO]: [DeluxeMenus] Loading server plugin DeluxeMenus v1.14.1-DEV-199
+[02:48:54] [Server thread/WARN]: [DeluxeMenus] Could not setup a NMS hook for your server version!
+[02:48:54] [Server thread/INFO]: [AxAFKZone] Loading server plugin AxAFKZone v1.6.3
+[02:48:54] [Server thread/INFO]: [FancyHolograms] Loading server plugin FancyHolograms v2.4.2
+[02:48:54] [Server thread/INFO]: [AdvancedBan] Loading server plugin AdvancedBan v2.3.0
+[02:48:54] [Server thread/INFO]: [Images] Loading server plugin Images v2.5.4
+[02:48:54] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully loaded FancyHolograms version 2.4.2
+[02:48:54] [Server thread/INFO]: [DeluxeTags] Loading server plugin DeluxeTags v1.8.2-Release
+[02:48:54] [Server thread/INFO]: [Vulcan] Loading server plugin Vulcan v2.9.5
+[02:48:54] [Server thread/INFO]: [zMenu] Loading server plugin zMenu v1.0.4.1
+[02:48:54] [Server thread/INFO]: [Vouchers] Loading server plugin Vouchers v3.28.0
+[02:48:54] [Server thread/INFO]: [xAntiIP] Loading server plugin xAntiIP v1.0
+[02:48:54] [Server thread/INFO]: [DailyRewards] Loading server plugin DailyRewards v${project.version}
+[02:48:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:48:54] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
+[02:48:55] [Server thread/INFO]:         __    
+[02:48:55] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.131
+[02:48:55] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[02:48:55] [Server thread/INFO]: 
+[02:48:55] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[02:48:56] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[02:48:57] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[02:48:57] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[02:48:58] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3805ms)
+[02:48:58] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[02:48:58] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[02:48:58] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[02:48:58] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[02:48:58] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[02:48:58] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.13.1-SNAPSHOT-1065;cca3b71
+[02:48:58] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[02:48:58] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[02:48:58] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[02:48:58] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[02:48:58] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_4.PaperweightFaweAdapter as the Bukkit adapter
+[02:48:59] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0-SNAPSHOT-742
+[02:48:59] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.8-SNAPSHOT
+[02:48:59] [Server thread/INFO]: [PlayerPoints] Enabling PlayerPoints v3.3.0
+[02:48:59] [Server thread/INFO]: [PlayerPoints] Data handler connected using SQLite.
+[02:48:59] [Server thread/INFO]: [nightcore] Enabling nightcore v2.7.5.2
+[02:48:59] [ForkJoinPool.commonPool-worker-1/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] An update for FastAsyncWorldEdit is available. You are 53 build(s) out of date.
+You are running build 1065, the latest version is build 1118.
+Update at https://ci.athion.net/job/FastAsyncWorldEdit
+[02:48:59] [Server thread/INFO]: [nightcore] Found permissions provider: LuckPerms
+[02:48:59] [Server thread/INFO]: [nightcore] Found economy provider: EssentialsX Economy
+[02:48:59] [Server thread/INFO]: [nightcore] Found chat provider: LuckPerms
+[02:48:59] [Server thread/INFO]: [nightcore] Time zone set as Etc/UTC
+[02:48:59] [Server thread/INFO]: [nightcore] Plugin loaded in 211 ms!
+[02:48:59] [Server thread/INFO]: [CoinsEngine] Enabling CoinsEngine v2.4.2
+[02:48:59] [Server thread/INFO]: [CoinsEngine] Powered by nightcore
+[02:48:59] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[02:48:59] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@55075bf2
+[02:48:59] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[02:49:00] [Server thread/INFO]: [CoinsEngine] Registered: 'points' currency!
+[02:49:00] [Server thread/INFO]: [CoinsEngine] Registered 'money' as Vault Economy!
+[02:49:00] [Server thread/INFO]: [CoinsEngine] Registered: 'money' currency!
+[02:49:00] [Server thread/INFO]: [CoinsEngine] Detected plugin available for data migration: PlayerPoints
+[02:49:00] [Server thread/INFO]: [CoinsEngine] Detected plugin available for data migration: Vault
+[02:49:00] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: coinsengine [2.4.2]
+[02:49:00] [Server thread/INFO]: [CoinsEngine] Plugin loaded in 318 ms!
+[02:49:00] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.6
+[02:49:00] [Server thread/INFO]: [SkinsRestorer] -------------------------/Warning\-------------------------
+[02:49:00] [Server thread/INFO]: [SkinsRestorer] This plugin is running in PROXY mode!
+[02:49:00] [Server thread/INFO]: [SkinsRestorer] You have to put the same config.yml on all servers and on the proxy.
+[02:49:00] [Server thread/INFO]: [SkinsRestorer] (<proxy>/plugins/SkinsRestorer/)
+[02:49:00] [Server thread/INFO]: [SkinsRestorer] -------------------------\Warning/-------------------------
+[02:49:01] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.4.
+[02:49:01] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.6.6]
+[02:49:01] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[02:49:01] [Server thread/INFO]: [EconomyBridge] Enabling EconomyBridge v1.2.1
+[02:49:01] [Server thread/INFO]: [EconomyBridge] Powered by nightcore
+[02:49:01] [Server thread/INFO]: [EconomyBridge] Item Handler registered: 'dummy'.
+[02:49:01] [Server thread/INFO]: [EconomyBridge] Item Handler registered: 'excellentcrates'.
+[02:49:01] [Server thread/INFO]: [EconomyBridge] Vault detected! Loading currency...
+[02:49:01] [Server thread/INFO]: [EconomyBridge] Currency registered: 'vault'.
+[02:49:01] [Server thread/INFO]: [EconomyBridge] CoinsEngine detected! Loading currency...
+[02:49:01] [Server thread/INFO]: [EconomyBridge] Currency registered: 'coinsengine_points'.
+[02:49:01] [Server thread/INFO]: [EconomyBridge] PlayerPoints detected! Loading currency...
+[02:49:01] [Server thread/INFO]: [EconomyBridge] Currency registered: 'playerpoints'.
+[02:49:01] [Server thread/INFO]: [EconomyBridge] Currency registered: 'xp_points'.
+[02:49:01] [Server thread/INFO]: [EconomyBridge] Currency registered: 'xp_level'.
+[02:49:01] [Server thread/INFO]: [EconomyBridge] Currency registered: 'gold'.
+[02:49:01] [Server thread/INFO]: [EconomyBridge] Currency registered: 'diamond'.
+[02:49:01] [Server thread/INFO]: [EconomyBridge] Currency registered: 'emerald'.
+[02:49:01] [Server thread/INFO]: [EconomyBridge] Plugin loaded in 69 ms!
+[02:49:01] [Server thread/INFO]: [LoneLibs] Enabling LoneLibs v1.0.65
+[02:49:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:49:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:49:01] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[02:49:01] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
+[02:49:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:49:01] [Server thread/INFO]: Preparing level "world"
+[02:49:01] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:49:01] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     +==================+
+[02:49:01] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[02:49:01] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     |------------------|
+[02:49:01] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     |    Proxy Mode    |
+[02:49:01] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     +==================+
+[02:49:01] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:49:01] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     Version: 15.6.6
+[02:49:01] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     Commit: 763d6fb
+[02:49:01] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     This is the latest version!
+[02:49:01] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:49:01] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[02:49:01] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[02:49:01] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:49:01] [Server thread/INFO]: Preparing spawn area: 0%
+[02:49:02] [Server thread/INFO]: Preparing spawn area: 26%
+[02:49:02] [Server thread/INFO]: Time elapsed: 861 ms
+[02:49:02] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.0-SNAPSHOT
+[02:49:02] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
+[02:49:02] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.14
+[02:49:02] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.14" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[02:49:02] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[02:49:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[02:49:02] [Server thread/INFO]: Preparing spawn area: 0%
+[02:49:03] [Server thread/INFO]: Time elapsed: 195 ms
+[02:49:03] [Server thread/INFO]: Preparing start region for dimension minecraft:afk
+[02:49:03] [Server thread/INFO]: Preparing spawn area: 0%
+[02:49:03] [Server thread/INFO]: Time elapsed: 215 ms
+[02:49:03] [Server thread/INFO]: Preparing start region for dimension minecraft:spawn
+[02:49:03] [Server thread/INFO]: Preparing spawn area: 0%
+[02:49:03] [Server thread/INFO]: Time elapsed: 232 ms
+[02:49:03] [Server thread/INFO]: Preparing start region for dimension minecraft:arena
+[02:49:03] [Server thread/INFO]: Preparing spawn area: 0%
+[02:49:03] [Server thread/INFO]: Time elapsed: 156 ms
+[02:49:03] [Server thread/INFO]: [Multiverse-Core] 5 - World(s) loaded.
+[02:49:03] [Server thread/INFO]: [Multiverse-Core] Version 4.3.14 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[02:49:03] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[02:49:04] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[02:49:04] [Server thread/INFO]: [Akropolis] Enabling Akropolis v1.8.1
+[02:49:04] [Server thread/INFO]: [Akropolis]      _    _                          _ _     
+[02:49:04] [Server thread/INFO]: [Akropolis]     / \  | | ___ __ ___  _ __   ___ | (_)___ 
+[02:49:04] [Server thread/INFO]: [Akropolis]    / _ \ | |/ / '__/ _ \| '_ \ / _ \| | / __|
+[02:49:04] [Server thread/INFO]: [Akropolis]   / ___ \|   <| | | (_) | |_) | (_) | | \__ \
+[02:49:04] [Server thread/INFO]: [Akropolis]  /_/   \_\_|\_\_|  \___/| .__/ \___/|_|_|___/
+[02:49:04] [Server thread/INFO]: [Akropolis]                         |_|                  
+[02:49:04] [Server thread/INFO]: [Akropolis] Author: ZetaStormy
+[02:49:04] [Server thread/INFO]: [Akropolis] Based on DeluxeHub by ItsLewizzz.
+[02:49:04] [Server thread/INFO]: [Akropolis] --------
+[02:49:04] [Server thread/INFO]: [Akropolis] Hooked into PlaceholderAPI
+[02:49:04] [Server thread/INFO]: [Akropolis] Loaded custom menu serverselector.
+[02:49:04] [Server thread/INFO]: [Akropolis] No holograms to load!
+[02:49:04] [Server thread/INFO]: [Akropolis] Loaded 11 plugin modules.
+[02:49:04] [Server thread/INFO]: [Akropolis] Successfully loaded in 303ms.
+[02:49:04] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.13+82fdc65
+[02:49:04] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[02:49:04] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[02:49:04] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[02:49:04] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[02:49:04] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[02:49:04] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[02:49:04] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[02:49:04] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[02:49:04] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[02:49:04] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[02:49:04] [Server thread/INFO]: [WorldGuard] (AFK) TNT ignition is PERMITTED.
+[02:49:04] [Server thread/INFO]: [WorldGuard] (AFK) Lighters are PERMITTED.
+[02:49:04] [Server thread/INFO]: [WorldGuard] (AFK) Lava fire is PERMITTED.
+[02:49:04] [Server thread/INFO]: [WorldGuard] (AFK) Fire spread is UNRESTRICTED.
+[02:49:04] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'AFK'
+[02:49:04] [Server thread/INFO]: [WorldGuard] (Spawn) TNT ignition is PERMITTED.
+[02:49:04] [Server thread/INFO]: [WorldGuard] (Spawn) Lighters are PERMITTED.
+[02:49:04] [Server thread/INFO]: [WorldGuard] (Spawn) Lava fire is PERMITTED.
+[02:49:04] [Server thread/INFO]: [WorldGuard] (Spawn) Fire spread is UNRESTRICTED.
+[02:49:04] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Spawn'
+[02:49:04] [Server thread/INFO]: [WorldGuard] (Arena) TNT ignition is PERMITTED.
+[02:49:04] [Server thread/INFO]: [WorldGuard] (Arena) Lighters are PERMITTED.
+[02:49:04] [Server thread/INFO]: [WorldGuard] (Arena) Lava fire is PERMITTED.
+[02:49:04] [Server thread/INFO]: [WorldGuard] (Arena) Fire spread is UNRESTRICTED.
+[02:49:04] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Arena'
+[02:49:04] [Server thread/INFO]: [WorldGuard] Loading region data...
+[02:49:04] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.0-SNAPSHOT
+[02:49:04] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.1-dev+14-3f5b122
+[02:49:05] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[02:49:05] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[02:49:05] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[02:49:05] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[02:49:05] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[02:49:05] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[02:49:05] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[02:49:05] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[02:49:05] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[02:49:05] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[02:49:05] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[02:49:05] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[02:49:05] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[02:49:05] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[02:49:05] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[02:49:05] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[02:49:05] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[02:49:05] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[02:49:05] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[02:49:05] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[02:49:05] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[02:49:05] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[02:49:05] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[02:49:05] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[02:49:05] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[02:49:05] [Server thread/INFO]: [Essentials] Loaded 43517 items from items.json.
+[02:49:05] [Server thread/INFO]: [Essentials] Using locale en_US
+[02:49:05] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[02:49:05] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[02:49:06] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[02:49:06] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[02:49:06] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.18.4
+[02:49:06] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[02:49:06] [Server thread/INFO]: [GriefPrevention] 224 total claims loaded.
+[02:49:06] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[02:49:06] [Server thread/INFO]: [GriefPrevention] Successfully hooked into WorldGuard.
+[02:49:06] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[02:49:06] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[02:49:06] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.17
+[02:49:07] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.4! Trying to find NMS support
+[02:49:07] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R3' loaded!
+[02:49:07] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[02:49:07] [Server thread/INFO]: [DeluxeCoinflip] Enabling DeluxeCoinflip v2.9.6
+[02:49:07] [Server thread/INFO]: [DeluxeCoinflip] 
+[02:49:07] [Server thread/INFO]: [DeluxeCoinflip]  __ __    DeluxeCoinflip v2.9.6
+[02:49:07] [Server thread/INFO]: [DeluxeCoinflip] /  |_     Author: ItzSave
+[02:49:07] [Server thread/INFO]: [DeluxeCoinflip] \_ |      (c) Zithium Studios 2021 - 2025. All rights reserved.
+[02:49:07] [Server thread/INFO]: [DeluxeCoinflip] 
+[02:49:07] [Server thread/INFO]: [DeluxeCoinflip] Loading bStats metrics
+[02:49:07] [Server thread/INFO]: [DeluxeCoinflip] Registered economy provider 'Vault' using Vault plugin.
+[02:49:07] [Server thread/INFO]: [DeluxeCoinflip] Registered economy provider 'PlayerPoints' using PlayerPoints plugin.
+[02:49:07] [Server thread/INFO]: [DeluxeCoinflip] Registered economy provider 'CUSTOM_CURRENCY
+[02:49:07] [Server thread/INFO]: [DeluxeCoinflip] [ACF] Enabled Asynchronous Tab Completion Support!
+[02:49:07] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: deluxecoinflip [2.9.6]
+[02:49:07] [Server thread/INFO]: [DeluxeCoinflip] Hooked into PlaceholderAPI successfully
+[02:49:07] [Server thread/INFO]: [DeluxeCoinflip] 
+[02:49:07] [Server thread/INFO]: [DeluxeCoinflip] Successfully loaded in 258ms
+[02:49:07] [Server thread/INFO]: [DeluxeCoinflip] 
+[02:49:07] [Server thread/INFO]: [SuperVanish] Enabling SuperVanish v6.2.20
+[02:49:07] [Server thread/INFO]: [SuperVanish] Hooked into PaperSpigot for server list ping support
+[02:49:07] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: supervanish [6.2.20]
+[02:49:07] [Server thread/INFO]: [SuperVanish] Hooked into PlaceholderAPI
+[02:49:07] [Server thread/INFO]: [SuperVanish] Hooked into Essentials
+[02:49:07] [Server thread/INFO]: [Skript] Enabling Skript v2.11.0
+[02:49:08] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] A new version of Skript is available: 2.11.2 (you're currently running 2.11.0)
+[02:49:08] [ForkJoinPool.commonPool-worker-1/INFO]: Download it at: https://github.com/SkriptLang/Skript/releases/download/2.11.2/Skript-2.11.2.jar
+[02:49:08] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[02:49:08] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[02:49:09] [Server thread/INFO]: [CrazyEnchantments] Enabling CrazyEnchantments v2.5.2
+[02:49:09] [Server thread/INFO]: [CrazyEnchantments] Loading the config.yml
+[02:49:09] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded config.yml
+[02:49:09] [Server thread/INFO]: [CrazyEnchantments] Loading the BlockList.yml
+[02:49:09] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded BlockList.yml
+[02:49:09] [Server thread/INFO]: [CrazyEnchantments] Loading the HeadMap.yml
+[02:49:09] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded HeadMap.yml
+[02:49:09] [Server thread/INFO]: [CrazyEnchantments] Loading the Data.yml
+[02:49:09] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Data.yml
+[02:49:09] [Server thread/INFO]: [CrazyEnchantments] Loading the Enchantments.yml
+[02:49:09] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Enchantments.yml
+[02:49:09] [Server thread/INFO]: [CrazyEnchantments] Loading the GKitz.yml
+[02:49:09] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded GKitz.yml
+[02:49:09] [Server thread/INFO]: [CrazyEnchantments] Loading the Messages.yml
+[02:49:09] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Messages.yml
+[02:49:09] [Server thread/INFO]: [CrazyEnchantments] Loading the Enchantment-Types.yml
+[02:49:09] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Enchantment-Types.yml
+[02:49:09] [Server thread/INFO]: [CrazyEnchantments] Loading the Tinker.yml
+[02:49:09] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Tinker.yml
+[02:49:09] [Server thread/INFO]: SURVIVAL ➥ === CrazyEnchantment Hook Status ===
+[02:49:09] [Server thread/INFO]: SURVIVAL ➥ FACTIONS_UUID NOT FOUND
+[02:49:09] [Server thread/INFO]: SURVIVAL ➥ SUPERIORSKYBLOCK NOT FOUND
+[02:49:09] [Server thread/INFO]: SURVIVAL ➥ WORLDGUARD FOUND
+[02:49:09] [Server thread/INFO]: SURVIVAL ➥ WORLDEDIT FOUND
+[02:49:09] [Server thread/INFO]: SURVIVAL ➥ MCMMO NOT FOUND
+[02:49:09] [Server thread/INFO]: SURVIVAL ➥ TOWNYADVANCED NOT FOUND
+[02:49:09] [Server thread/INFO]: SURVIVAL ➥ LANDS NOT FOUND
+[02:49:09] [Server thread/INFO]: SURVIVAL ➥ PLOT_SQUARED NOT FOUND
+[02:49:09] [Server thread/INFO]: SURVIVAL ➥ VAULT FOUND
+[02:49:09] [Server thread/INFO]: SURVIVAL ➥ GRIEF_PREVENTION FOUND
+[02:49:09] [Server thread/INFO]: SURVIVAL ➥ ORAXEN NOT FOUND
+[02:49:10] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5442 aliases in 1101ms
+[02:49:10] [Server thread/INFO]: [BetterRTP] Enabling BetterRTP v3.6.13
+[02:49:10] [Server thread/INFO]: [BetterRTP] Cooldown = 600
+[02:49:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: betterrtp [3.6.13]
+[02:49:10] [Server thread/INFO]: [NBTAPI] Enabling NBTAPI v2.15.0
+[02:49:10] [Server thread/INFO]: [NBTAPI] Checking bindings...
+[02:49:10] [Server thread/INFO]: [NBTAPI] All Classes were able to link!
+[02:49:10] [Server thread/INFO]: [NBTAPI] All Methods were able to link!
+[02:49:10] [Server thread/INFO]: [NBTAPI] Running NBT reflection test...
+[02:49:10] [Server thread/INFO]: [NBTAPI] Success! This version of NBT-API is compatible with your server.
+[02:49:10] [Server thread/INFO]: [GSit] Enabling GSit v2.2.0
+[02:49:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gsit [2.2.0]
+[02:49:10] [Server thread/INFO]: [WorldGuard] Registering session handler dev.geco.gsit.link.worldguard.RegionFlagHandler
+[02:49:10] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[02:49:10] [Server thread/INFO]: [GSit] Link with GriefPrevention successful!
+[02:49:10] [Server thread/INFO]: [GSit] Link with PlaceholderAPI successful!
+[02:49:10] [Server thread/INFO]: [GSit] Link with WorldGuard successful!
+[02:49:10] [Server thread/INFO]: [packetevents] Enabling packetevents v2.7.0
+[02:49:10] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[02:49:10] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.11.0
+[02:49:10] [Server thread/INFO]: [BetterTeams] Checking if the file messages.yml is up to date
+[02:49:10] [Server thread/INFO]: [BetterTeams] File is up to date
+[02:49:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: betterTeams [4.11.0]
+[02:49:10] [Server thread/INFO]: Display team name config value: prefix
+[02:49:10] [Server thread/INFO]: Loading below name. Type: PREFIX
+[02:49:10] [Server thread/INFO]: teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@732bb889
+[02:49:10] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.29.0
+[02:49:10] [Server thread/INFO]: [SynkLibs] Enabling SynkLibs v1.8.1
+[02:49:11] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.7.0) | Latest release: (2.8.0)
+[02:49:12] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[02:49:12] [pool-73-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (9d4734818ab27069d76f264a4cda74a699806770)
+[02:49:12] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[02:49:12] [Server thread/INFO]: [SynkLibs] »  SynkLibs is up to date!
+[02:49:12] [Server thread/INFO]: [EconomyShopGUI-Premium] Enabling EconomyShopGUI-Premium v5.21.0
+[02:49:13] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Using lang-en.yml as language file.
+[02:49:13] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[02:49:13] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Completed loading 6 section configs from /sections/
+[02:49:13] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Completed loading 6 shop configs from /shops/
+[02:49:13] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Updating Shop settings...
+[02:49:13] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Using minecraft version 1.21.4...
+[02:49:13] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Successfully hooked into Vault and using CoinsEngine_money as economy provider
+[02:49:13] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Completed loading 1 economy provider(s) for all 6 shop sections.
+[02:49:13] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Updating the configurations because a newer version has been found...
+[02:49:13] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Successfully updated configs to v2.0.1.3
+[02:49:13] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Spawner provider set to AUTO in config
+[02:49:13] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Automatically searching for compatible spawner provider....
+[02:49:13] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[02:49:13] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Providers not enabled yet, waiting...
+[02:49:13] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console forwarding assigned to channel TC:🖥smp-console(1373185522524094495)
+[02:49:13] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Saved linked accounts in 5ms
+[02:49:13] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
+[02:49:13] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling Essentials hook
+[02:49:13] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling SuperVanish hook
+[02:49:13] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling LuckPerms hook
+[02:49:13] [Server thread/INFO]: [TAB] Loaded NMS hook in 32ms
+[02:49:13] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling PlaceholderAPI hook
+[02:49:13] [Server thread/INFO]: [TAB] [WARN] [config.yml] Scoreboard "scoreboard-1.20.3+" has no display condition set, however, there is another scoreboard in the chain (scoreboard). Scoreboards are checked from top to bottom until a scoreboard with meeting condition or no condition is found. Because of this, the scoreboard (scoreboard) after the no-condition scoreboard (scoreboard-1.20.3+) will never be displayed. Unless this is intentional to externally display the scoreboard (commands, API), this is a mistake.
+[02:49:13] [ESGUI_UTIL_THREAD #0/INFO]: [EconomyShopGUI-Premium] [INFO]: There is an update available for EconomyShopGUI, you are running v5.21.0 but found v5.25.3.
+[02:49:13] [ESGUI_UTIL_THREAD #0/INFO]: [EconomyShopGUI-Premium] [INFO]: Download using command /eshop update
+[02:49:13] [Server thread/INFO]: [TAB] [WARN] [groups.yml] Unknown property "tagSuffix" defined for group "_DEFAULT_". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix, header, footer]
+[02:49:14] [Server thread/INFO]: [TAB] [WARN] Found a total of 2 issues.
+[02:49:14] [Server thread/INFO]: [TAB] Enabled in 301ms
+[02:49:14] [Server thread/INFO]: [InvSee++] Enabling InvSeePlusPlus v0.29.18-SNAPSHOT
+[02:49:14] [Server thread/INFO]: [FancyNpcs] Enabling FancyNpcs v2.5.0
+[02:49:14] [Server thread/WARN]: [org.mineskin.MineSkinClient] Creating MineSkinClient without API key
+[02:49:14] [Server thread/INFO]: [zDiscord] Enabling zDiscord v1.5.0-SNAPSHOT
+[02:49:14] [FancyLogger/INFO]: [FancyNpcs] (Server thread) INFO: FancyNpcs (2.5.0) has been enabled.
+[02:49:14] [Server thread/INFO]: [zDiscord] The plugin has started!
+[02:49:14] [Server thread/INFO]: [xAntiSpam] Enabling xAntiSpam v1.0-SNAPSHOT
+[02:49:14] [Server thread/INFO]: [xAntiSpam] ╔═══════════════════════════════════════╗
+[02:49:14] [Server thread/INFO]: [xAntiSpam] ║                                       ║
+[02:49:14] [Server thread/INFO]: [xAntiSpam] ║            xAntiSpam v1.0             ║
+[02:49:14] [Server thread/INFO]: [xAntiSpam] ║         Created by GodXPro            ║
+[02:49:14] [Server thread/INFO]: [xAntiSpam] ║                                       ║
+[02:49:14] [Server thread/INFO]: [xAntiSpam] ╚═══════════════════════════════════════╝
+[02:49:14] [Server thread/INFO]: [xAntiSpam] xAntiSpam has been enabled successfully!
+[02:49:14] [Server thread/INFO]: [LPC] Enabling LPC v3.6.1
+[02:49:14] [Server thread/INFO]: [ItemEdit] Enabling ItemEdit v3.7.0
+[02:49:14] [Server thread/INFO]: [ItemEdit] Hooking into MiniMessageAPI see https://webui.advntr.dev/
+[02:49:14] [Server thread/INFO]: [ItemEdit] Selected Storage Type: YAML
+[02:49:15] [Server thread/INFO]: [ItemEdit] Hooking into Vault
+[02:49:15] [Server thread/INFO]: [ItemEdit] Hooking into PlaceHolderAPI
+[02:49:15] [Server thread/INFO]: [ItemEdit] placeholders:
+[02:49:15] [Server thread/INFO]: [ItemEdit]   %itemedit_amount_<{itemid}>_[{slot}]_[{player}]%
+[02:49:15] [Server thread/INFO]: [ItemEdit]     shows how many itemid player has on slot
+[02:49:15] [Server thread/INFO]: [ItemEdit]     <{itemid}> for item id on serveritem
+[02:49:15] [Server thread/INFO]: [ItemEdit]     [{slot}] for the slot where the item should be counted, by default inventory
+[02:49:15] [Server thread/INFO]: [ItemEdit]       Values: inventory (include offhand), equip (include offhand), inventoryandequip (include offhand), hand, offhand, head, chest, legs, feet
+[02:49:15] [Server thread/INFO]: [ItemEdit]     [{player}] for the player, by default self
+[02:49:15] [Server thread/INFO]: [ItemEdit]     example: %itemedit_amount_{my_item_id}_{hand}%
+[02:49:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: itemedit [1.0]
+[02:49:15] [Server thread/INFO]: [ItemEdit] # Enabled (took 164 ms)
+[02:49:15] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.1-dev+14-3f5b122
+[02:49:15] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[02:49:15] [Server thread/INFO]: [DeluxeCombat] Enabling DeluxeCombat v1.70.3
+[02:49:15] [Server thread/INFO]: [DeluxeCombat]  _____        _                   ______            _                
+[02:49:15] [Server thread/INFO]: [DeluxeCombat] (____ \      | |                 / _____)          | |          _    
+[02:49:15] [Server thread/INFO]: [DeluxeCombat]  _   \ \ ____| |_   _ _   _ ____| /      ___  ____ | | _   ____| |_  
+[02:49:15] [Server thread/INFO]: [DeluxeCombat] | |   | / _  ) | | | ( \ / ) _  ) |     / _ \|    \| || \ / _  |  _) 
+[02:49:15] [Server thread/INFO]: [DeluxeCombat] | |__/ ( (/ /| | |_| |) X ( (/ /| \____| |_| | | | | |_) | ( | | |__ 
+[02:49:15] [Server thread/INFO]: [DeluxeCombat] |_____/ \____)_|\____(_/ \_)____)\______)___/|_|_|_|____/ \_||_|\___)
+[02:49:15] [Server thread/INFO]: [DeluxeCombat] 
+[02:49:15] [Server thread/INFO]: [DeluxeCombat] Hook packetevents (2.7.0, Common Hook) has been registered.
+[02:49:15] [Server thread/INFO]: [DeluxeCombat] Hook GriefPrevention (16.18.2, Combat Hook) has been registered.
+[02:49:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: deluxecombat [0.1.2]
+[02:49:15] [Server thread/INFO]: [DeluxeCombat] Hook PlaceholderAPI (2.10.9, Common Hook) has been registered.
+[02:49:15] [Server thread/INFO]: [DeluxeCombat] Hook BetterRTP (3.2.1-3, Common Hook) has been registered.
+[02:49:15] [Server thread/INFO]: [DeluxeCombat] Hook SuperVanish (6.2.6, Combat Hook) has been registered.
+[02:49:15] [Server thread/INFO]: [DeluxeCombat] Hook Vault (1.7.3, Common Hook) has been registered.
+[02:49:15] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.4! Trying to find NMS support
+[02:49:15] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R3' loaded!
+[02:49:15] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DeluxeCombat' to create a bStats instance!
+[02:49:15] [Profile Lookup Executor #1/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[02:49:15] [Server thread/INFO]: [DeluxeCombat] Spawnpoints (0), Kill-Streaks (1), Rewards (2), Custom Tools (1) loaded!
+[02:49:15] [Server thread/INFO]: [DeluxeCombat] Loaded 14 Elo ranges.
+[02:49:15] [Server thread/INFO]: [DeluxeCombat] Start fetching marketplace addons...
+[02:49:15] [Server thread/INFO]: [AxGraves] Enabling AxGraves v1.21.1
+[02:49:16] [Server thread/INFO]: [AreaResetterPro] Enabling AreaResetterPro v1.3.4-PAPER-1.21
+[02:49:16] [pool-106-thread-1/INFO]: [AreaResetterPro] Looking for SQLite-Database ... 
+[02:49:16] [pool-106-thread-1/INFO]: [AreaResetterPro] Existing Database was found.
+[02:49:16] [pool-106-thread-1/INFO]: [AreaResetterPro] Successfully connected to Database.
+[02:49:16] [pool-106-thread-1/INFO]: [AreaResetterPro] Successfully initialized Database tables!
+[02:49:16] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: AreaResetterPro [1.3.4-PAPER-1.21]
+[02:49:16] [Server thread/INFO]: [UltraCosmetics] Enabling UltraCosmetics v3.11.2-RELEASE
+[02:49:17] [Server thread/INFO]: [UltraCosmetics] Checking for update...
+[02:49:17] [Server thread/INFO]: [UltraCosmetics] -------------------------------------------------------------------
+[02:49:17] [Server thread/INFO]: [UltraCosmetics] Thanks for using UltraCosmetics! Version: 3.11.2-RELEASE (commit a83d951)
+[02:49:17] [Server thread/INFO]: [UltraCosmetics] Plugin by Datatags. Original Author: iSach
+[02:49:17] [Server thread/INFO]: [UltraCosmetics] Link: https://bit.ly/UltraCosmetics
+[02:49:17] [Server thread/INFO]: [UltraCosmetics] Initializing module v1_21 (expected version: 1.21.5)
+[02:49:17] [Server thread/INFO]: [UltraCosmetics] Loading NMS-less mode...
+[02:49:17] [Server thread/INFO]: [UltraCosmetics] Loaded NMS-less mode
+[02:49:17] [Server thread/INFO]: [UltraCosmetics] Paper-specific features enabled
+[02:49:18] [Server thread/INFO]: [UltraCosmetics] 
+[02:49:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ultracosmetics [3.11.2-RELEASE]
+[02:49:18] [Server thread/INFO]: [UltraCosmetics] Hooked into PlaceholderAPI
+[02:49:18] [Server thread/INFO]: [WorldGuard] Registering session handler be.isach.ultracosmetics.worldguard.FlagManager
+[02:49:18] [Server thread/INFO]: [UltraCosmetics] 
+[02:49:18] [Server thread/INFO]: [UltraCosmetics] WorldGuard custom flags enabled
+[02:49:18] [Server thread/INFO]: [UltraCosmetics] 
+[02:49:18] [Server thread/INFO]: [UltraCosmetics] Hooked into PlayerPoints for economy.
+[02:49:18] [Server thread/INFO]: [UltraCosmetics] 
+[02:49:18] [Server thread/INFO]: [UltraCosmetics] 
+[02:49:18] [Server thread/INFO]: [UltraCosmetics] UltraCosmetics successfully finished loading in 1460ms!
+[02:49:18] [Server thread/INFO]: [UltraCosmetics] -------------------------------------------------------------------
+[02:49:18] [Server thread/INFO]: [NexusAuctionHouse] Enabling NexusAuctionHouse v2.0.1
+[02:49:19] [Server thread/INFO]: [SmartSpawner] Enabling SmartSpawner v1.2.8
+[02:49:19] [Server thread/INFO]: [SmartSpawner] Running on standard Bukkit/Spigot/Paper server.
+[02:49:19] [Server thread/INFO]: [SmartSpawner] Loaded 154 spawners. Errors: 0
+[02:49:19] [Server thread/INFO]: [FreedomChat] Enabling FreedomChat v1.7.2
+[02:49:19] [Server thread/INFO]: [BULPearl] Enabling BULPearl v3.1.6
+[02:49:19] [Server thread/INFO]: [BulPearl] Your server version is 1.11 or higher.
+[02:49:19] [Server thread/INFO]: [BulPearl] If that's not the case, please join the discord and contact the dev.
+[02:49:19] [Server thread/INFO]: [BulPearl] Enable BulPearl
+[02:49:19] [Server thread/INFO]: [PlayerKits2] Enabling PlayerKits2 v1.17.1
+[02:49:19] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerkits [1.17.1]
+[02:49:20] [Server thread/INFO]: [PlayerKits²] Has been enabled! Version: 1.17.1
+[02:49:20] [Server thread/INFO]: [PlayerKits²] Thanks for using my plugin!   ~Ajneb97
+[02:49:20] [Server thread/INFO]: There is a new version available. (1.17.5)
+[02:49:20] [Server thread/INFO]: You can download it at: https://modrinth.com/plugin/playerkits-2
+[02:49:20] [Server thread/INFO]: [ajLeaderboards] Enabling ajLeaderboards v2.9.0
+[02:49:20] [Server thread/INFO]: [ajLeaderboards] Using H2 flatfile for board cache. (h2)
+[02:49:21] [Server thread/INFO]: [ajLeaderboards] Loaded 9 boards
+[02:49:21] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ajlb [2.9.0]
+[02:49:21] [Server thread/INFO]: [ajLeaderboards] PAPI placeholders successfully registered!
+[02:49:21] [Server thread/INFO]: [ajLeaderboards] ajLeaderboards v2.9.0 by ajgeiss0702 enabled!
+[02:49:21] [Server thread/INFO]: [ExcellentCrates] Enabling ExcellentCrates v6.2.0
+[02:49:21] [Server thread/INFO]: [ExcellentCrates] Powered by nightcore
+[02:49:21] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-2 - Starting...
+[02:49:21] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] HikariPool-2 - Added connection org.sqlite.jdbc4.JDBC4Connection@20889bcf
+[02:49:21] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-2 - Start completed.
+[02:49:21] [Server thread/INFO]: [ExcellentCrates] Loaded 7 crate openings.
+[02:49:21] [Server thread/INFO]: [ExcellentCrates] Loaded 4 crate keys.
+[02:49:21] [Server thread/INFO]: [ExcellentCrates] Loaded 3 rarities!
+[02:49:21] [Server thread/INFO]: [ExcellentCrates] Loaded 4 crates.
+[02:49:21] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: excellentcrates [6.2.0]
+[02:49:21] [Server thread/INFO]: [ExcellentCrates] Plugin loaded in 442 ms!
+[02:49:21] [Server thread/INFO]: [PvPManager] Enabling PvPManager v3.19.3
+[02:49:21] [Server thread/INFO]: [PvPManager] Using player nametags: true
+[02:49:21] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] PvPManager - Starting...
+[02:49:21] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] PvPManager - Start completed.
+[02:49:21] [Server thread/INFO]: [PvPManager] Connected to SQLITE database successfully
+[02:49:21] [Server thread/INFO]: [PvPManager] Players stored: 179
+[02:49:21] [Server thread/WARN]: [PvPManager] GriefPrevention has been detected. GriefPrevention has some combat features without showing any feedback messages. Make sure to disable Punish Logout and set tag time to 0 seconds in GP config. Issues with those features often get wrongly blamed on PvPManager and cause conflicts due to the lack of GP feedback messages.
+[02:49:21] [Server thread/INFO]: [PvPManager] TAB detected. If you want nametags to change while in combat, set 'anti-override' to false in TAB's config. (Doing that will prevent TAB from changing nametags)
+[02:49:21] [Server thread/INFO]: [PvPManager] Or use the premium version of PvPManager which hooks into TAB for nametag/tablist changes.
+[02:49:21] [Server thread/INFO]: [PvPManager] WorldGuard Found! Enabling Support For WorldGuard Regions
+[02:49:21] [Server thread/INFO]: [PvPManager] Essentials Found! Hooked successfully
+[02:49:21] [Server thread/INFO]: [PvPManager] Vault Found! Using it for currency related features
+[02:49:21] [Server thread/INFO]: [PvPManager] PlaceholderAPI Found! Hooked successfully
+[02:49:21] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: pvpmanager [3.19.3]
+[02:49:21] [Server thread/INFO]: [PvPManager] PvPManager v3.19.3 enabled (149 ms)
+[02:49:21] [Server thread/INFO]: [AxTrade] Enabling AxTrade v1.15.1
+[02:49:22] [Server thread/INFO]: [AxTrade] Hooked into Vault!
+[02:49:22] [Server thread/INFO]: [AxTrade] Hooked into PlayerPoints!
+[02:49:22] [Server thread/INFO]: [AxTrade] Hooked into CoinsEngine!
+[02:49:22] [Server thread/INFO]: [AxTrade] CoinsEngine currency named coins not found! Change the currency-name or disable the hook to get rid of this warning!
+[02:49:22] [Server thread/INFO]: [AxTrade] Loaded plugin!
+[02:49:22] [Server thread/INFO]: [AxVaults] Enabling AxVaults v2.6.5
+[02:49:23] [pool-137-thread-1/INFO]: [ajLeaderboards] An update is available! (2.10.1) Run /ajLeaderboards update to download it!
+[02:49:24] [Server thread/INFO]: [AxVaults] Loaded plugin!
+[02:49:24] [Server thread/INFO]: [ChatGames] Enabling ChatGames v1.2.1
+[02:49:24] [Server thread/INFO]: [ChatGames] ChatGames is now enabled!
+[02:49:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: chatgames [1.0.0]
+[02:49:24] [Server thread/INFO]: [ChatGames] PlaceholderAPI Hooked!
+[02:49:24] [Server thread/INFO]: [ChatGames] Points loaded successfully!
+[02:49:24] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[02:49:24] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[02:49:24] [Server thread/INFO]: [ClearLag] Loading modules...
+[02:49:24] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (Index 3 out of bounds for length 3)
+[02:49:24] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[02:49:24] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[02:49:24] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[02:49:24] [Thread-37/WARN]: [ClearLag] Clearlag failed to check for updates - bukkit may be down
+[02:49:24] [Thread-37/WARN]: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+[02:49:24] [Thread-37/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.Util.getBukkitVersion(Util.java:105)
+[02:49:24] [Thread-37/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.updateAvailable(BukkitUpdater.java:32)
+[02:49:24] [Thread-37/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.run(BukkitUpdater.java:82)
+[02:49:24] [Thread-37/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:49:24] [Server thread/INFO]: [Banknotes] Enabling Banknotes v1.8.0*
+[02:49:24] [Server thread/INFO]: [InvSee++_Give] Enabling InvSeePlusPlus_Give v0.29.18-SNAPSHOT
+[02:49:24] [Server thread/INFO]: [InvSee++_Clear] Enabling InvSeePlusPlus_Clear v0.29.18-SNAPSHOT
+[02:49:24] [Server thread/INFO]: [CommandWhitelist] Enabling CommandWhitelist v2.11.0
+[02:49:24] [Server thread/INFO]: [EZColors] Enabling EZColors v2.2.6
+[02:49:24] [PvPManager Worker Thread - 0/INFO]: [PvPManager] Checking for updates...
+[02:49:24] [PvPManager Worker Thread - 0/INFO]: [PvPManager] No update found
+[02:49:29] [Server thread/INFO]: [!] Chat Colors →  Successfully downloaded 12 languages from the cloud!
+[02:49:29] [Server thread/INFO]: [!] Chat Colors →  Loading EZColors v2.2.6!
+[02:49:29] [Server thread/INFO]: [!] Chat Colors →  Found a compatible version. Hooking into V1_21_R1!
+[02:49:29] [Server thread/INFO]: [!] Chat Colors →  Using HIGHEST as the Chat Listener.
+[02:49:29] [Server thread/INFO]: [!] Chat Colors →  Found PlaceholderAPI. Loading hook!
+[02:49:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ezcolors [1.0.0]
+[02:49:29] [Server thread/INFO]: [!] Chat Colors →  Successfully Loaded EZColors v2.2.6 in 4620ms!
+[02:49:29] [Server thread/INFO]: [Parkour] Enabling Parkour v7.2.5
+[02:49:29] [Server thread/INFO]: [Parkour] 0 courses found.
+[02:49:29] [Server thread/INFO]: [Parkour] 0 courses cached.
+[02:49:29] [Server thread/WARN]: [Parkour] [BountifulAPI] Plugin is missing, link was unsuccessful.
+[02:49:29] [Server thread/INFO]: [Parkour] [Vault (Economy)] Successfully linked. Version: 1.7.3-b131
+[02:49:29] [Server thread/INFO]: [Parkour] [Vault (Permissions)] Successfully linked. Version: 1.7.3-b131
+[02:49:29] [Server thread/INFO]: [Parkour] [PlaceholderAPI] Successfully linked. Version: 2.11.6
+[02:49:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: parkour [7.2.5]
+[02:49:29] [Server thread/INFO]: [Parkour] Enabled Parkour v7.2.5
+[02:49:29] [ForkJoinPool.commonPool-worker-1/INFO]: [Parkour] Checking for update...
+[02:49:30] [ForkJoinPool.commonPool-worker-1/INFO]: [Parkour] No update available.
+[02:49:30] [Server thread/INFO]: [Maintenance] Enabling Maintenance v4.3.0
+[02:49:30] [Server thread/INFO]: [TheGlow] Enabling TheGlow v1.2.1-STABLE
+[02:49:30] [Server thread/INFO]: [TheGlow] Registering files...
+[02:49:31] [Server thread/INFO]: [TheGlow] Registering commands...
+[02:49:31] [Server thread/INFO]: [TheGlow] Registering command: glow, aliases: [gw]
+[02:49:31] [Server thread/INFO]: [TheGlow] Registering command: theglow, aliases: [jglow]
+[02:49:31] [Server thread/INFO]: [TheGlow] Registering Hooks...
+[02:49:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: theglow [1.2.1-STABLE]
+[02:49:31] [Server thread/INFO]: [TheGlow] Hooked onto PlaceholderAPI
+[02:49:31] [Server thread/INFO]: [TheGlow] Registering Metrics...
+[02:49:31] [Server thread/INFO]: [xshyo.us.theglow.libs.hikaricp.HikariDataSource] HikariPool-1 - Starting...
+[02:49:31] [Server thread/INFO]: [xshyo.us.theglow.libs.hikaricp.pool.HikariPool] HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@585bf3e
+[02:49:31] [Server thread/INFO]: [xshyo.us.theglow.libs.hikaricp.HikariDataSource] HikariPool-1 - Start completed.
+[02:49:31] [Server thread/INFO]: [TheGlow] Connected to SQLite database correctly.
+[02:49:31] [Server thread/INFO]: [TheGlow] Correctly loaded Glow ID: red.
+[02:49:31] [Server thread/INFO]: [TheGlow] Correctly loaded Glow ID: dark_red.
+[02:49:31] [Server thread/INFO]: [TheGlow] Correctly loaded Glow ID: green.
+[02:49:31] [Server thread/INFO]: [TheGlow] Correctly loaded Glow ID: yellow.
+[02:49:31] [Server thread/INFO]: [TheGlow] Correctly loaded Glow ID: black.
+[02:49:31] [Server thread/INFO]: [TheGlow] Correctly loaded Glow ID: gray.
+[02:49:31] [Server thread/INFO]: [TheGlow] Correctly loaded Glow ID: white.
+[02:49:31] [Server thread/INFO]: [TheGlow] Correctly loaded Glow ID: blue.
+[02:49:31] [Server thread/INFO]: [TheGlow] Correctly loaded Glow ID: aqua.
+[02:49:31] [Server thread/INFO]: [TheGlow] Correctly loaded Glow ID: gold.
+[02:49:31] [Server thread/INFO]: [TheGlow] Correctly loaded Glow ID: dark_purple.
+[02:49:31] [Server thread/INFO]: [TheGlow] Correctly loaded Glow ID: dark_gray.
+[02:49:31] [Server thread/INFO]: [TheGlow] Correctly loaded Glow ID: light_purple.
+[02:49:31] [Server thread/INFO]: [TheGlow] Server version: 1.21.4-227-7675321 (MC: 1.21.4) 1.21.4-R0.1-SNAPSHOT
+[02:49:31] [Server thread/INFO]: [TheGlow] Done and enabled in 37.50ms
+[02:49:31] [Server thread/INFO]: [Infiniteannouncements] Enabling Infiniteannouncements v2.5.0
+[02:49:31] [Folia Async Scheduler Thread #2/INFO]: [TheGlow] An update for TheGlow (1.2.4-STABLE) is available at:
+[02:49:31] [Folia Async Scheduler Thread #2/INFO]: [TheGlow] https://discord.com/invite/s3Qu3Taz2y
+[02:49:31] [Server thread/INFO]: [Infiniteannouncements] [DEBUG] Registered command: InfiniteAnnouncements
+[02:49:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: infiniteannouncements [1.0.0]
+[02:49:31] [Server thread/INFO]: [DeluxeWithdraw] Enabling DeluxeWithdraw v2025.04
+[02:49:31] [Server thread/INFO]: [DeluxeWithdraw] [STDOUT] [Spigotunlocked.com] - COSMO
+[02:49:31] [Server thread/WARN]: Nag author(s): '[Norska]' of 'DeluxeWithdraw v2025.04' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[02:49:31] [Server thread/INFO]: [DeluxeWithdraw] 2025.04, a premium resource by Norska - Thanks for purchasing!
+[02:49:31] [Server thread/INFO]: Join www.norska.dev/discord/ for support!
+[02:49:31] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.14.1-DEV-199
+[02:49:31] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into PlaceholderAPI!
+[02:49:31] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into Vault!
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: afkshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 1 in menu: afkshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 3 in menu: afkshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 4 in menu: afkshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 5 in menu: afkshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 6 in menu: afkshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 9 in menu: afkshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 10 in menu: afkshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 11 in menu: afkshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: claimshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: main in menu: claimshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: playtime. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: playtime2. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: playtime3. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Option 'hide_attributes' of item 'date-time' in menu 'stats_menu' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ATTRIBUTES].
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Option 'hide_attributes' of item 'player-info' in menu 'stats_menu' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ATTRIBUTES].
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Option 'hide_attributes' of item 'server-info' in menu 'stats_menu' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ATTRIBUTES].
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Option 'hide_attributes' of item 'player-health' in menu 'stats_menu' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ATTRIBUTES].
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Option 'hide_attributes' of item 'player-kills' in menu 'stats_menu' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ATTRIBUTES].
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Option 'hide_attributes' of item 'player-deaths' in menu 'stats_menu' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ATTRIBUTES].
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Option 'hide_attributes' of item 'player-money' in menu 'stats_menu' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ATTRIBUTES].
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Option 'hide_attributes' of item 'player-playtime' in menu 'stats_menu' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ATTRIBUTES].
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Option 'hide_attributes' of item 'player-location' in menu 'stats_menu' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ATTRIBUTES].
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Material for item: filler in menu: tutorial is not present!
+Skipping item: filler
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: rtp in menu: tutorial. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: voting in menu: tutorial. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: economy in menu: tutorial. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: rtp. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: overworld in menu: rtp. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: nether in menu: rtp. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: end in menu: rtp. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: crates in menu: warps. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Option 'hide_attributes' of item 'pvp_arena' in menu 'warps' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ATTRIBUTES].
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Option 'hide_enchantments' of item 'pvp_arena' in menu 'warps' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ENCHANTS].
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: pvp_arena in menu: warps. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: spawner in menu: warps. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Option 'hide_attributes' of item 'ranks' in menu 'warps' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ATTRIBUTES].
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: ranks in menu: warps. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Option 'hide_attributes' of item 'leaderboard' in menu 'warps' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ATTRIBUTES].
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: leaderboard in menu: warps. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Option 'hide_attributes' of item 'afk' in menu 'warps' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ATTRIBUTES].
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Option 'hide_enchantments' of item 'afk' in menu 'warps' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ENCHANTS].
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: afk in menu: warps. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: coinshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: main in menu: coinshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: store in menu: coinshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Option 'hide_enchantments' of item 'player-tags' in menu 'coinshop' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ENCHANTS].
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: player-tags in menu: coinshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Option 'hide_enchantments' of item 'crate-keys' in menu 'coinshop' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ENCHANTS].
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: crate-keys in menu: coinshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Option 'hide_enchantments' of item 'chat-colors' in menu 'coinshop' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ENCHANTS].
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: chat-colors in menu: coinshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Option 'hide_enchantments' of item 'ranks' in menu 'coinshop' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ENCHANTS].
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: ranks in menu: coinshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Option 'hide_enchantments' of item 'particles' in menu 'coinshop' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ENCHANTS].
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Option 'hide_enchantments' of item 'emotes' in menu 'coinshop' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ENCHANTS].
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Option 'hide_enchantments' of item 'pets' in menu 'coinshop' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ENCHANTS].
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Option 'hide_enchantments' of item 'perks' in menu 'coinshop' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ENCHANTS].
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: coinshop-cratekeys. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: back in menu: coinshop-cratekeys. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: common in menu: coinshop-cratekeys. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: common-3 in menu: coinshop-cratekeys. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: common-5 in menu: coinshop-cratekeys. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: heart in menu: coinshop-cratekeys. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: heart-3 in menu: coinshop-cratekeys. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: heart-5 in menu: coinshop-cratekeys. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: slayer in menu: coinshop-cratekeys. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: slayer-3 in menu: coinshop-cratekeys. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: slayer-5 in menu: coinshop-cratekeys. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: bonus in menu: coinshop-cratekeys. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: bonus-3 in menu: coinshop-cratekeys. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: bonus-5 in menu: coinshop-cratekeys. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: spawner in menu: coinshop-cratekeys. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: spawner-3 in menu: coinshop-cratekeys. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: spawner-5 in menu: coinshop-cratekeys. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: back in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 1 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 2 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 3 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 4 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 5 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 6 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 7 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 8 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 9 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 10 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 11 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 12 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 13 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 14 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 15 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 16 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 17 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 18 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 19 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 20 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 21 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: coinshop-chatcolors. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: back in menu: coinshop-chatcolors. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: coinshop-ranks. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: back in menu: coinshop-ranks. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: ruthless in menu: coinshop-ranks. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: slayer in menu: coinshop-ranks. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: reaper in menu: coinshop-ranks. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: prime in menu: coinshop-ranks. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: vip in menu: coinshop-ranks. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: coinshop-particles. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: coinshop-emotes. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: coinshop-pets. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: coinshop-perks. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: back in menu: coinshop-perks. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: sit in menu: coinshop-perks. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: lay in menu: coinshop-perks. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: bellyflop in menu: coinshop-perks. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: crawl in menu: coinshop-perks. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: teams. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: create in menu: teams. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: leave in menu: teams. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: disband in menu: teams. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 1 in menu: teams. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 2 in menu: teams. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 3 in menu: teams. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 4 in menu: teams. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 5 in menu: teams. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: cosmetics. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Option 'hide_enchantments' of item 'info' in menu 'cosmetics' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ENCHANTS].
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Option 'hide_enchantments' of item 'chat-colors' in menu 'cosmetics' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ENCHANTS].
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: chat-colors in menu: cosmetics. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Option 'hide_enchantments' of item 'particles' in menu 'cosmetics' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ENCHANTS].
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Option 'hide_enchantments' of item 'emotes' in menu 'cosmetics' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ENCHANTS].
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Option 'hide_enchantments' of item 'pets' in menu 'cosmetics' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ENCHANTS].
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: cosmetics-particles. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: cosmetics-emotes. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: cosmetics-pets. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[02:49:31] [Server thread/INFO]: [DeluxeMenus] 23 GUI menus loaded!
+[02:49:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: deluxemenus [1.14.1-DEV-199]
+[02:49:31] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
+[02:49:32] [Server thread/INFO]: [AxAFKZone] Enabling AxAFKZone v1.6.3
+[02:49:32] [Server thread/INFO]: ╠ Loaded zone AFK!
+[02:49:33] [Server thread/INFO]: [FancyHolograms] Enabling FancyHolograms v2.4.2
+[02:49:33] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully enabled FancyHolograms version 2.4.2
+[02:49:33] [Server thread/INFO]: [AdvancedBan] Enabling AdvancedBan v2.3.0
+[02:49:33] [FancyLogger/INFO]: [FancyHolograms] (FancyHolograms-Holograms) INFO: Loaded 23 holograms for all loaded worlds
+[02:49:33] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[02:49:33] [FancyLogger/INFO]: [FancyHolograms] (ForkJoinPool.commonPool-worker-1) WARN: 
+[02:49:33] [FancyLogger/INFO]: -------------------------------------------------------
+[02:49:33] [FancyLogger/INFO]: You are not using the latest version of the FancyHolograms plugin.
+[02:49:33] [FancyLogger/INFO]: Please update to the newest version (2.5.0).
+[02:49:33] [FancyLogger/INFO]: https://modrinth.com/plugin/FancyHolograms
+[02:49:33] [FancyLogger/INFO]: -------------------------------------------------------
+[02:49:33] [FancyLogger/INFO]: 
+[02:49:33] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.pool.PoolBase] HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+[02:49:33] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[02:49:33] [Server thread/INFO]: 
+ 
+[]=====[Enabling AdvancedBan]=====[]
+| Information:
+|   Name: AdvancedBan
+|   Developer: Leoko
+|   Version: 2.3.0
+|   Storage: HSQLDB (local)
+| Support:
+|   Github: https://github.com/DevLeoko/AdvancedBan/issues
+|   Discord: https://discord.gg/ycDG6rS
+| Twitter: @LeokoGar
+| Update:
+|   You have the newest version
+[]================================[]
+ 
+[02:49:33] [Server thread/INFO]: [Images] Enabling Images v2.5.4
+[02:49:33] [Server thread/INFO]: [Images] PaperMC server detected. Adjustments will be made to accommodate...
+[02:49:33] [Server thread/INFO]: [DeluxeTags] Enabling DeluxeTags v1.8.2-Release
+[02:49:33] [Server thread/INFO]: [DeluxeTags] Using standard hex colors format: #aaFF00
+[02:49:33] [Server thread/INFO]: [DeluxeTags] 23 tags loaded
+[02:49:34] [Server thread/INFO]: [DeluxeTags] Loading DeluxeTags messages.yml
+[02:49:34] [Server thread/INFO]: [DeluxeTags] PAPI Chat enabled. This means your chat plugin will use placeholders to fetch the tags!
+[02:49:34] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: deluxetags [1.8.2-Release]
+[02:49:34] [Server thread/INFO]: [DeluxeTags] ----------------------------
+[02:49:34] [Server thread/INFO]: [DeluxeTags]      DeluxeTags Updater
+[02:49:34] [Server thread/INFO]: [DeluxeTags]  
+[02:49:34] [Server thread/INFO]: [DeluxeTags] You are running 1.8.2-Release
+[02:49:34] [Server thread/INFO]: [DeluxeTags] The latest version
+[02:49:34] [Server thread/INFO]: [DeluxeTags] of DeluxeTags!
+[02:49:34] [Server thread/INFO]: [DeluxeTags]  
+[02:49:34] [Server thread/INFO]: [DeluxeTags] ----------------------------
+[02:49:34] [Server thread/INFO]: [Vulcan] Enabling Vulcan v2.9.5
+[02:49:34] [Server thread/INFO]: [Vulcan] Server Version: .1.21.4 detected!
+[02:49:34] [Server thread/INFO]: [Vulcan] Floodgate 2.0 found. Enabling hook!
+[02:49:34] [Server thread/INFO]: [Vulcan] GSit found. Enabling hook!
+[02:49:34] [Server thread/INFO]: [Vulcan] BStats enabled!
+[02:49:34] [Server thread/ERROR]: [Vulcan] Failed to register events for class me.frep.vulcan.spigot.Vulcan_nO because dev/geco/gsit/api/event/PlayerGetUpPlayerSitEvent does not exist.
+[02:49:34] [Server thread/INFO]: [Vulcan] Registered GSit Listener!
+[02:49:34] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: Vulcan [2.9.5]
+[02:49:34] [Server thread/INFO]: [Vulcan] PlaceholderAPI found. Enabling hook!
+[02:49:34] [Server thread/INFO]: [zMenu] Enabling zMenu v1.0.4.1
+[02:49:34] [Server thread/INFO]: [zMenu v1.0.4.1] === ENABLE START ===
+[02:49:34] [Server thread/INFO]: [zMenu v1.0.4.1] Plugin Version V1.0.4.1
+[02:49:34] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: zmenu [1.0.4.1]
+[02:49:34] [Server thread/INFO]: [zMenu v1.0.4.1] plugins/zMenu/patterns/pattern_example.yml loaded successfully !
+[02:49:34] [Server thread/INFO]: [zMenu v1.0.4.1] plugins/zMenu/inventories/advanced_inventory.yml loaded successfully !
+[02:49:34] [Server thread/INFO]: [zMenu v1.0.4.1] plugins/zMenu/inventories/basic_inventory.yml loaded successfully !
+[02:49:34] [Server thread/INFO]: [zMenu v1.0.4.1] plugins/zMenu/inventories/example_punish.yml loaded successfully !
+[02:49:34] [Server thread/INFO]: [zMenu v1.0.4.1] plugins/zMenu/inventories/pro_inventory.yml loaded successfully !
+[02:49:34] [Server thread/INFO]: [zMenu v1.0.4.1] plugins/zMenu/website/inventories.yml loaded successfully !
+[02:49:34] [Server thread/INFO]: [zMenu v1.0.4.1] Command /punish successfully register.
+[02:49:34] [Server thread/INFO]: [zMenu v1.0.4.1] Command /basic_command successfully register.
+[02:49:34] [Server thread/INFO]: [zMenu v1.0.4.1] Command /advanced_command successfully register.
+[02:49:34] [Server thread/INFO]: [zMenu v1.0.4.1] Command /pro_command successfully register.
+[02:49:34] [Server thread/INFO]: [zMenu v1.0.4.1] Command /openbook successfully register.
+[02:49:34] [Server thread/INFO]: [zMenu v1.0.4.1] 
+[02:49:34] [Server thread/INFO]: [zMenu v1.0.4.1] You can support zMenu by upgrading your account here: https://minecraft-inventory-builder.com/account-upgrade
+[02:49:34] [Server thread/INFO]: [zMenu v1.0.4.1] zMenu’s site includes an inventory editor (under development), a marketplace (already available) is a forum (under development)
+[02:49:34] [Server thread/INFO]: [zMenu v1.0.4.1] 
+[02:49:34] [Server thread/INFO]: [zMenu v1.0.4.1] Use ComponentMeta
+[02:49:34] [Server thread/INFO]: [zMenu v1.0.4.1] Loading 6 commands
+[02:49:34] [Server thread/INFO]: [zMenu v1.0.4.1] === ENABLE DONE (259ms) ===
+[02:49:34] [Server thread/INFO]: [Vouchers] Enabling Vouchers v3.28.0
+[02:49:34] [Server thread/INFO]:  
+[02:49:34] [Server thread/INFO]: =============================
+[02:49:34] [Server thread/INFO]: Vouchers v3.28.0 by Tweetzy
+[02:49:34] [Server thread/INFO]: Developer: Kiran Hart
+[02:49:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: vouchers [1.0.0]
+[02:49:35] [Server thread/INFO]: [FlightCore] Enabling metrics for Vouchers
+[02:49:35] [Server thread/INFO]: =============================
+[02:49:35] [Server thread/INFO]:  
+[02:49:35] [Server thread/INFO]: [xAntiIP] Enabling xAntiIP v1.0
+[02:49:35] [Server thread/INFO]: [xAntiIP] xAntiIP has been enabled!
+[02:49:35] [Server thread/INFO]: [DailyRewards] Enabling DailyRewards v${project.version}
+[02:49:35] [Server thread/INFO]: [spark] Starting background profiler...
+[02:49:35] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[02:49:35] [Server thread/INFO]: Done preparing level "world" (34.516s)
+[02:49:35] [Server thread/INFO]: Running delayed init tasks
+[02:49:35] [Craft Scheduler Thread - 10 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[02:49:35] [Craft Scheduler Thread - 12 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[02:49:35] [Craft Scheduler Thread - 11 - Essentials/INFO]: [Essentials] Fetching version information...
+[02:49:35] [Craft Scheduler Thread - 5 - PlayerPoints/INFO]: [RoseGarden] An update for PlayerPoints (v3.3.2) is available! You are running v3.3.0.
+[02:49:35] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
+[02:49:35] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
+[02:49:35] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.GriefPreventionFeature] Plugin 'GriefPrevention' found. Using it now.
+[02:49:35] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'GriefPrevention'
+[02:49:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerpoints [3.3.0]
+[02:49:36] [Craft Scheduler Thread - 18 - BetterTeams/WARN]: §4There is a new version of better teams released update here: https://www.spigotmc.org/resources/better-teams.17129/
+[02:49:36] [Craft Scheduler Thread - 20 - ItemEdit/INFO]: [ItemEdit] New Update at https://spigotmc.org/resources/40993
+[02:49:36] [Server thread/INFO]: [DeluxeCoinflip] Registered economy provider 'coinsengine_points' using CoinsEngine plugin.
+[02:49:36] [Server thread/INFO]: [DeluxeCoinflip] Registered economy provider 'coinsengine_money' using CoinsEngine plugin.
+[02:49:36] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[02:49:36] [Craft Scheduler Thread - 12 - DecentHolograms/INFO]: [DecentHolograms] Loaded 7 holograms!
+[02:49:36] [Craft Scheduler Thread - 10 - DecentHolograms/INFO]: 
+A newer version of DecentHolograms is available. Download it from: 
+- https://www.spigotmc.org/resources/96927/
+- https://modrinth.com/plugin/decentholograms
+[02:49:36] [Craft Scheduler Thread - 15 - AreaResetterPro/WARN]: [AreaResetterPro] A new Version of AreaResetterPro is available. Consider updating!
+[02:49:36] [Craft Scheduler Thread - 28 - Vault/INFO]: [Vault] Checking for Updates ... 
+[02:49:36] [Craft Scheduler Thread - 14 - UltraCosmetics/INFO]: [UltraCosmetics] You are running the latest version on Spigot.
+[02:49:36] [Craft Scheduler Thread - 28 - Vault/INFO]: [Vault] No new version available
+[02:49:36] [Server thread/INFO]: [Skript] Loading variables...
+[02:49:36] [Craft Scheduler Thread - 11 - Essentials/WARN]: [Essentials] ⚠ | You're 13 EssentialsX dev build(s) out of date!
+[02:49:36] [Craft Scheduler Thread - 11 - Essentials/WARN]: [Essentials] ✎ | Download it here: https://essentialsx.net/downloads.html
+[02:49:36] [Server thread/INFO]: [Skript] Loaded 812 variables in 0.1 seconds
+[02:49:36] [Craft Scheduler Thread - 6 - DeluxeCombat/INFO]: [DeluxeCombat] Successfully fetched 15 marketplace items from the internet!
+[02:49:36] [Server thread/INFO]: [Skript] Line 61: (bounty.sk)
+[02:49:36] [Server thread/INFO]:     List is missing 'and' or 'or', defaulting to 'and': (numbers between 10 and 16), (numbers between 19 and 25), (numbers between 28 and 34)
+[02:49:36] [Server thread/INFO]:     Line: set {_slots::*} to (numbers between 10 and 16), (numbers between 19 and 25), (numbers between 28 and 34)
+[02:49:36] [Server thread/INFO]:  
+[02:49:36] [Server thread/INFO]: [Skript] Line 63: (bounty.sk)
+[02:49:36] [Server thread/INFO]:     List is missing 'and' or 'or', defaulting to 'and': (integers between 0 and 8), (17, 26, 35, 44, 9, 18, 27, 36), (integers from 37 to 44)
+[02:49:36] [Server thread/INFO]:     Line: set slot (integers between 0 and 8), (17, 26, 35, 44, 9, 18, 27, 36), (integers from 37 to 44) of {_chest} to red stained glass pane named " "
+[02:49:36] [Server thread/INFO]:  
+[02:49:37] [Craft Scheduler Thread - 27 - zMenu/INFO]: [zMenu v1.0.4.1] No update available.
+[02:49:37] [ForkJoinPool.commonPool-worker-1/INFO]: [SmartSpawner] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02:49:37] [ForkJoinPool.commonPool-worker-1/INFO]: [SmartSpawner]          🔮 ꜱᴍᴀʀᴛꜱᴘᴀᴡɴᴇʀ ᴜᴘᴅᴀᴛᴇ ᴀᴠᴀɪʟᴀʙʟᴇ 🔮
+[02:49:37] [ForkJoinPool.commonPool-worker-1/INFO]: [SmartSpawner] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02:49:37] [ForkJoinPool.commonPool-worker-1/INFO]: [SmartSpawner] 
+[02:49:37] [ForkJoinPool.commonPool-worker-1/INFO]: [SmartSpawner] 📦 ᴄᴜʀʀᴇɴᴛ ᴠᴇʀꜱɪᴏɴ: 1.2.8                          
+[02:49:37] [ForkJoinPool.commonPool-worker-1/INFO]: [SmartSpawner] ✅ ʟᴀᴛᴇꜱᴛ ᴠᴇʀꜱɪᴏɴ: 1.3.5                           
+[02:49:37] [ForkJoinPool.commonPool-worker-1/INFO]: [SmartSpawner] 
+[02:49:37] [ForkJoinPool.commonPool-worker-1/INFO]: [SmartSpawner] 📥 ᴅᴏᴡɴʟᴏᴀᴅ ᴛʜᴇ ʟᴀᴛᴇꜱᴛ ᴠᴇʀꜱɪᴏɴ ᴀᴛ:
+[02:49:37] [ForkJoinPool.commonPool-worker-1/INFO]: [SmartSpawner]  https://modrinth.com/plugin/9tQwxSFr/version/1.3.5 
+[02:49:37] [ForkJoinPool.commonPool-worker-1/INFO]: [SmartSpawner] 
+[02:49:37] [ForkJoinPool.commonPool-worker-1/INFO]: [SmartSpawner] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[02:49:37] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[02:49:37] [Server thread/INFO]: [Skript] Loaded 5 scripts with a total of 24 structures in 1.16 seconds
+[02:49:37] [Server thread/INFO]: [Skript] Finished loading.
+[02:49:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: discordsrv [1.29.0]
+[02:49:37] [Server thread/INFO]: [Banknotes] Found economy provider CoinsEngine
+[02:49:37] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[02:49:37] [Server thread/INFO]: [SmartSpawner] Checking for EconomyShopGUI...
+[02:49:37] [Server thread/WARN]: [SmartSpawner] EconomyShopGUI not found - integration disabled
+[02:49:37] [Server thread/INFO]: [SmartSpawner] SmartSpawner has been enabled! (Loaded in 18393ms)
+[02:49:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: playerlist [3.0.8]
+[02:49:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[02:49:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: pointsapi [1.0.2]
+[02:49:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: localtime [1.2]
+[02:49:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: healthbar [1.3]
+[02:49:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: essentials [1.5.2]
+[02:49:37] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion nicknamer due to a missing plugin: NickNamer
+[02:49:37] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playertime due to a missing plugin: PlayerTime
+[02:49:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: servertime [3.2]
+[02:49:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: griefprevention [1.7.0]
+[02:49:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: minedownpapi [1.1]
+[02:49:37] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playerstats due to a missing plugin: PlayerStats
+[02:49:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
+[02:49:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.3]
+[02:49:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[02:49:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[02:49:37] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion parkour due to an unknown issue.
+[02:49:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: team [1.2]
+[02:49:37] [Server thread/INFO]: 14 placeholder hook(s) registered!
+[02:49:37] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Enabled PlaceholderAPI hook...
+[02:49:37] [Server thread/INFO]: [EconomyShopGUI-Premium] [ERROR]: Failed to load cached schedule from schedulecache.json: Rotating shop with name RotatingShop does not exist
+[02:49:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: esgui [1.1.0]
+[02:49:37] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Debug mode is enabled.
+[02:49:37] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Loading item stock provider...
+[02:49:37] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Loading limited selling provider...
+[02:49:37] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Loading all items...
+[02:49:38] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Completed delayed loading.
+[02:49:38] [Server thread/INFO]: Done (76.120s)! For help, type "help"
+[02:49:38] [Server thread/INFO]: [DeluxeCoinflip] Found and using VAULT, CUSTOM_CURRENCY, COINSENGINE_POINTS, COINSENGINE_MONEY economy provider(s).
+[02:49:38] [Craft Scheduler Thread - 17 - SmartSpawner/INFO]: [SmartSpawner] WorldGuard integration enabled successfully!
+[02:49:38] [Craft Scheduler Thread - 17 - SmartSpawner/INFO]: [SmartSpawner] GriefPrevention integration enabled successfully!
+[02:49:38] [Craft Scheduler Thread - 24 - DeluxeCombat/INFO]: [DeluxeCombat] Checking for new updates...
+[02:49:38] [Craft Scheduler Thread - 24 - DeluxeCombat/INFO]: [DeluxeCombat] You're running the newest version of DeluxeCombat
+[02:49:38] [Craft Scheduler Thread - 9 - Images/INFO]: [Images] Loaded 0 images...
+[02:49:38] [Craft Scheduler Thread - 6 - AxTrade/INFO]: TRADE ➥ There is a new version of the plugin available! (current: 1.15.1 | latest: 1.17.0)
+[02:49:38] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
+[02:49:38] [Craft Scheduler Thread - 4 - Essentials/INFO]: [Essentials] Lag Notice - Slow Economy Response - Request took over {0}ms!
+[02:49:38] [Server thread/INFO]: [DeluxeWithdraw] Attempting hooks...
+[02:49:38] [Server thread/INFO]: [DeluxeWithdraw] Hooked into PlaceholderAPI!
+[02:49:38] [Server thread/INFO]: [DeluxeWithdraw] Successfully performed 1 hooks!
+[02:49:42] [Server thread/INFO]: [DeluxeCombat] Addon WorldGuard Addon (v.1.0.2, timderspieler) has been installed successfully!
+[02:49:42] [Server thread/INFO]: [DeluxeCombat] Hook WorldGuard Addon (>=7.0.0, WorldGuard Implementation) has been registered.
+[02:49:42] [Server thread/INFO]: [DeluxeCombat] Hooked into GriefPrevention, SuperVanish, packetevents, PlaceholderAPI, BetterRTP, Vault, Vault and WorldGuard.
+[02:50:57] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
