@@ -1,0 +1,454 @@
+[07:05:28] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-LTS; Eclipse Adoptium Temurin-21.0.7+6) on Linux 6.1.0-37-cloud-amd64 (amd64)
+[07:05:28] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) for Minecraft 1.21.1
+[07:05:28] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[07:05:30] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/Geyser-Velocity.jar'...
+[07:05:51] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Geyser-Velocity.jar' in 20779ms.
+[07:05:52] [ServerMain/ERROR]: [DirectoryProviderSource] Error loading plugin: java.lang.IllegalArgumentException: Directory 'plugins/.paper-remapped/Geyser-Velocity.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+java.lang.RuntimeException: java.lang.IllegalArgumentException: Directory 'plugins/.paper-remapped/Geyser-Velocity.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:86) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:52) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:17) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:15) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:113) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at net.minecraft.server.Main.main(Main.java:123) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Directory 'plugins/.paper-remapped/Geyser-Velocity.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+	... 10 more
+[07:05:52] [ServerMain/INFO]: [PluginInitializerManager] Initialized 14 plugins
+[07:05:52] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (14):
+ - Citizens (2.0.35-SNAPSHOT (build 3583)), ClearLag (3.2.2), DeluxeHub (3.5.5), ExcellentEnchants (4.2.1), ItemEdit (3.7.0), LuckPerms (5.4.131), PlaceholderAPI (2.11.6), TAB (5.2.0), ViaBackwards (5.3.2), ViaVersion (5.3.2), WorldEdit (7.3.9+6959-7adf70b), WorldGuard (7.0.12+829a4a4), floodgate (2.2.4-SNAPSHOT (b116-0e3163c)), voicechat (2.5.30)
+[07:06:10] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[07:06:18] [ServerMain/INFO]: Loaded 1290 recipes
+[07:06:19] [ServerMain/INFO]: Loaded 1399 advancements
+[07:06:20] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[07:06:20] [Server thread/INFO]: Loading properties
+[07:06:20] [Server thread/INFO]: This server is running Paper version 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[07:06:23] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[07:06:23] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[07:06:23] [Server thread/INFO]: Using 4 threads for Netty based IO
+[07:06:27] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[07:06:29] [Server thread/INFO]: Default game type: SURVIVAL
+[07:06:29] [Server thread/INFO]: Generating keypair
+[07:06:29] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:19135
+[07:06:29] [Server thread/INFO]: Using epoll channel type
+[07:06:29] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[07:06:29] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[07:06:29] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/.paper-remapped/ExcellentEnchants-4.2.1.jar' in 'plugins/.paper-remapped'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [nightcore]. Please download and install these plugins to run 'ExcellentEnchants'.
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:547) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1214) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:06:33] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loading 5 libraries... please wait
+[07:06:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
+[07:06:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
+[07:06:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[07:06:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[07:06:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+[07:06:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
+[07:06:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
+[07:06:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
+[07:06:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[07:06:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[07:06:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
+[07:06:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
+[07:06:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
+[07:06:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
+[07:06:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
+[07:06:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
+[07:06:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[07:06:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-text-serializer-legacy/4.16.0/adventure-text-serializer-legacy-4.16.0.jar
+[07:06:36] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.9+6959-7adf70b
+[07:06:39] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@264976c1]
+[07:06:39] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
+[07:06:39] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
+[07:06:42] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[07:06:43] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[07:06:45] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[07:06:45] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[07:06:48] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[07:06:48] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.12+829a4a4
+[07:06:48] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[07:06:51] [Server thread/INFO]: [floodgate] Took 3,435ms to boot Floodgate
+[07:06:51] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.131
+[07:06:52] [Server thread/INFO]: [ItemEdit] Loading server plugin ItemEdit v3.7.0
+[07:06:52] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.3.2
+[07:06:52] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.30
+[07:06:52] [Server thread/INFO]: [DeluxeHub] Loading server plugin DeluxeHub v3.5.5
+[07:06:52] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[07:06:52] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.35-SNAPSHOT (build 3583)
+[07:06:52] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.2.0
+[07:06:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:06:52] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.9+6959-7adf70b
+[07:06:52] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[07:06:53] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[07:06:54] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[07:07:00] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
+[07:07:02] [Server thread/INFO]:         __    
+[07:07:02] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.131
+[07:07:02] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[07:07:02] [Server thread/INFO]: 
+[07:07:02] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[07:07:03] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[07:07:07] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[07:07:07] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[07:07:08] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 8341ms)
+[07:07:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07:07:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[07:07:08] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[07:07:08] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
+[07:07:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[07:07:08] [Server thread/INFO]: Preparing level "world"
+[07:07:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:07:21] [Server thread/INFO]: Time elapsed: 6409 ms
+[07:07:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[07:07:25] [Server thread/INFO]: Time elapsed: 2607 ms
+[07:07:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[07:07:28] [Server thread/INFO]: Time elapsed: 2919 ms
+[07:07:28] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
+[07:07:28] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[07:07:29] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[07:07:30] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[07:07:30] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.12+829a4a4
+[07:07:32] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[07:07:32] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[07:07:32] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[07:07:32] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[07:07:32] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[07:07:32] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[07:07:32] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[07:07:32] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[07:07:32] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[07:07:32] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[07:07:32] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[07:07:32] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[07:07:32] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[07:07:32] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[07:07:32] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[07:07:32] [Server thread/INFO]: [WorldGuard] Loading region data...
+[07:07:34] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[07:07:37] [Server thread/INFO]: [ItemEdit] Enabling ItemEdit v3.7.0
+[07:07:37] [Server thread/INFO]: [ItemEdit] Hooking into MiniMessageAPI see https://webui.advntr.dev/
+[07:07:38] [Server thread/INFO]: [ItemEdit] Selected Storage Type: YAML
+[07:07:38] [Server thread/INFO]: [ItemEdit] Unable to hook into Vault
+[07:07:38] [Server thread/INFO]: [ItemEdit] Hooking into PlaceHolderAPI
+[07:07:38] [Server thread/INFO]: [ItemEdit] placeholders:
+[07:07:38] [Server thread/INFO]: [ItemEdit]   %itemedit_amount_<{itemid}>_[{slot}]_[{player}]%
+[07:07:38] [Server thread/INFO]: [ItemEdit]     shows how many itemid player has on slot
+[07:07:38] [Server thread/INFO]: [ItemEdit]     <{itemid}> for item id on serveritem
+[07:07:38] [Server thread/INFO]: [ItemEdit]     [{slot}] for the slot where the item should be counted, by default inventory
+[07:07:38] [Server thread/INFO]: [ItemEdit]       Values: inventory (include offhand), equip (include offhand), inventoryandequip (include offhand), hand, offhand, head, chest, legs, feet
+[07:07:38] [Server thread/INFO]: [ItemEdit]     [{player}] for the player, by default self
+[07:07:38] [Server thread/INFO]: [ItemEdit]     example: %itemedit_amount_{my_item_id}_{hand}%
+[07:07:38] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: itemedit [1.0]
+[07:07:38] [Server thread/INFO]: [ItemEdit] # Enabled (took 1183 ms)
+[07:07:38] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
+[07:07:38] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.30
+[07:07:38] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.21.1-R0.1
+[07:07:39] [Server thread/INFO]: [voicechat] Compatibility version 18
+[07:07:40] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[07:07:40] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: voicechat [2.5.30]
+[07:07:40] [Server thread/INFO]: [voicechat] Successfully registered PlaceholderAPI expansion
+[07:07:40] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
+[07:07:40] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.5.5
+[07:07:40] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
+[07:07:40] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
+[07:07:40] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
+[07:07:40] [Server thread/INFO]: [DeluxeHub] 
+[07:07:40] [Server thread/INFO]: [DeluxeHub] Version: 3.5.5
+[07:07:40] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
+[07:07:40] [Server thread/INFO]: [DeluxeHub] 
+[07:07:40] [Server thread/INFO]: [DeluxeHub]  Hooked into PlaceholderAPI
+[07:07:40] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[07:07:42] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
+[07:07:42] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
+[07:07:42] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DeluxeHub' to create a bStats instance!
+[07:07:42] [Server thread/INFO]: [DeluxeHub] Loaded 15 plugin modules.
+[07:07:42] [Server thread/INFO]: [DeluxeHub] 
+[07:07:42] [Server thread/INFO]: [DeluxeHub] Successfully loaded in 2242ms
+[07:07:42] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[07:07:42] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[07:07:42] [Server thread/INFO]: [ClearLag] Loading modules...
+[07:07:42] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (Index 3 out of bounds for length 3)
+[07:07:42] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[07:07:42] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[07:07:42] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[07:07:42] [Thread-12/WARN]: [ClearLag] Clearlag failed to check for updates - bukkit may be down
+[07:07:42] [Thread-12/WARN]: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+[07:07:42] [Thread-12/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.Util.getBukkitVersion(Util.java:105)
+[07:07:42] [Thread-12/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.updateAvailable(BukkitUpdater.java:32)
+[07:07:42] [Thread-12/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.run(BukkitUpdater.java:82)
+[07:07:42] [Thread-12/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[07:07:42] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.35-SNAPSHOT (build 3583)
+[07:07:42] [Server thread/INFO]: [Citizens] Loading external libraries
+[07:07:44] [Server thread/INFO]: [Citizens] Using mojmapped server, avoiding server package checks
+[07:07:45] [Server thread/INFO]: [Citizens] Loaded 0 templates.
+[07:07:45] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: citizensplaceholder [1.0.0]
+[07:07:46] [Server thread/INFO]: [TAB] Enabling TAB v5.2.0
+[07:07:47] [Server thread/INFO]: [TAB] Loaded NMS hook in 396ms
+[07:07:48] [Server thread/INFO]: [TAB] [WARN] [groups.yml] Unknown property "tagSuffix" defined for group "_DEFAULT_". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix, header, footer]
+[07:07:49] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[07:07:49] [Server thread/INFO]: [TAB] Enabled in 1768ms
+[07:07:51] [Server thread/INFO]: [spark] Starting background profiler...
+[07:07:52] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[07:07:52] [Thread-17/ERROR]: [PlaceholderAPI] Failed to load expansion Expansion-essentials.jar (is a dependency missing?)
+java.lang.NoClassDefFoundError: net/ess3/api/IEssentials
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578) ~[?:?]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2676) ~[?:?]
+	at PlaceholderAPI-2.11.6.jar/me.clip.placeholderapi.expansion.manager.LocalExpansionManager.lambda$findExpansionInFile$7(LocalExpansionManager.java:429) ~[PlaceholderAPI-2.11.6.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: net.ess3.api.IEssentials
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445) ~[?:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	... 6 more
+[07:07:53] [Server thread/INFO]: Done preparing level "world" (44.081s)
+[07:07:53] [Server thread/INFO]: Running delayed init tasks
+[07:07:53] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[07:07:53] [Craft Scheduler Thread - 7 - ItemEdit/INFO]: [ItemEdit] New Update at https://spigotmc.org/resources/40993
+[07:07:54] [User Authenticator #0/INFO]: UUID of player KORAPLAYZ_ is 7cbfe1f7-6ade-3841-81fe-d1c4fdc6b254
+[07:07:56] [Server thread/INFO]: [Citizens] Loaded 12 NPCs.
+[07:07:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: playerlist [3.0.8]
+[07:07:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[07:07:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: localtime [1.2]
+[07:07:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: healthbar [1.3]
+[07:07:56] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion nicknamer due to a missing plugin: NickNamer
+[07:07:56] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playertime due to a missing plugin: PlayerTime
+[07:07:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: servertime [3.2]
+[07:07:56] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion griefprevention due to a missing plugin: GriefPrevention
+[07:07:56] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playerstats due to a missing plugin: PlayerStats
+[07:07:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.1]
+[07:07:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.3]
+[07:07:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[07:07:56] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion vault due to a missing plugin: Vault
+[07:07:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: team [1.2]
+[07:07:56] [Server thread/INFO]: 9 placeholder hook(s) registered! 1 placeholder hook(s) have an update available.
+[07:07:57] [Server thread/INFO]: Done (152.649s)! For help, type "help"
+[07:07:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4101ms or 82 ticks behind
+[07:07:57] [Server thread/INFO]: Timings Reset
+[07:07:57] [Server thread/INFO]: [voicechat] Loading plugins
+[07:07:57] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[07:07:57] [Server thread/INFO]: [voicechat] Initializing plugins
+[07:07:57] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[07:07:57] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[07:07:57] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 0.0.0.0
+[07:07:57] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 0.0.0.0:19135
+[07:08:02] [Server thread/INFO]: + KORAPLAYZ_ Connected
+[07:08:05] [Server thread/INFO]: KORAPLAYZ_[/122.177.110.68:58418] logged in with entity id 30 at ([world]5.473799950993015, 14.0, 60.27421825863023)
+[07:08:07] [Server thread/INFO]: [voicechat] Received secret request of KORAPLAYZ_ (18)
+[07:08:07] [Server thread/INFO]: [voicechat] Sent secret to KORAPLAYZ_
+[07:08:11] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 7cbfe1f7-6ade-3841-81fe-d1c4fdc6b254
+[07:08:12] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 7cbfe1f7-6ade-3841-81fe-d1c4fdc6b254
+[07:08:12] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player KORAPLAYZ_ (7cbfe1f7-6ade-3841-81fe-d1c4fdc6b254) successfully connected to voice chat
+[07:08:25] [Server thread/INFO]: KORAPLAYZ_ issued server command: /tps
+[07:08:28] [Server thread/INFO]: KORAPLAYZ_ lost connection: Disconnected
+[07:08:28] [Server thread/INFO]: [voicechat] Disconnecting client KORAPLAYZ_
+[07:08:29] [Server thread/INFO]: - KORAPLAYZ_ Disconnected
+[07:08:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17061ms or 341 ticks behind
+[07:13:12] [User Authenticator #1/INFO]: UUID of player Anshpro2637 is c5a9a3ff-65d3-32fc-9041-d63a36ce869b
+[07:13:12] [TAB Processing Thread/INFO]: [TAB] [WARN] Player Anshpro2637's group (default) is not in sorting list! Sorting list: owner,co-owner,head-mod,mod,head-admin,admin,helper,youtuber,promoter,diamond,platinum,gold,iron,premium,immortal,knight,elite,default.. Player will be sorted on the bottom.
+[07:13:12] [Server thread/INFO]: + Anshpro2637 Connected
+[07:13:12] [Server thread/INFO]: Anshpro2637[/43.225.73.210:49230] logged in with entity id 37 at ([world]5.473799950993015, 14.0, 60.27421825863023)
+[07:13:36] [Server thread/INFO]: Anshpro2637 lost connection: Disconnected
+[07:13:36] [Server thread/INFO]: [voicechat] Disconnecting client Anshpro2637
+[07:13:36] [Server thread/INFO]: - Anshpro2637 Disconnected
+[07:14:17] [User Authenticator #2/INFO]: UUID of player KORAPLAYZ_ is 7cbfe1f7-6ade-3841-81fe-d1c4fdc6b254
+[07:14:19] [Server thread/INFO]: + KORAPLAYZ_ Connected
+[07:14:19] [Server thread/INFO]: KORAPLAYZ_[/122.177.110.68:59728] logged in with entity id 38 at ([world]5.473799950993015, 14.0, 60.27421825863023)
+[07:14:19] [Server thread/INFO]: [voicechat] Received secret request of KORAPLAYZ_ (18)
+[07:14:19] [Server thread/INFO]: [voicechat] Sent secret to KORAPLAYZ_
+[07:14:20] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 7cbfe1f7-6ade-3841-81fe-d1c4fdc6b254
+[07:14:21] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 7cbfe1f7-6ade-3841-81fe-d1c4fdc6b254
+[07:14:21] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player KORAPLAYZ_ (7cbfe1f7-6ade-3841-81fe-d1c4fdc6b254) successfully connected to voice chat
+[07:15:15] [Server thread/INFO]: KORAPLAYZ_ issued server command: /gamemode creative
+[07:24:38] [User Authenticator #3/INFO]: UUID of player gta1262 is 08e677d5-c892-32b0-9356-c6a3738271ad
+[07:24:39] [TAB Processing Thread/INFO]: [TAB] [WARN] Player gta1262's group (default) is not in sorting list! Sorting list: owner,co-owner,head-mod,mod,head-admin,admin,helper,youtuber,promoter,diamond,platinum,gold,iron,premium,immortal,knight,elite,default.. Player will be sorted on the bottom.
+[07:24:39] [Server thread/INFO]: + gta1262 Connected
+[07:24:39] [Server thread/INFO]: gta1262[/43.225.73.210:39242] logged in with entity id 39 at ([world]5.473799950993015, 14.0, 60.27421825863023)
+[07:24:45] [Server thread/INFO]: gta1262 lost connection: Disconnected
+[07:24:45] [Server thread/INFO]: [voicechat] Disconnecting client gta1262
+[07:24:45] [Server thread/INFO]: - gta1262 Disconnected
+[07:43:26] [User Authenticator #4/INFO]: UUID of player D_GAMING11 is 7b123e13-84ca-30cf-880f-abf22d95c241
+[07:43:26] [Server thread/INFO]: + D_GAMING11 Connected
+[07:43:26] [Server thread/INFO]: D_GAMING11[/139.5.36.202:46454] logged in with entity id 40 at ([world]5.473799950993015, 14.0, 60.27421825863023)
+[07:43:27] [Server thread/INFO]: D_GAMING11 lost connection: Disconnected
+[07:43:27] [Server thread/INFO]: [voicechat] Disconnecting client D_GAMING11
+[07:43:27] [Server thread/INFO]: - D_GAMING11 Disconnected
+[07:43:55] [User Authenticator #4/INFO]: UUID of player D_GAMING11 is 7b123e13-84ca-30cf-880f-abf22d95c241
+[07:43:55] [Server thread/INFO]: + D_GAMING11 Connected
+[07:43:55] [Server thread/INFO]: D_GAMING11[/139.5.36.202:48794] logged in with entity id 41 at ([world]5.473799950993015, 14.0, 60.27421825863023)
+[07:43:57] [Server thread/INFO]: D_GAMING11 lost connection: Disconnected
+[07:43:57] [Server thread/INFO]: [voicechat] Disconnecting client D_GAMING11
+[07:43:57] [Server thread/INFO]: - D_GAMING11 Disconnected
+[07:45:43] [User Authenticator #5/INFO]: UUID of player D_GAMING11 is 7b123e13-84ca-30cf-880f-abf22d95c241
+[07:45:44] [Server thread/INFO]: + D_GAMING11 Connected
+[07:45:44] [Server thread/INFO]: D_GAMING11[/139.5.36.202:55544] logged in with entity id 42 at ([world]5.473799950993015, 14.0, 60.27421825863023)
+[07:45:45] [Server thread/INFO]: D_GAMING11 lost connection: Disconnected
+[07:45:45] [Server thread/INFO]: [voicechat] Disconnecting client D_GAMING11
+[07:45:45] [Server thread/INFO]: - D_GAMING11 Disconnected
+[07:45:54] [User Authenticator #5/INFO]: UUID of player D_GAMING11 is 7b123e13-84ca-30cf-880f-abf22d95c241
+[07:45:55] [Server thread/INFO]: + D_GAMING11 Connected
+[07:45:55] [Server thread/INFO]: D_GAMING11[/139.5.36.202:49594] logged in with entity id 43 at ([world]5.473799950993015, 14.0, 60.27421825863023)
+[07:45:56] [Server thread/INFO]: D_GAMING11 lost connection: Disconnected
+[07:45:56] [Server thread/INFO]: [voicechat] Disconnecting client D_GAMING11
+[07:45:56] [Server thread/INFO]: - D_GAMING11 Disconnected
+[07:58:37] [User Authenticator #6/INFO]: UUID of player D_GAMINGLIVE1136 is 5c29662a-0916-335f-8816-533c4eb7aead
+[07:58:37] [TAB Processing Thread/INFO]: [TAB] [WARN] Player D_GAMINGLIVE1136's group (default) is not in sorting list! Sorting list: owner,co-owner,head-mod,mod,head-admin,admin,helper,youtuber,promoter,diamond,platinum,gold,iron,premium,immortal,knight,elite,default.. Player will be sorted on the bottom.
+[07:58:37] [Server thread/INFO]: + D_GAMINGLIVE1136 Connected
+[07:58:38] [Server thread/INFO]: D_GAMINGLIVE1136[/139.5.36.202:45262] logged in with entity id 44 at ([world]5.473799950993015, 14.0, 60.27421825863023)
+[07:58:40] [Server thread/INFO]: D_GAMINGLIVE1136 lost connection: Disconnected
+[07:58:40] [Server thread/INFO]: [voicechat] Disconnecting client D_GAMINGLIVE1136
+[07:58:40] [Server thread/INFO]: - D_GAMINGLIVE1136 Disconnected
+[07:58:48] [User Authenticator #6/INFO]: UUID of player D_GAMINGLIVE1136 is 5c29662a-0916-335f-8816-533c4eb7aead
+[07:58:49] [TAB Processing Thread/INFO]: [TAB] [WARN] Player D_GAMINGLIVE1136's group (default) is not in sorting list! Sorting list: owner,co-owner,head-mod,mod,head-admin,admin,helper,youtuber,promoter,diamond,platinum,gold,iron,premium,immortal,knight,elite,default.. Player will be sorted on the bottom.
+[07:58:49] [Server thread/INFO]: + D_GAMINGLIVE1136 Connected
+[07:58:49] [Server thread/INFO]: D_GAMINGLIVE1136[/139.5.36.202:40980] logged in with entity id 46 at ([world]5.473799950993015, 14.0, 60.27421825863023)
+[07:58:50] [Server thread/INFO]: D_GAMINGLIVE1136 lost connection: Disconnected
+[07:58:50] [Server thread/INFO]: [voicechat] Disconnecting client D_GAMINGLIVE1136
+[07:58:50] [Server thread/INFO]: - D_GAMINGLIVE1136 Disconnected
+[08:01:58] [Server thread/INFO]: KORAPLAYZ_ lost connection: Disconnected
+[08:01:58] [Server thread/INFO]: [voicechat] Disconnecting client KORAPLAYZ_
+[08:01:58] [Server thread/INFO]: - KORAPLAYZ_ Disconnected
+[08:02:25] [User Authenticator #7/INFO]: UUID of player KORAPLAYZ_ is 7cbfe1f7-6ade-3841-81fe-d1c4fdc6b254
+[08:02:29] [Server thread/INFO]: + KORAPLAYZ_ Connected
+[08:02:29] [Server thread/INFO]: KORAPLAYZ_[/122.177.110.68:48200] logged in with entity id 47 at ([world]5.473799950993015, 14.0, 60.27421825863023)
+[08:02:30] [Server thread/INFO]: [voicechat] Received secret request of KORAPLAYZ_ (18)
+[08:02:30] [Server thread/INFO]: [voicechat] Sent secret to KORAPLAYZ_
+[08:02:33] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 7cbfe1f7-6ade-3841-81fe-d1c4fdc6b254
+[08:02:34] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 7cbfe1f7-6ade-3841-81fe-d1c4fdc6b254
+[08:02:34] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player KORAPLAYZ_ (7cbfe1f7-6ade-3841-81fe-d1c4fdc6b254) successfully connected to voice chat
+[08:02:40] [User Authenticator #7/INFO]: UUID of player D_GAMINGLIVE1136 is 5c29662a-0916-335f-8816-533c4eb7aead
+[08:02:40] [TAB Processing Thread/INFO]: [TAB] [WARN] Player D_GAMINGLIVE1136's group (default) is not in sorting list! Sorting list: owner,co-owner,head-mod,mod,head-admin,admin,helper,youtuber,promoter,diamond,platinum,gold,iron,premium,immortal,knight,elite,default.. Player will be sorted on the bottom.
+[08:02:40] [Server thread/INFO]: + D_GAMINGLIVE1136 Connected
+[08:02:40] [Server thread/INFO]: D_GAMINGLIVE1136[/139.5.36.202:47582] logged in with entity id 48 at ([world]5.473799950993015, 14.0, 60.27421825863023)
+[08:02:42] [Server thread/INFO]: D_GAMINGLIVE1136 lost connection: Disconnected
+[08:02:42] [Server thread/INFO]: [voicechat] Disconnecting client D_GAMINGLIVE1136
+[08:02:42] [Server thread/INFO]: - D_GAMINGLIVE1136 Disconnected
+[08:02:46] [User Authenticator #7/INFO]: UUID of player D_GAMINGLIVE1136 is 5c29662a-0916-335f-8816-533c4eb7aead
+[08:02:46] [TAB Processing Thread/INFO]: [TAB] [WARN] Player D_GAMINGLIVE1136's group (default) is not in sorting list! Sorting list: owner,co-owner,head-mod,mod,head-admin,admin,helper,youtuber,promoter,diamond,platinum,gold,iron,premium,immortal,knight,elite,default.. Player will be sorted on the bottom.
+[08:02:46] [Server thread/INFO]: + D_GAMINGLIVE1136 Connected
+[08:02:46] [Server thread/INFO]: D_GAMINGLIVE1136[/139.5.36.202:42878] logged in with entity id 49 at ([world]5.473799950993015, 14.0, 60.27421825863023)
+[08:02:48] [Server thread/INFO]: D_GAMINGLIVE1136 lost connection: Disconnected
+[08:02:48] [Server thread/INFO]: [voicechat] Disconnecting client D_GAMINGLIVE1136
+[08:02:48] [Server thread/INFO]: - D_GAMINGLIVE1136 Disconnected
+[08:04:28] [User Authenticator #8/INFO]: UUID of player D_GAMINGLIVE1136 is 5c29662a-0916-335f-8816-533c4eb7aead
+[08:04:28] [TAB Processing Thread/INFO]: [TAB] [WARN] Player D_GAMINGLIVE1136's group (default) is not in sorting list! Sorting list: owner,co-owner,head-mod,mod,head-admin,admin,helper,youtuber,promoter,diamond,platinum,gold,iron,premium,immortal,knight,elite,default.. Player will be sorted on the bottom.
+[08:04:28] [Server thread/INFO]: + D_GAMINGLIVE1136 Connected
+[08:04:28] [Server thread/INFO]: D_GAMINGLIVE1136[/139.5.36.202:59950] logged in with entity id 50 at ([world]5.473799950993015, 14.0, 60.27421825863023)
+[08:04:30] [Server thread/INFO]: D_GAMINGLIVE1136 lost connection: Disconnected
+[08:04:30] [Server thread/INFO]: [voicechat] Disconnecting client D_GAMINGLIVE1136
+[08:04:30] [Server thread/INFO]: - D_GAMINGLIVE1136 Disconnected
+[08:54:21] [Server thread/INFO]: KORAPLAYZ_ issued server command: /npc select
+[08:54:31] [Server thread/INFO]: KORAPLAYZ_ issued server command: /npc skin -c miko
+[08:54:49] [Server thread/INFO]: KORAPLAYZ_ issued server command: /npc skin -l miko
+[08:54:58] [Server thread/INFO]: KORAPLAYZ_ issued server command: /gamemode creative
+[08:54:59] [Server thread/INFO]: KORAPLAYZ_ issued server command: /gamemode survival
+[08:55:01] [Server thread/INFO]: KORAPLAYZ_ issued server command: /gamemode spectator
+[08:55:03] [Server thread/INFO]: KORAPLAYZ_ issued server command: /gamemode creative
+[08:55:23] [Server thread/INFO]: KORAPLAYZ_ issued server command: /npc select
+[08:55:32] [Server thread/INFO]: KORAPLAYZ_ issued server command: /npc look --perplayer
+[08:55:36] [Server thread/INFO]: KORAPLAYZ_ issued server command: /npc look --range
+[08:55:47] [Server thread/INFO]: KORAPLAYZ_ issued server command: /npc lookclose --range 10000
+[08:56:16] [Server thread/INFO]: KORAPLAYZ_ issued server command: /npc select
+[08:56:25] [Server thread/INFO]: KORAPLAYZ_ issued server command: /npc skin -s miko
+[08:56:25] [Server thread/ERROR]: [Citizens] Could not fetch NMS method setProfile: [[org.bukkit.craftbukkit.inventory.CraftMetaSkull.setProfile(com.mojang.authlib.GameProfile).
+[08:56:35] [Server thread/INFO]: KORAPLAYZ_ issued server command: /npc skin -s miko
+[08:56:35] [Server thread/ERROR]: [Citizens] Could not fetch NMS method setProfile: [[org.bukkit.craftbukkit.inventory.CraftMetaSkull.setProfile(com.mojang.authlib.GameProfile).
+[08:56:46] [Server thread/INFO]: KORAPLAYZ_ issued server command: /npc skin -t miko
+[08:56:56] [Server thread/INFO]: KORAPLAYZ_ issued server command: /npc skin -b miko
+[08:57:04] [Server thread/INFO]: KORAPLAYZ_ issued server command: /npc skin -e miko
+[09:03:23] [Server thread/INFO]: KORAPLAYZ_ lost connection: Disconnected
+[09:03:23] [Server thread/INFO]: [voicechat] Disconnecting client KORAPLAYZ_
+[09:03:23] [Server thread/INFO]: - KORAPLAYZ_ Disconnected
+[09:06:21] [User Authenticator #9/WARN]: [LuckPerms] LuckPerms already has data for player 'KORAPLAYZ_' - but this data is stored under a different UUID.
+[09:06:21] [User Authenticator #9/WARN]: [LuckPerms] 'KORAPLAYZ_' has previously used the unique ids [7cbfe1f7-6ade-3841-81fe-d1c4fdc6b254] but is now connecting with '4ba231e8-a225-4933-8fb9-fe38a654b638'
+[09:06:21] [User Authenticator #9/WARN]: [LuckPerms] The UUID the player is connecting with now is Mojang-assigned (type 4). This implies that one of the other servers in your network is not authenticating correctly.
+[09:06:21] [User Authenticator #9/WARN]: [LuckPerms] If you're using BungeeCord/Velocity, please ensure that IP-Forwarding is setup correctly on all of your backend servers!
+[09:06:21] [User Authenticator #9/WARN]: [LuckPerms] See here for more info: https://luckperms.net/wiki/Network-Installation#pre-setup
+[09:06:21] [User Authenticator #9/INFO]: UUID of player KORAPLAYZ_ is 4ba231e8-a225-4933-8fb9-fe38a654b638
+[09:06:22] [Server thread/INFO]: + KORAPLAYZ_ Connected
+[09:06:22] [Server thread/INFO]: KORAPLAYZ_[/122.177.110.68:35056] logged in with entity id 62 at ([world]5.473799950993015, 14.0, 60.27421825863023)
+[09:06:22] [Server thread/INFO]: [voicechat] Received secret request of KORAPLAYZ_ (18)
+[09:06:22] [Server thread/INFO]: [voicechat] Sent secret to KORAPLAYZ_
+[09:06:23] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 4ba231e8-a225-4933-8fb9-fe38a654b638
+[09:06:24] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 4ba231e8-a225-4933-8fb9-fe38a654b638
+[09:06:24] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player KORAPLAYZ_ (4ba231e8-a225-4933-8fb9-fe38a654b638) successfully connected to voice chat
+[09:08:47] [User Authenticator #10/INFO]: UUID of player .BhanuPratap0 is ccc2cc36-e435-309a-a71a-4d2ae8b3ba66
+[09:08:47] [TAB Processing Thread/INFO]: [TAB] [WARN] Player .BhanuPratap0's group (default) is not in sorting list! Sorting list: owner,co-owner,head-mod,mod,head-admin,admin,helper,youtuber,promoter,diamond,platinum,gold,iron,premium,immortal,knight,elite,default.. Player will be sorted on the bottom.
+[09:08:47] [Server thread/INFO]: + .BhanuPratap0 Connected
+[09:08:48] [Server thread/INFO]: .BhanuPratap0[/157.34.39.241:45172] logged in with entity id 63 at ([world]5.473799950993015, 14.0, 60.27421825863023)
+[09:08:49] [Server thread/INFO]: .BhanuPratap0 lost connection: Disconnected
+[09:08:49] [Server thread/INFO]: [voicechat] Disconnecting client .BhanuPratap0
+[09:08:49] [Server thread/INFO]: - .BhanuPratap0 Disconnected
+[09:08:53] [User Authenticator #10/INFO]: UUID of player .BhanuPratap0 is ccc2cc36-e435-309a-a71a-4d2ae8b3ba66
+[09:08:53] [TAB Processing Thread/INFO]: [TAB] [WARN] Player .BhanuPratap0's group (default) is not in sorting list! Sorting list: owner,co-owner,head-mod,mod,head-admin,admin,helper,youtuber,promoter,diamond,platinum,gold,iron,premium,immortal,knight,elite,default.. Player will be sorted on the bottom.
+[09:08:53] [Server thread/INFO]: + .BhanuPratap0 Connected
+[09:08:53] [Server thread/INFO]: .BhanuPratap0[/157.34.39.241:42622] logged in with entity id 65 at ([world]5.473799950993015, 14.0, 60.27421825863023)
+[09:08:54] [Server thread/INFO]: .BhanuPratap0 lost connection: Disconnected
+[09:08:55] [Server thread/INFO]: [voicechat] Disconnecting client .BhanuPratap0
+[09:08:55] [Server thread/INFO]: - .BhanuPratap0 Disconnected
+[09:08:58] [User Authenticator #10/INFO]: UUID of player .BhanuPratap0 is ccc2cc36-e435-309a-a71a-4d2ae8b3ba66
+[09:08:58] [TAB Processing Thread/INFO]: [TAB] [WARN] Player .BhanuPratap0's group (default) is not in sorting list! Sorting list: owner,co-owner,head-mod,mod,head-admin,admin,helper,youtuber,promoter,diamond,platinum,gold,iron,premium,immortal,knight,elite,default.. Player will be sorted on the bottom.
+[09:08:58] [Server thread/INFO]: + .BhanuPratap0 Connected
+[09:08:58] [Server thread/INFO]: .BhanuPratap0[/157.34.39.241:42652] logged in with entity id 66 at ([world]5.473799950993015, 14.0, 60.27421825863023)
+[09:09:00] [Server thread/INFO]: .BhanuPratap0 lost connection: Disconnected
+[09:09:00] [Server thread/INFO]: [voicechat] Disconnecting client .BhanuPratap0
+[09:09:00] [Server thread/INFO]: - .BhanuPratap0 Disconnected
+[09:09:14] [User Authenticator #10/INFO]: UUID of player .BhanuPratap0 is ccc2cc36-e435-309a-a71a-4d2ae8b3ba66
+[09:09:15] [TAB Processing Thread/INFO]: [TAB] [WARN] Player .BhanuPratap0's group (default) is not in sorting list! Sorting list: owner,co-owner,head-mod,mod,head-admin,admin,helper,youtuber,promoter,diamond,platinum,gold,iron,premium,immortal,knight,elite,default.. Player will be sorted on the bottom.
+[09:09:15] [Server thread/INFO]: + .BhanuPratap0 Connected
+[09:09:15] [Server thread/INFO]: .BhanuPratap0[/157.34.39.241:48944] logged in with entity id 67 at ([world]5.473799950993015, 14.0, 60.27421825863023)
+[09:09:16] [Server thread/INFO]: .BhanuPratap0 lost connection: Disconnected
+[09:09:16] [Server thread/INFO]: [voicechat] Disconnecting client .BhanuPratap0
+[09:09:16] [Server thread/INFO]: - .BhanuPratap0 Disconnected
+[09:09:38] [User Authenticator #10/INFO]: UUID of player .BhanuPratap0 is ccc2cc36-e435-309a-a71a-4d2ae8b3ba66
+[09:09:38] [TAB Processing Thread/INFO]: [TAB] [WARN] Player .BhanuPratap0's group (default) is not in sorting list! Sorting list: owner,co-owner,head-mod,mod,head-admin,admin,helper,youtuber,promoter,diamond,platinum,gold,iron,premium,immortal,knight,elite,default.. Player will be sorted on the bottom.
+[09:09:38] [Server thread/INFO]: + .BhanuPratap0 Connected
+[09:09:38] [Server thread/INFO]: .BhanuPratap0[/157.34.39.241:37432] logged in with entity id 68 at ([world]5.473799950993015, 14.0, 60.27421825863023)
+[09:09:39] [Server thread/INFO]: .BhanuPratap0 lost connection: Disconnected
+[09:09:39] [Server thread/INFO]: [voicechat] Disconnecting client .BhanuPratap0
+[09:09:39] [Server thread/INFO]: - .BhanuPratap0 Disconnected
+[09:10:49] [Server thread/INFO]: KORAPLAYZ_ issued server command: /tab reload
+[09:10:49] [Server thread/INFO]: [TAB] Disabled in 6ms
+[09:10:49] [Server thread/INFO]: [TAB] [WARN] [groups.yml] Unknown property "tagSuffix" defined for group "_DEFAULT_". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix, header, footer]
+[09:10:49] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[09:10:49] [Server thread/INFO]: [TAB] Enabled in 99ms
+[09:11:08] [User Authenticator #11/INFO]: UUID of player .BhanuPratap0 is ccc2cc36-e435-309a-a71a-4d2ae8b3ba66
+[09:11:08] [Server thread/INFO]: + .BhanuPratap0 Connected
+[09:11:08] [Server thread/INFO]: .BhanuPratap0[/157.34.39.241:51036] logged in with entity id 69 at ([world]5.473799950993015, 14.0, 60.27421825863023)
+[09:11:10] [Server thread/INFO]: .BhanuPratap0 lost connection: Disconnected
+[09:11:10] [Server thread/INFO]: [voicechat] Disconnecting client .BhanuPratap0
+[09:11:10] [Server thread/INFO]: - .BhanuPratap0 Disconnected
+[09:11:12] [User Authenticator #11/INFO]: UUID of player .BhanuPratap0 is ccc2cc36-e435-309a-a71a-4d2ae8b3ba66
+[09:11:13] [Server thread/INFO]: + .BhanuPratap0 Connected
+[09:11:13] [Server thread/INFO]: .BhanuPratap0[/157.34.39.241:44132] logged in with entity id 70 at ([world]5.473799950993015, 14.0, 60.27421825863023)
+[09:11:14] [Server thread/INFO]: .BhanuPratap0 lost connection: Disconnected
+[09:11:14] [Server thread/INFO]: [voicechat] Disconnecting client .BhanuPratap0
+[09:11:14] [Server thread/INFO]: - .BhanuPratap0 Disconnected
+[09:11:17] [User Authenticator #11/INFO]: UUID of player .BhanuPratap0 is ccc2cc36-e435-309a-a71a-4d2ae8b3ba66
+[09:11:17] [Server thread/INFO]: + .BhanuPratap0 Connected
+[09:11:17] [Server thread/INFO]: .BhanuPratap0[/157.34.39.241:44162] logged in with entity id 71 at ([world]5.473799950993015, 14.0, 60.27421825863023)
+[09:11:18] [Server thread/INFO]: .BhanuPratap0 lost connection: Disconnected
+[09:11:18] [Server thread/INFO]: [voicechat] Disconnecting client .BhanuPratap0
+[09:11:18] [Server thread/INFO]: - .BhanuPratap0 Disconnected
+[09:12:18] [User Authenticator #12/INFO]: UUID of player .BhanuPratap0 is ccc2cc36-e435-309a-a71a-4d2ae8b3ba66
+[09:12:18] [Server thread/INFO]: + .BhanuPratap0 Connected
+[09:12:18] [Server thread/INFO]: .BhanuPratap0[/157.34.39.241:48312] logged in with entity id 72 at ([world]5.473799950993015, 14.0, 60.27421825863023)
+[09:12:19] [Server thread/INFO]: .BhanuPratap0 lost connection: Disconnected
+[09:12:19] [Server thread/INFO]: [voicechat] Disconnecting client .BhanuPratap0
+[09:12:20] [Server thread/INFO]: - .BhanuPratap0 Disconnected
+[09:12:31] [User Authenticator #12/INFO]: UUID of player .BhanuPratap0 is ccc2cc36-e435-309a-a71a-4d2ae8b3ba66
+[09:12:31] [Server thread/INFO]: + .BhanuPratap0 Connected
+[09:12:31] [Server thread/INFO]: .BhanuPratap0[/157.34.39.241:55262] logged in with entity id 73 at ([world]5.473799950993015, 14.0, 60.27421825863023)
+[09:12:33] [Server thread/INFO]: .BhanuPratap0 lost connection: Disconnected
+[09:12:33] [Server thread/INFO]: [voicechat] Disconnecting client .BhanuPratap0
+[09:12:33] [Server thread/INFO]: - .BhanuPratap0 Disconnected
