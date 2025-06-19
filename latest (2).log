@@ -1,0 +1,1516 @@
+[11:47:59] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-LTS; Eclipse Adoptium Temurin-21.0.7+6) on Linux 6.1.0-35-cloud-amd64 (amd64)
+[11:47:59] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-227-ver/1.21.4@7675321 (2025-04-28T19:07:04Z) for Minecraft 1.21.4
+[11:47:59] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[11:48:02] [ServerMain/INFO]: [PluginInitializerManager] Initialized 73 plugins
+[11:48:02] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (5):
+ - Akropolis (1.8.1), EconomyShopGUI-Premium (5.21.0), FancyHolograms (2.4.2), FancyNpcs (2.5.0), nightcore (2.7.5.2)
+[11:48:02] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (68):
+ - AdvancedBan (2.3.0), AreaResetterPro (1.3.4-PAPER-1.21), AxAFKZone (1.6.3), AxGraves (1.21.1), AxTrade (1.15.1), AxVaults (2.6.5), BULPearl (3.1.6), Banknotes (1.8.0), BetterRTP (3.6.13), BetterTeams (4.11.0), ChatGames (1.2.1), ClearLag (3.2.2), CoinsEngine (2.4.2), CommandWhitelist (2.11.0), CrazyEnchantments (2.5.2), DailyRewards (${project.version}), DecentHolograms (2.8.17), DeluxeCoinflip (2.9.6), DeluxeCombat (1.70.3), DeluxeMenus (1.14.1-DEV-199), DeluxeTags (1.8.2-Release), DeluxeWithdraw (2025.04), DiscordSRV (1.29.0), EZColors (2.2.6), EconomyBridge (1.2.1), Essentials (2.21.1-dev+14-3f5b122), EssentialsSpawn (2.21.1-dev+14-3f5b122), ExcellentCrates (6.2.0), FastAsyncWorldEdit (2.13.1-SNAPSHOT-1065;cca3b71), FreedomChat (1.7.2), GSit (2.2.0), GriefPrevention (16.18.4), Images (2.5.4), InvSeePlusPlus (0.29.18-SNAPSHOT), InvSeePlusPlus_Clear (0.29.18-SNAPSHOT), InvSeePlusPlus_Give (0.29.18-SNAPSHOT), ItemEdit (3.7.0), LPC (3.6.1), LoneLibs (1.0.65), LuckPerms (5.4.131), Maintenance (4.3.0), Multiverse-Core (4.3.14), NBTAPI (2.15.0), NexusAuctionHouse (2.1), Parkour (7.2.5), PlaceholderAPI (2.11.6), PlayerKits2 (1.17.1), PlayerPoints (3.3.0), ProtocolLib (5.4.0-SNAPSHOT-742), SkinsRestorer (15.6.8), Skript (2.11.0), SmartSpawner (1.2.8), SuperVanish (6.2.20), SynkLibs (1.8.1), TAB (5.0.7), TheGlow (1.2.1-STABLE), UltraCosmetics (3.11.2-RELEASE), Vault (1.7.3-b131), ViaBackwards (5.4.0-SNAPSHOT), ViaVersion (5.4.0-SNAPSHOT), Vouchers (3.28.0), Vulcan (2.9.5), WorldGuard (7.0.13+82fdc65), ajLeaderboards (2.9.0), packetevents (2.7.0), xAntiIP (1.0), xAntiSpam (1.0-SNAPSHOT), zDiscord (1.5.0-SNAPSHOT)
+[11:48:07] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11:48:10] [ServerMain/INFO]: Loaded 1370 recipes
+[11:48:10] [ServerMain/INFO]: Loaded 1481 advancements
+[11:48:10] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[11:48:10] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 273.5ms
+[11:48:10] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[11:48:10] [Server thread/INFO]: Loading properties
+[11:48:10] [Server thread/INFO]: This server is running Paper version 1.21.4-227-ver/1.21.4@7675321 (2025-04-28T19:07:04Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[11:48:10] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[11:48:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:48:11] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:48:11] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[11:48:11] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[11:48:11] [Server thread/INFO]: Default game type: SURVIVAL
+[11:48:11] [Server thread/INFO]: Generating keypair
+[11:48:11] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:6022
+[11:48:11] [Server thread/INFO]: Using epoll channel type
+[11:48:11] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[11:48:11] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[11:48:12] [Server thread/INFO]: [SpigotLibraryLoader] [PlayerPoints] Loading 2 libraries... please wait
+[11:48:12] [Server thread/INFO]: [SpigotLibraryLoader] [PlayerPoints] Loaded library /home/container/libraries/com/mysql/mysql-connector-j/9.1.0/mysql-connector-j-9.1.0.jar
+[11:48:12] [Server thread/INFO]: [SpigotLibraryLoader] [PlayerPoints] Loaded library /home/container/libraries/com/google/protobuf/protobuf-java/4.26.1/protobuf-java-4.26.1.jar
+[11:48:12] [Server thread/INFO]: [SpigotLibraryLoader] [PlayerPoints] Loaded library /home/container/libraries/org/xerial/sqlite-jdbc/3.46.0.0/sqlite-jdbc-3.46.0.0.jar
+[11:48:12] [Server thread/INFO]: [SpigotLibraryLoader] [PlayerPoints] Loaded library /home/container/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[11:48:12] [Server thread/INFO]: [nightcore] Server version detected as Paper 1.21.4. Using paper-bridge.
+[11:48:13] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loading 5 libraries... please wait
+[11:48:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
+[11:48:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
+[11:48:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[11:48:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[11:48:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+[11:48:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
+[11:48:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
+[11:48:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
+[11:48:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[11:48:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[11:48:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
+[11:48:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
+[11:48:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
+[11:48:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
+[11:48:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
+[11:48:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
+[11:48:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[11:48:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /home/container/libraries/net/kyori/adventure-text-serializer-legacy/4.16.0/adventure-text-serializer-legacy-4.16.0.jar
+[11:48:14] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loading 2 libraries... please wait
+[11:48:14] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /home/container/libraries/com/github/cryptomorin/XSeries/13.3.0/XSeries-13.3.0.jar
+[11:48:14] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /home/container/libraries/com/zaxxer/HikariCP/6.3.0/HikariCP-6.3.0.jar
+[11:48:14] [Server thread/INFO]: [SpigotLibraryLoader] [UltraCosmetics] Loaded library /home/container/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[11:48:14] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[11:48:25] [Server thread/WARN]: Legacy plugin Banknotes v1.8.0 does not specify an api-version.
+[11:48:25] [Server thread/INFO]: [SpigotLibraryLoader] [LoneLibs] Loading 1 libraries... please wait
+[11:48:25] [Server thread/INFO]: [SpigotLibraryLoader] [LoneLibs] Loaded library /home/container/libraries/org/fusesource/jansi/jansi/2.4.1/jansi-2.4.1.jar
+[11:48:25] [Server thread/INFO]: [SpigotLibraryLoader] [Vouchers] Loading 1 libraries... please wait
+[11:48:25] [Server thread/INFO]: [SpigotLibraryLoader] [Vouchers] Loaded library /home/container/libraries/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar
+[11:48:25] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.0-SNAPSHOT
+[11:48:25] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.0-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[11:48:25] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[11:48:26] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[11:48:26] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[11:48:26] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[11:48:27] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.131
+[11:48:27] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[11:48:27] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.14
+[11:48:27] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[11:48:27] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.13.1-SNAPSHOT-1065;cca3b71
+[11:48:29] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@bb30f8a]
+[11:48:29] [Server thread/INFO]: [Akropolis] Loading server plugin Akropolis v1.8.1
+[11:48:29] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.13+82fdc65
+[11:48:29] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0-SNAPSHOT-742
+[11:48:29] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.4) has not yet been tested! Proceed with caution.
+[11:48:29] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.1-dev+14-3f5b122
+[11:48:29] [Server thread/INFO]: [GriefPrevention] Loading server plugin GriefPrevention v16.18.4
+[11:48:29] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.0-SNAPSHOT
+[11:48:29] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.8.17
+[11:48:29] [Server thread/INFO]: [PlayerPoints] Loading server plugin PlayerPoints v3.3.0
+[11:48:29] [Server thread/INFO]: [PlayerPoints] Initializing using RoseGarden v1.4.6
+[11:48:29] [Server thread/INFO]: [DeluxeCoinflip] Loading server plugin DeluxeCoinflip v2.9.6
+[11:48:29] [Server thread/INFO]: [nightcore] Loading server plugin nightcore v2.7.5.2
+[11:48:29] [Server thread/INFO]: [SuperVanish] Loading server plugin SuperVanish v6.2.20
+[11:48:29] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.11.0
+[11:48:29] [Server thread/INFO]: [CrazyEnchantments] Loading server plugin CrazyEnchantments v2.5.2
+[11:48:29] [Server thread/INFO]: [BetterRTP] Loading server plugin BetterRTP v3.6.13
+[11:48:29] [Server thread/INFO]: [NBTAPI] Loading server plugin NBTAPI v2.15.0
+[11:48:29] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.4! Trying to find NMS support
+[11:48:29] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R3' loaded!
+[11:48:29] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'NBTAPI' to create a bStats instance!
+[11:48:29] [Server thread/INFO]: [GSit] Loading server plugin GSit v2.2.0
+[11:48:30] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.7.0
+[11:48:30] [Thread-10/INFO]: [NBTAPI] [NBTAPI] The NBT-API seems to be up-to-date!
+[11:48:32] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.11.0
+[11:48:32] [Server thread/INFO]: [BetterTeams] Checking if the file config.yml is up to date
+[11:48:32] [Server thread/INFO]: [BetterTeams] File is up to date
+[11:48:32] [Server thread/INFO]: [CoinsEngine] Loading server plugin CoinsEngine v2.4.2
+[11:48:32] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.29.0
+[11:48:32] [Server thread/INFO]: [EconomyShopGUI-Premium] Loading server plugin EconomyShopGUI-Premium v5.21.0
+[11:48:32] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.8
+[11:48:32] [Server thread/INFO]: [EconomyBridge] Loading server plugin EconomyBridge v1.2.1
+[11:48:32] [Server thread/INFO]: [InvSee++] Loading server plugin InvSeePlusPlus v0.29.18-SNAPSHOT
+[11:48:32] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
+[11:48:32] [Server thread/INFO]: [SynkLibs] Loading server plugin SynkLibs v1.8.1
+[11:48:32] [Server thread/INFO]: [FancyNpcs] Loading server plugin FancyNpcs v2.5.0
+[11:48:32] [Server thread/INFO]: [zDiscord] Loading server plugin zDiscord v1.5.0-SNAPSHOT
+[11:48:32] [Server thread/INFO]: [xAntiSpam] Loading server plugin xAntiSpam v1.0-SNAPSHOT
+[11:48:32] [Server thread/INFO]: [LPC] Loading server plugin LPC v3.6.1
+[11:48:32] [Server thread/INFO]: [ItemEdit] Loading server plugin ItemEdit v3.7.0
+[11:48:32] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.1-dev+14-3f5b122
+[11:48:32] [Server thread/INFO]: [DeluxeCombat] Loading server plugin DeluxeCombat v1.70.3
+[11:48:32] [Server thread/INFO]: [AxGraves] Loading server plugin AxGraves v1.21.1
+[11:48:32] [Server thread/INFO]: [AreaResetterPro] Loading server plugin AreaResetterPro v1.3.4-PAPER-1.21
+[11:48:32] [Server thread/INFO]: [UltraCosmetics] Loading server plugin UltraCosmetics v3.11.2-RELEASE
+[11:48:33] [Server thread/INFO]: [SmartSpawner] Loading server plugin SmartSpawner v1.2.8
+[11:48:33] [Server thread/INFO]: [FreedomChat] Loading server plugin FreedomChat v1.7.2
+[11:48:33] [Server thread/INFO]: [BULPearl] Loading server plugin BULPearl v3.1.6
+[11:48:33] [Server thread/INFO]: [PlayerKits2] Loading server plugin PlayerKits2 v1.17.1
+[11:48:33] [Server thread/INFO]: [ajLeaderboards] Loading server plugin ajLeaderboards v2.9.0
+[11:48:33] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
+[11:48:33] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
+[11:48:33] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for jar-relocator
+[11:48:33] [Server thread/INFO]: [ajLeaderboards] Checksum matched for jar-relocator
+[11:48:33] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm
+[11:48:33] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm
+[11:48:33] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm-commons
+[11:48:33] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm-commons
+[11:48:33] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
+[11:48:33] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
+[11:48:33] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for HikariCP
+[11:48:33] [Server thread/INFO]: [ajLeaderboards] Checksum matched for HikariCP
+[11:48:33] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for slf4j-api
+[11:48:33] [Server thread/INFO]: [ajLeaderboards] Checksum matched for slf4j-api
+[11:48:33] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for h2
+[11:48:33] [Server thread/INFO]: [ajLeaderboards] Checksum matched for h2
+[11:48:33] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for okhttp
+[11:48:33] [Server thread/INFO]: [ajLeaderboards] Checksum matched for okhttp
+[11:48:33] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for okio
+[11:48:33] [Server thread/INFO]: [ajLeaderboards] Checksum matched for okio
+[11:48:33] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for okio-jvm
+[11:48:33] [Server thread/INFO]: [ajLeaderboards] Checksum matched for okio-jvm
+[11:48:33] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib-jdk8
+[11:48:33] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib-jdk8
+[11:48:33] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib
+[11:48:33] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib
+[11:48:33] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib-common
+[11:48:33] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib-common
+[11:48:33] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for annotations
+[11:48:33] [Server thread/INFO]: [ajLeaderboards] Checksum matched for annotations
+[11:48:33] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib-jdk7
+[11:48:33] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib-jdk7
+[11:48:33] [Server thread/INFO]: [ExcellentCrates] Loading server plugin ExcellentCrates v6.2.0
+[11:48:33] [Server thread/INFO]: [AxTrade] Loading server plugin AxTrade v1.15.1
+[11:48:33] [Server thread/INFO]: [AxVaults] Loading server plugin AxVaults v2.6.5
+[11:48:33] [Server thread/INFO]: [ChatGames] Loading server plugin ChatGames v1.2.1
+[11:48:33] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[11:48:33] [Server thread/INFO]: [Banknotes] Loading server plugin Banknotes v1.8.0
+[11:48:33] [Server thread/INFO]: [InvSee++_Give] Loading server plugin InvSeePlusPlus_Give v0.29.18-SNAPSHOT
+[11:48:33] [Server thread/INFO]: [InvSee++_Clear] Loading server plugin InvSeePlusPlus_Clear v0.29.18-SNAPSHOT
+[11:48:33] [Server thread/INFO]: [CommandWhitelist] Loading server plugin CommandWhitelist v2.11.0
+[11:48:33] [Server thread/INFO]: [EZColors] Loading server plugin EZColors v2.2.6
+[11:48:33] [Server thread/INFO]: [Parkour] Loading server plugin Parkour v7.2.5
+[11:48:33] [Server thread/INFO]: [Maintenance] Loading server plugin Maintenance v4.3.0
+[11:48:33] [Server thread/INFO]: [LoneLibs] Loading server plugin LoneLibs v1.0.65
+[11:48:33] [Server thread/INFO]: [TheGlow] Loading server plugin TheGlow v1.2.1-STABLE
+[11:48:33] [Server thread/INFO]: [DeluxeWithdraw] Loading server plugin DeluxeWithdraw v2025.04
+[11:48:33] [Server thread/INFO]: [DeluxeMenus] Loading server plugin DeluxeMenus v1.14.1-DEV-199
+[11:48:33] [Server thread/WARN]: [DeluxeMenus] Could not setup a NMS hook for your server version!
+[11:48:33] [Server thread/INFO]: [NexusAuctionHouse] Loading server plugin NexusAuctionHouse v2.1
+[11:48:33] [Server thread/INFO]: [AxAFKZone] Loading server plugin AxAFKZone v1.6.3
+[11:48:33] [Server thread/INFO]: [FancyHolograms] Loading server plugin FancyHolograms v2.4.2
+[11:48:33] [Server thread/INFO]: [AdvancedBan] Loading server plugin AdvancedBan v2.3.0
+[11:48:33] [Server thread/INFO]: [Images] Loading server plugin Images v2.5.4
+[11:48:33] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully loaded FancyHolograms version 2.4.2
+[11:48:33] [Server thread/INFO]: [DeluxeTags] Loading server plugin DeluxeTags v1.8.2-Release
+[11:48:33] [Server thread/INFO]: [Vulcan] Loading server plugin Vulcan v2.9.5
+[11:48:33] [Server thread/INFO]: [Vouchers] Loading server plugin Vouchers v3.28.0
+[11:48:33] [Server thread/INFO]: [xAntiIP] Loading server plugin xAntiIP v1.0
+[11:48:33] [Server thread/INFO]: [DailyRewards] Loading server plugin DailyRewards v${project.version}
+[11:48:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:48:33] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
+[11:48:35] [Server thread/INFO]:         __    
+[11:48:35] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.131
+[11:48:35] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[11:48:35] [Server thread/INFO]: 
+[11:48:35] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[11:48:35] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[11:48:37] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[11:48:37] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[11:48:38] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 4949ms)
+[11:48:38] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[11:48:38] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[11:48:39] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[11:48:39] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[11:48:39] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[11:48:39] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.13.1-SNAPSHOT-1065;cca3b71
+[11:48:39] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[11:48:39] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[11:48:39] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[11:48:39] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[11:48:40] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_4.PaperweightFaweAdapter as the Bukkit adapter
+[11:48:41] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0-SNAPSHOT-742
+[11:48:41] [Server thread/INFO]: [PlayerPoints] Enabling PlayerPoints v3.3.0
+[11:48:41] [Server thread/INFO]: [PlayerPoints] Data handler connected using SQLite.
+[11:48:41] [Thread-15/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] An update for FastAsyncWorldEdit is available. You are 54 build(s) out of date.
+You are running build 1065, the latest version is build 1119.
+Update at https://ci.athion.net/job/FastAsyncWorldEdit
+[11:48:41] [Server thread/INFO]: [nightcore] Enabling nightcore v2.7.5.2
+[11:48:42] [Server thread/INFO]: [nightcore] Found permissions provider: LuckPerms
+[11:48:42] [Server thread/INFO]: [nightcore] Found economy provider: EssentialsX Economy
+[11:48:42] [Server thread/INFO]: [nightcore] Found chat provider: LuckPerms
+[11:48:42] [Server thread/INFO]: [nightcore] Time zone set as Etc/UTC
+[11:48:42] [Server thread/INFO]: [nightcore] Plugin loaded in 296 ms!
+[11:48:42] [Server thread/INFO]: [CoinsEngine] Enabling CoinsEngine v2.4.2
+[11:48:42] [Server thread/INFO]: [CoinsEngine] Powered by nightcore
+[11:48:42] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[11:48:42] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@3ed67db2
+[11:48:42] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[11:48:42] [Server thread/INFO]: [CoinsEngine] Registered: 'points' currency!
+[11:48:42] [Server thread/INFO]: [CoinsEngine] Registered 'money' as Vault Economy!
+[11:48:42] [Server thread/INFO]: [CoinsEngine] Registered: 'money' currency!
+[11:48:43] [Server thread/INFO]: [CoinsEngine] Detected plugin available for data migration: PlayerPoints
+[11:48:43] [Server thread/INFO]: [CoinsEngine] Detected plugin available for data migration: Vault
+[11:48:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: coinsengine [2.4.2]
+[11:48:43] [Server thread/INFO]: [CoinsEngine] Plugin loaded in 812 ms!
+[11:48:43] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.8
+[11:48:44] [Server thread/INFO]: [SkinsRestorer] -------------------------/Warning\-------------------------
+[11:48:44] [Server thread/INFO]: [SkinsRestorer] This plugin is running in PROXY mode!
+[11:48:44] [Server thread/INFO]: [SkinsRestorer] You have to put the same config.yml on all servers and on the proxy.
+[11:48:44] [Server thread/INFO]: [SkinsRestorer] (<proxy>/plugins/SkinsRestorer/)
+[11:48:44] [Server thread/INFO]: [SkinsRestorer] -------------------------\Warning/-------------------------
+[11:48:45] [Server thread/ERROR]: [SkinsRestorer] Your Minecraft version (60ac387ca8007aa018e6aeb394a6988c) is not supported by this version of SkinsRestorer! Is there a newer version available? If not, join our discord server!
+[11:48:45] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.4.
+[11:48:45] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.6.8]
+[11:48:45] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[11:48:45] [Server thread/INFO]: [EconomyBridge] Enabling EconomyBridge v1.2.1
+[11:48:45] [Server thread/INFO]: [EconomyBridge] Powered by nightcore
+[11:48:45] [Server thread/INFO]: [EconomyBridge] Item Handler registered: 'dummy'.
+[11:48:45] [Server thread/INFO]: [EconomyBridge] Item Handler registered: 'excellentcrates'.
+[11:48:45] [Server thread/INFO]: [EconomyBridge] Vault detected! Loading currency...
+[11:48:45] [Server thread/INFO]: [EconomyBridge] Currency registered: 'vault'.
+[11:48:45] [Server thread/INFO]: [EconomyBridge] CoinsEngine detected! Loading currency...
+[11:48:45] [Server thread/INFO]: [EconomyBridge] Currency registered: 'coinsengine_points'.
+[11:48:45] [Server thread/INFO]: [EconomyBridge] PlayerPoints detected! Loading currency...
+[11:48:45] [Server thread/INFO]: [EconomyBridge] Currency registered: 'playerpoints'.
+[11:48:45] [Server thread/INFO]: [EconomyBridge] Currency registered: 'xp_points'.
+[11:48:45] [Server thread/INFO]: [EconomyBridge] Currency registered: 'xp_level'.
+[11:48:45] [Server thread/INFO]: [EconomyBridge] Currency registered: 'gold'.
+[11:48:45] [Server thread/INFO]: [EconomyBridge] Currency registered: 'diamond'.
+[11:48:45] [Server thread/INFO]: [EconomyBridge] Currency registered: 'emerald'.
+[11:48:45] [Server thread/INFO]: [EconomyBridge] Plugin loaded in 119 ms!
+[11:48:45] [Server thread/INFO]: [LoneLibs] Enabling LoneLibs v1.0.65
+[11:48:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:48:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:48:45] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[11:48:45] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
+[11:48:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:48:45] [Server thread/INFO]: Preparing level "world"
+[11:48:45] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer] ----------------------------------------------
+[11:48:45] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     +==================+
+[11:48:45] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[11:48:45] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     |------------------|
+[11:48:45] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     |    Proxy Mode    |
+[11:48:45] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     +==================+
+[11:48:45] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer] ----------------------------------------------
+[11:48:45] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     Version: 15.6.8
+[11:48:45] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     Commit: a5eb6c3
+[11:48:45] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer]     This is the latest version!
+[11:48:45] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer] ----------------------------------------------
+[11:48:45] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[11:48:45] [Folia Async Scheduler Thread #0/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[11:48:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:48:46] [Server thread/INFO]: Preparing spawn area: 0%
+[11:48:46] [Server thread/INFO]: Preparing spawn area: 2%
+[11:48:47] [Server thread/INFO]: Preparing spawn area: 26%
+[11:48:47] [Server thread/INFO]: Time elapsed: 1325 ms
+[11:48:47] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.0-SNAPSHOT
+[11:48:47] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
+[11:48:47] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.14
+[11:48:47] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.14" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[11:48:47] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[11:48:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[11:48:47] [Server thread/INFO]: Preparing spawn area: 0%
+[11:48:48] [Server thread/INFO]: Time elapsed: 307 ms
+[11:48:48] [Server thread/INFO]: Preparing start region for dimension minecraft:afk
+[11:48:48] [Server thread/INFO]: Preparing spawn area: 0%
+[11:48:48] [Server thread/INFO]: Time elapsed: 324 ms
+[11:48:48] [Server thread/INFO]: Preparing start region for dimension minecraft:spawn
+[11:48:48] [Server thread/INFO]: Preparing spawn area: 0%
+[11:48:48] [Server thread/INFO]: Time elapsed: 315 ms
+[11:48:49] [Server thread/INFO]: Preparing start region for dimension minecraft:arena
+[11:48:49] [Server thread/INFO]: Preparing spawn area: 0%
+[11:48:49] [Server thread/INFO]: Time elapsed: 285 ms
+[11:48:49] [Server thread/INFO]: [Multiverse-Core] 5 - World(s) loaded.
+[11:48:49] [Server thread/INFO]: [Multiverse-Core] Version 4.3.14 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[11:48:49] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[11:48:49] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[11:48:49] [Server thread/INFO]: [Akropolis] Enabling Akropolis v1.8.1
+[11:48:49] [Server thread/INFO]: [Akropolis]      _    _                          _ _     
+[11:48:49] [Server thread/INFO]: [Akropolis]     / \  | | ___ __ ___  _ __   ___ | (_)___ 
+[11:48:49] [Server thread/INFO]: [Akropolis]    / _ \ | |/ / '__/ _ \| '_ \ / _ \| | / __|
+[11:48:49] [Server thread/INFO]: [Akropolis]   / ___ \|   <| | | (_) | |_) | (_) | | \__ \
+[11:48:49] [Server thread/INFO]: [Akropolis]  /_/   \_\_|\_\_|  \___/| .__/ \___/|_|_|___/
+[11:48:49] [Server thread/INFO]: [Akropolis]                         |_|                  
+[11:48:49] [Server thread/INFO]: [Akropolis] Author: ZetaStormy
+[11:48:49] [Server thread/INFO]: [Akropolis] Based on DeluxeHub by ItsLewizzz.
+[11:48:49] [Server thread/INFO]: [Akropolis] --------
+[11:48:49] [Server thread/INFO]: [Akropolis] Hooked into PlaceholderAPI
+[11:48:49] [Server thread/INFO]: [Akropolis] Loaded custom menu serverselector.
+[11:48:50] [Server thread/INFO]: [Akropolis] No holograms to load!
+[11:48:50] [Server thread/INFO]: [Akropolis] Loaded 11 plugin modules.
+[11:48:50] [Server thread/INFO]: [Akropolis] Successfully loaded in 569ms.
+[11:48:50] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.13+82fdc65
+[11:48:50] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[11:48:50] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[11:48:50] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[11:48:50] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[11:48:50] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[11:48:50] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[11:48:50] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[11:48:50] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[11:48:50] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[11:48:50] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[11:48:50] [Server thread/INFO]: [WorldGuard] (AFK) TNT ignition is PERMITTED.
+[11:48:50] [Server thread/INFO]: [WorldGuard] (AFK) Lighters are PERMITTED.
+[11:48:50] [Server thread/INFO]: [WorldGuard] (AFK) Lava fire is PERMITTED.
+[11:48:50] [Server thread/INFO]: [WorldGuard] (AFK) Fire spread is UNRESTRICTED.
+[11:48:50] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'AFK'
+[11:48:50] [Server thread/INFO]: [WorldGuard] (Spawn) TNT ignition is PERMITTED.
+[11:48:50] [Server thread/INFO]: [WorldGuard] (Spawn) Lighters are PERMITTED.
+[11:48:50] [Server thread/INFO]: [WorldGuard] (Spawn) Lava fire is PERMITTED.
+[11:48:50] [Server thread/INFO]: [WorldGuard] (Spawn) Fire spread is UNRESTRICTED.
+[11:48:50] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Spawn'
+[11:48:50] [Server thread/INFO]: [WorldGuard] (Arena) TNT ignition is PERMITTED.
+[11:48:50] [Server thread/INFO]: [WorldGuard] (Arena) Lighters are PERMITTED.
+[11:48:50] [Server thread/INFO]: [WorldGuard] (Arena) Lava fire is PERMITTED.
+[11:48:50] [Server thread/INFO]: [WorldGuard] (Arena) Fire spread is UNRESTRICTED.
+[11:48:50] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Arena'
+[11:48:50] [Server thread/INFO]: [WorldGuard] Loading region data...
+[11:48:51] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.1-dev+14-3f5b122
+[11:48:51] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[11:48:51] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[11:48:51] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[11:48:52] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[11:48:52] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[11:48:52] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[11:48:52] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[11:48:52] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[11:48:52] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[11:48:52] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[11:48:52] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[11:48:52] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[11:48:52] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[11:48:52] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[11:48:52] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[11:48:52] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[11:48:52] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[11:48:52] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[11:48:52] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[11:48:52] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[11:48:52] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[11:48:52] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[11:48:52] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[11:48:52] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[11:48:52] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[11:48:52] [Server thread/INFO]: [Essentials] Loaded 43517 items from items.json.
+[11:48:52] [Server thread/INFO]: [Essentials] Using locale en_US
+[11:48:52] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[11:48:52] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[11:48:52] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[11:48:52] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[11:48:52] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.18.4
+[11:48:52] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[11:48:53] [Server thread/INFO]: [GriefPrevention] 245 total claims loaded.
+[11:48:53] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[11:48:53] [Server thread/INFO]: [GriefPrevention] Successfully hooked into WorldGuard.
+[11:48:53] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[11:48:53] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[11:48:53] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.0-SNAPSHOT
+[11:48:54] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.17
+[11:48:54] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.4! Trying to find NMS support
+[11:48:54] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R3' loaded!
+[11:48:54] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[11:48:54] [Server thread/INFO]: [DeluxeCoinflip] Enabling DeluxeCoinflip v2.9.6
+[11:48:54] [Server thread/INFO]: [DeluxeCoinflip] 
+[11:48:54] [Server thread/INFO]: [DeluxeCoinflip]  __ __    DeluxeCoinflip v2.9.6
+[11:48:54] [Server thread/INFO]: [DeluxeCoinflip] /  |_     Author: ItzSave
+[11:48:54] [Server thread/INFO]: [DeluxeCoinflip] \_ |      (c) Zithium Studios 2021 - 2025. All rights reserved.
+[11:48:54] [Server thread/INFO]: [DeluxeCoinflip] 
+[11:48:54] [Server thread/INFO]: [DeluxeCoinflip] Loading bStats metrics
+[11:48:54] [Server thread/INFO]: [DeluxeCoinflip] Registered economy provider 'Vault' using Vault plugin.
+[11:48:54] [Server thread/INFO]: [DeluxeCoinflip] Registered economy provider 'PlayerPoints' using PlayerPoints plugin.
+[11:48:54] [Server thread/INFO]: [DeluxeCoinflip] Registered economy provider 'CUSTOM_CURRENCY
+[11:48:54] [Server thread/INFO]: [DeluxeCoinflip] [ACF] Enabled Asynchronous Tab Completion Support!
+[11:48:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: deluxecoinflip [2.9.6]
+[11:48:54] [Server thread/INFO]: [DeluxeCoinflip] Hooked into PlaceholderAPI successfully
+[11:48:54] [Server thread/INFO]: [DeluxeCoinflip] 
+[11:48:54] [Server thread/INFO]: [DeluxeCoinflip] Successfully loaded in 239ms
+[11:48:54] [Server thread/INFO]: [DeluxeCoinflip] 
+[11:48:54] [Server thread/INFO]: [SuperVanish] Enabling SuperVanish v6.2.20
+[11:48:54] [Server thread/INFO]: [SuperVanish] Hooked into PaperSpigot for server list ping support
+[11:48:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: supervanish [6.2.20]
+[11:48:54] [Server thread/INFO]: [SuperVanish] Hooked into PlaceholderAPI
+[11:48:54] [Server thread/INFO]: [SuperVanish] Hooked into Essentials
+[11:48:54] [Server thread/INFO]: [Skript] Enabling Skript v2.11.0
+[11:48:55] [Thread-21/INFO]: [Skript] A new version of Skript is available: 2.11.2 (you're currently running 2.11.0)
+[11:48:55] [Thread-21/INFO]: Download it at: https://github.com/SkriptLang/Skript/releases/download/2.11.2/Skript-2.11.2.jar
+[11:48:56] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[11:48:56] [Server thread/INFO]: [CrazyEnchantments] Enabling CrazyEnchantments v2.5.2
+[11:48:56] [Server thread/INFO]: [CrazyEnchantments] Loading the config.yml
+[11:48:56] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded config.yml
+[11:48:56] [Server thread/INFO]: [CrazyEnchantments] Loading the BlockList.yml
+[11:48:56] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded BlockList.yml
+[11:48:56] [Server thread/INFO]: [CrazyEnchantments] Loading the HeadMap.yml
+[11:48:56] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded HeadMap.yml
+[11:48:56] [Server thread/INFO]: [CrazyEnchantments] Loading the Data.yml
+[11:48:56] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Data.yml
+[11:48:56] [Server thread/INFO]: [CrazyEnchantments] Loading the Enchantments.yml
+[11:48:56] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Enchantments.yml
+[11:48:56] [Server thread/INFO]: [CrazyEnchantments] Loading the GKitz.yml
+[11:48:56] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded GKitz.yml
+[11:48:56] [Server thread/INFO]: [CrazyEnchantments] Loading the Messages.yml
+[11:48:56] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Messages.yml
+[11:48:56] [Server thread/INFO]: [CrazyEnchantments] Loading the Enchantment-Types.yml
+[11:48:56] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Enchantment-Types.yml
+[11:48:56] [Server thread/INFO]: [CrazyEnchantments] Loading the Tinker.yml
+[11:48:56] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Tinker.yml
+[11:48:56] [Server thread/INFO]: SURVIVAL ➥ === CrazyEnchantment Hook Status ===
+[11:48:56] [Server thread/INFO]: SURVIVAL ➥ VAULT FOUND
+[11:48:56] [Server thread/INFO]: SURVIVAL ➥ WORLDGUARD FOUND
+[11:48:56] [Server thread/INFO]: SURVIVAL ➥ MCMMO NOT FOUND
+[11:48:56] [Server thread/INFO]: SURVIVAL ➥ LANDS NOT FOUND
+[11:48:56] [Server thread/INFO]: SURVIVAL ➥ PLOT_SQUARED NOT FOUND
+[11:48:56] [Server thread/INFO]: SURVIVAL ➥ FACTIONS_UUID NOT FOUND
+[11:48:56] [Server thread/INFO]: SURVIVAL ➥ ORAXEN NOT FOUND
+[11:48:56] [Server thread/INFO]: SURVIVAL ➥ TOWNYADVANCED NOT FOUND
+[11:48:56] [Server thread/INFO]: SURVIVAL ➥ GRIEF_PREVENTION FOUND
+[11:48:56] [Server thread/INFO]: SURVIVAL ➥ WORLDEDIT FOUND
+[11:48:56] [Server thread/INFO]: SURVIVAL ➥ SUPERIORSKYBLOCK NOT FOUND
+[11:48:57] [Server thread/INFO]: [BetterRTP] Enabling BetterRTP v3.6.13
+[11:48:57] [Server thread/INFO]: [BetterRTP] Cooldown = 600
+[11:48:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: betterrtp [3.6.13]
+[11:48:57] [Server thread/INFO]: [NBTAPI] Enabling NBTAPI v2.15.0
+[11:48:57] [Server thread/INFO]: [NBTAPI] Checking bindings...
+[11:48:57] [Server thread/INFO]: [NBTAPI] All Classes were able to link!
+[11:48:57] [Server thread/INFO]: [NBTAPI] All Methods were able to link!
+[11:48:57] [Server thread/INFO]: [NBTAPI] Running NBT reflection test...
+[11:48:58] [Server thread/INFO]: [NBTAPI] Success! This version of NBT-API is compatible with your server.
+[11:48:58] [Server thread/INFO]: [GSit] Enabling GSit v2.2.0
+[11:48:58] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gsit [2.2.0]
+[11:48:58] [Server thread/INFO]: [WorldGuard] Registering session handler dev.geco.gsit.link.worldguard.RegionFlagHandler
+[11:48:58] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[11:48:58] [Server thread/INFO]: [GSit] Link with GriefPrevention successful!
+[11:48:58] [Server thread/INFO]: [GSit] Link with PlaceholderAPI successful!
+[11:48:58] [Server thread/INFO]: [GSit] Link with WorldGuard successful!
+[11:48:59] [Server thread/INFO]: [packetevents] Enabling packetevents v2.7.0
+[11:48:59] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[11:48:59] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.11.0
+[11:48:59] [Server thread/INFO]: [BetterTeams] Checking if the file messages.yml is up to date
+[11:48:59] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.7.0) | Latest release: (2.8.0)
+[11:48:59] [Server thread/INFO]: [BetterTeams] File is up to date
+[11:48:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: betterTeams [4.11.0]
+[11:48:59] [Server thread/INFO]: Display team name config value: prefix
+[11:48:59] [Server thread/INFO]: Loading below name. Type: PREFIX
+[11:48:59] [Server thread/INFO]: teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@1424d02e
+[11:48:59] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.29.0
+[11:48:59] [Thread-23/INFO]: [Skript] Loaded 5442 aliases in 3074ms
+[11:48:59] [Server thread/INFO]: [EconomyShopGUI-Premium] Enabling EconomyShopGUI-Premium v5.21.0
+[11:49:00] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Using lang-en.yml as language file.
+[11:49:00] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Completed loading 6 section configs from /sections/
+[11:49:00] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Completed loading 6 shop configs from /shops/
+[11:49:00] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Updating Shop settings...
+[11:49:00] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Using minecraft version 1.21.4...
+[11:49:00] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Successfully hooked into Vault and using CoinsEngine_money as economy provider
+[11:49:00] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Completed loading 1 economy provider(s) for all 6 shop sections.
+[11:49:00] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Updating the configurations because a newer version has been found...
+[11:49:00] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Successfully updated configs to v2.0.1.3
+[11:49:00] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Spawner provider set to AUTO in config
+[11:49:00] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Automatically searching for compatible spawner provider....
+[11:49:00] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[11:49:00] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Providers not enabled yet, waiting...
+[11:49:00] [Server thread/INFO]: [InvSee++] Enabling InvSeePlusPlus v0.29.18-SNAPSHOT
+[11:49:01] [pool-67-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (9d4734818ab27069d76f264a4cda74a699806770)
+[11:49:01] [ESGUI_UTIL_THREAD #0/INFO]: [EconomyShopGUI-Premium] [INFO]: There is an update available for EconomyShopGUI, you are running v5.21.0 but found v5.25.3.
+[11:49:01] [ESGUI_UTIL_THREAD #0/INFO]: [EconomyShopGUI-Premium] [INFO]: Download using command /eshop update
+[11:49:01] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
+[11:49:01] [Server thread/INFO]: [TAB] Loaded NMS hook in 37ms
+[11:49:01] [Server thread/INFO]: [TAB] [WARN] [config.yml] Scoreboard "scoreboard-1.20.3+" has no display condition set, however, there is another scoreboard in the chain (scoreboard). Scoreboards are checked from top to bottom until a scoreboard with meeting condition or no condition is found. Because of this, the scoreboard (scoreboard) after the no-condition scoreboard (scoreboard-1.20.3+) will never be displayed. Unless this is intentional to externally display the scoreboard (commands, API), this is a mistake.
+[11:49:01] [Server thread/INFO]: [TAB] [WARN] [groups.yml] Unknown property "tagSuffix" defined for group "_DEFAULT_". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix, header, footer]
+[11:49:01] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[11:49:01] [Server thread/INFO]: [TAB] [WARN] Found a total of 2 issues.
+[11:49:01] [Server thread/INFO]: [TAB] Enabled in 485ms
+[11:49:01] [Server thread/INFO]: [SynkLibs] Enabling SynkLibs v1.8.1
+[11:49:02] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[11:49:03] [Server thread/INFO]: [SynkLibs] »  SynkLibs is up to date!
+[11:49:03] [Server thread/INFO]: [FancyNpcs] Enabling FancyNpcs v2.5.0
+[11:49:03] [Server thread/WARN]: [org.mineskin.MineSkinClient] Creating MineSkinClient without API key
+[11:49:04] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[11:49:04] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console forwarding assigned to channel TC:🖥smp-console(1373185522524094495)
+[11:49:04] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Saved linked accounts in 3ms
+[11:49:04] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling Essentials hook
+[11:49:04] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling SuperVanish hook
+[11:49:04] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling LuckPerms hook
+[11:49:04] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling PlaceholderAPI hook
+[11:49:04] [FancyLogger/INFO]: [FancyNpcs] (Server thread) INFO: FancyNpcs (2.5.0) has been enabled.
+[11:49:04] [Server thread/INFO]: [zDiscord] Enabling zDiscord v1.5.0-SNAPSHOT
+[11:49:04] [Server thread/INFO]: [zDiscord] The plugin has started!
+[11:49:04] [Server thread/INFO]: [xAntiSpam] Enabling xAntiSpam v1.0-SNAPSHOT
+[11:49:04] [Server thread/INFO]: [xAntiSpam] ╔═══════════════════════════════════════╗
+[11:49:04] [Server thread/INFO]: [xAntiSpam] ║                                       ║
+[11:49:04] [Server thread/INFO]: [xAntiSpam] ║            xAntiSpam v1.0             ║
+[11:49:04] [Server thread/INFO]: [xAntiSpam] ║         Created by GodXPro            ║
+[11:49:04] [Server thread/INFO]: [xAntiSpam] ║                                       ║
+[11:49:04] [Server thread/INFO]: [xAntiSpam] ╚═══════════════════════════════════════╝
+[11:49:04] [Server thread/INFO]: [xAntiSpam] xAntiSpam has been enabled successfully!
+[11:49:04] [Server thread/INFO]: [LPC] Enabling LPC v3.6.1
+[11:49:04] [Server thread/INFO]: [ItemEdit] Enabling ItemEdit v3.7.0
+[11:49:04] [Server thread/INFO]: [ItemEdit] Hooking into MiniMessageAPI see https://webui.advntr.dev/
+[11:49:04] [Server thread/INFO]: [ItemEdit] Selected Storage Type: YAML
+[11:49:04] [Server thread/INFO]: [ItemEdit] Hooking into Vault
+[11:49:04] [Server thread/INFO]: [ItemEdit] Hooking into PlaceHolderAPI
+[11:49:04] [Server thread/INFO]: [ItemEdit] placeholders:
+[11:49:04] [Server thread/INFO]: [ItemEdit]   %itemedit_amount_<{itemid}>_[{slot}]_[{player}]%
+[11:49:04] [Server thread/INFO]: [ItemEdit]     shows how many itemid player has on slot
+[11:49:04] [Server thread/INFO]: [ItemEdit]     <{itemid}> for item id on serveritem
+[11:49:04] [Server thread/INFO]: [ItemEdit]     [{slot}] for the slot where the item should be counted, by default inventory
+[11:49:04] [Server thread/INFO]: [ItemEdit]       Values: inventory (include offhand), equip (include offhand), inventoryandequip (include offhand), hand, offhand, head, chest, legs, feet
+[11:49:04] [Server thread/INFO]: [ItemEdit]     [{player}] for the player, by default self
+[11:49:04] [Server thread/INFO]: [ItemEdit]     example: %itemedit_amount_{my_item_id}_{hand}%
+[11:49:04] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: itemedit [1.0]
+[11:49:04] [Server thread/INFO]: [ItemEdit] # Enabled (took 218 ms)
+[11:49:04] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.1-dev+14-3f5b122
+[11:49:04] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[11:49:04] [Server thread/INFO]: [DeluxeCombat] Enabling DeluxeCombat v1.70.3
+[11:49:04] [Server thread/INFO]: [DeluxeCombat]  _____        _                   ______            _                
+[11:49:04] [Server thread/INFO]: [DeluxeCombat] (____ \      | |                 / _____)          | |          _    
+[11:49:04] [Server thread/INFO]: [DeluxeCombat]  _   \ \ ____| |_   _ _   _ ____| /      ___  ____ | | _   ____| |_  
+[11:49:04] [Server thread/INFO]: [DeluxeCombat] | |   | / _  ) | | | ( \ / ) _  ) |     / _ \|    \| || \ / _  |  _) 
+[11:49:04] [Server thread/INFO]: [DeluxeCombat] | |__/ ( (/ /| | |_| |) X ( (/ /| \____| |_| | | | | |_) | ( | | |__ 
+[11:49:04] [Server thread/INFO]: [DeluxeCombat] |_____/ \____)_|\____(_/ \_)____)\______)___/|_|_|_|____/ \_||_|\___)
+[11:49:04] [Server thread/INFO]: [DeluxeCombat] 
+[11:49:05] [Server thread/INFO]: [DeluxeCombat] Hook packetevents (2.7.0, Common Hook) has been registered.
+[11:49:05] [Server thread/INFO]: [DeluxeCombat] Hook GriefPrevention (16.18.2, Combat Hook) has been registered.
+[11:49:05] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: deluxecombat [0.1.2]
+[11:49:05] [Server thread/INFO]: [DeluxeCombat] Hook PlaceholderAPI (2.10.9, Common Hook) has been registered.
+[11:49:05] [Server thread/INFO]: [DeluxeCombat] Hook BetterRTP (3.2.1-3, Common Hook) has been registered.
+[11:49:05] [Server thread/INFO]: [DeluxeCombat] Hook SuperVanish (6.2.6, Combat Hook) has been registered.
+[11:49:05] [Server thread/INFO]: [DeluxeCombat] Hook Vault (1.7.3, Common Hook) has been registered.
+[11:49:05] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.4! Trying to find NMS support
+[11:49:05] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R3' loaded!
+[11:49:05] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DeluxeCombat' to create a bStats instance!
+[11:49:05] [Profile Lookup Executor #1/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11:49:05] [Server thread/INFO]: [DeluxeCombat] Spawnpoints (0), Kill-Streaks (1), Rewards (2), Custom Tools (1) loaded!
+[11:49:05] [Server thread/INFO]: [DeluxeCombat] Loaded 14 Elo ranges.
+[11:49:06] [Server thread/INFO]: [DeluxeCombat] Start fetching marketplace addons...
+[11:49:06] [Server thread/INFO]: [AxGraves] Enabling AxGraves v1.21.1
+[11:49:07] [Server thread/INFO]: [AreaResetterPro] Enabling AreaResetterPro v1.3.4-PAPER-1.21
+[11:49:07] [pool-100-thread-1/INFO]: [AreaResetterPro] Looking for SQLite-Database ... 
+[11:49:07] [pool-100-thread-1/INFO]: [AreaResetterPro] Existing Database was found.
+[11:49:07] [pool-100-thread-1/INFO]: [AreaResetterPro] Successfully connected to Database.
+[11:49:07] [pool-100-thread-1/INFO]: [AreaResetterPro] Successfully initialized Database tables!
+[11:49:07] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: AreaResetterPro [1.3.4-PAPER-1.21]
+[11:49:07] [Server thread/INFO]: [UltraCosmetics] Enabling UltraCosmetics v3.11.2-RELEASE
+[11:49:08] [Server thread/INFO]: [UltraCosmetics] Checking for update...
+[11:49:08] [Server thread/INFO]: [UltraCosmetics] -------------------------------------------------------------------
+[11:49:08] [Server thread/INFO]: [UltraCosmetics] Thanks for using UltraCosmetics! Version: 3.11.2-RELEASE (commit a83d951)
+[11:49:08] [Server thread/INFO]: [UltraCosmetics] Plugin by Datatags. Original Author: iSach
+[11:49:08] [Server thread/INFO]: [UltraCosmetics] Link: https://bit.ly/UltraCosmetics
+[11:49:08] [Server thread/INFO]: [UltraCosmetics] Initializing module v1_21 (expected version: 1.21.5)
+[11:49:08] [Server thread/INFO]: [UltraCosmetics] Loading NMS-less mode...
+[11:49:08] [Server thread/INFO]: [UltraCosmetics] Loaded NMS-less mode
+[11:49:09] [Server thread/INFO]: [UltraCosmetics] Paper-specific features enabled
+[11:49:10] [Server thread/INFO]: [UltraCosmetics] 
+[11:49:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ultracosmetics [3.11.2-RELEASE]
+[11:49:10] [Server thread/INFO]: [UltraCosmetics] Hooked into PlaceholderAPI
+[11:49:10] [Server thread/INFO]: [WorldGuard] Registering session handler be.isach.ultracosmetics.worldguard.FlagManager
+[11:49:10] [Server thread/INFO]: [UltraCosmetics] 
+[11:49:10] [Server thread/INFO]: [UltraCosmetics] WorldGuard custom flags enabled
+[11:49:10] [Server thread/INFO]: [UltraCosmetics] 
+[11:49:10] [Server thread/INFO]: [UltraCosmetics] Hooked into PlayerPoints for economy.
+[11:49:10] [Server thread/INFO]: [UltraCosmetics] 
+[11:49:10] [Server thread/INFO]: [UltraCosmetics] 
+[11:49:10] [Server thread/INFO]: [UltraCosmetics] UltraCosmetics successfully finished loading in 2872ms!
+[11:49:10] [Server thread/INFO]: [UltraCosmetics] -------------------------------------------------------------------
+[11:49:10] [Server thread/INFO]: [SmartSpawner] Enabling SmartSpawner v1.2.8
+[11:49:10] [Server thread/INFO]: [SmartSpawner] Running on standard Bukkit/Spigot/Paper server.
+[11:49:11] [Server thread/INFO]: [SmartSpawner] Loaded 166 spawners. Errors: 0
+[11:49:11] [Server thread/INFO]: [FreedomChat] Enabling FreedomChat v1.7.2
+[11:49:11] [Server thread/INFO]: [BULPearl] Enabling BULPearl v3.1.6
+[11:49:11] [Server thread/INFO]: [BulPearl] Your server version is 1.11 or higher.
+[11:49:11] [Server thread/INFO]: [BulPearl] If that's not the case, please join the discord and contact the dev.
+[11:49:11] [Server thread/INFO]: [BulPearl] Enable BulPearl
+[11:49:11] [Server thread/INFO]: [PlayerKits2] Enabling PlayerKits2 v1.17.1
+[11:49:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerkits [1.17.1]
+[11:49:12] [Server thread/INFO]: [PlayerKits²] Has been enabled! Version: 1.17.1
+[11:49:12] [Server thread/INFO]: [PlayerKits²] Thanks for using my plugin!   ~Ajneb97
+[11:49:12] [Server thread/INFO]: There is a new version available. (1.17.5)
+[11:49:12] [Server thread/INFO]: You can download it at: https://modrinth.com/plugin/playerkits-2
+[11:49:12] [Server thread/INFO]: [ajLeaderboards] Enabling ajLeaderboards v2.9.0
+[11:49:13] [Server thread/INFO]: [ajLeaderboards] Using H2 flatfile for board cache. (h2)
+[11:49:13] [Server thread/INFO]: [ajLeaderboards] Loaded 9 boards
+[11:49:14] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ajlb [2.9.0]
+[11:49:14] [Server thread/INFO]: [ajLeaderboards] PAPI placeholders successfully registered!
+[11:49:14] [Server thread/INFO]: [ajLeaderboards] ajLeaderboards v2.9.0 by ajgeiss0702 enabled!
+[11:49:14] [Server thread/INFO]: [ExcellentCrates] Enabling ExcellentCrates v6.2.0
+[11:49:14] [Server thread/INFO]: [ExcellentCrates] Powered by nightcore
+[11:49:14] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-2 - Starting...
+[11:49:14] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] HikariPool-2 - Added connection org.sqlite.jdbc4.JDBC4Connection@291f37f0
+[11:49:14] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-2 - Start completed.
+[11:49:14] [Server thread/INFO]: [ExcellentCrates] Loaded 7 crate openings.
+[11:49:14] [Server thread/INFO]: [ExcellentCrates] Loaded 4 crate keys.
+[11:49:14] [Server thread/INFO]: [ExcellentCrates] Loaded 3 rarities!
+[11:49:14] [Server thread/INFO]: [ExcellentCrates] Loaded 4 crates.
+[11:49:14] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: excellentcrates [6.2.0]
+[11:49:14] [Server thread/INFO]: [ExcellentCrates] Plugin loaded in 643 ms!
+[11:49:14] [Server thread/INFO]: [AxTrade] Enabling AxTrade v1.15.1
+[11:49:15] [Server thread/INFO]: [AxTrade] Hooked into Vault!
+[11:49:15] [Server thread/INFO]: [AxTrade] Hooked into PlayerPoints!
+[11:49:15] [Server thread/INFO]: [AxTrade] Hooked into CoinsEngine!
+[11:49:15] [Server thread/INFO]: [AxTrade] CoinsEngine currency named coins not found! Change the currency-name or disable the hook to get rid of this warning!
+[11:49:15] [Server thread/INFO]: [AxTrade] Loaded plugin!
+[11:49:15] [Server thread/INFO]: [AxVaults] Enabling AxVaults v2.6.5
+[11:49:16] [pool-131-thread-1/INFO]: [ajLeaderboards] An update is available! (2.10.1) Run /ajLeaderboards update to download it!
+[11:49:17] [Server thread/INFO]: [AxVaults] Loaded plugin!
+[11:49:17] [Server thread/INFO]: [ChatGames] Enabling ChatGames v1.2.1
+[11:49:17] [Server thread/INFO]: [ChatGames] ChatGames is now enabled!
+[11:49:17] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: chatgames [1.0.0]
+[11:49:17] [Server thread/INFO]: [ChatGames] PlaceholderAPI Hooked!
+[11:49:17] [Server thread/INFO]: [ChatGames] Points loaded successfully!
+[11:49:17] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[11:49:17] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[11:49:17] [Server thread/INFO]: [ClearLag] Loading modules...
+[11:49:17] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (Index 3 out of bounds for length 3)
+[11:49:17] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[11:49:17] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[11:49:17] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[11:49:17] [Thread-42/WARN]: [ClearLag] Clearlag failed to check for updates - bukkit may be down
+[11:49:17] [Thread-42/WARN]: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+[11:49:17] [Thread-42/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.Util.getBukkitVersion(Util.java:105)
+[11:49:17] [Thread-42/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.updateAvailable(BukkitUpdater.java:32)
+[11:49:17] [Thread-42/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.run(BukkitUpdater.java:82)
+[11:49:17] [Thread-42/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[11:49:17] [Server thread/INFO]: [Banknotes] Enabling Banknotes v1.8.0*
+[11:49:17] [Server thread/INFO]: [InvSee++_Give] Enabling InvSeePlusPlus_Give v0.29.18-SNAPSHOT
+[11:49:17] [Server thread/INFO]: [InvSee++_Clear] Enabling InvSeePlusPlus_Clear v0.29.18-SNAPSHOT
+[11:49:17] [Server thread/INFO]: [CommandWhitelist] Enabling CommandWhitelist v2.11.0
+[11:49:17] [Server thread/INFO]: [EZColors] Enabling EZColors v2.2.6
+[11:49:22] [Server thread/INFO]: [!] Chat Colors →  Successfully downloaded 12 languages from the cloud!
+[11:49:22] [Server thread/INFO]: [!] Chat Colors →  Loading EZColors v2.2.6!
+[11:49:22] [Server thread/INFO]: [!] Chat Colors →  Found a compatible version. Hooking into V1_21_R1!
+[11:49:22] [Server thread/INFO]: [!] Chat Colors →  Using HIGHEST as the Chat Listener.
+[11:49:22] [Server thread/INFO]: [!] Chat Colors →  Found PlaceholderAPI. Loading hook!
+[11:49:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ezcolors [1.0.0]
+[11:49:22] [Server thread/INFO]: [!] Chat Colors →  Successfully Loaded EZColors v2.2.6 in 4703ms!
+[11:49:22] [Server thread/INFO]: [Parkour] Enabling Parkour v7.2.5
+[11:49:22] [Server thread/INFO]: [Parkour] 0 courses found.
+[11:49:22] [Server thread/INFO]: [Parkour] 0 courses cached.
+[11:49:22] [Server thread/WARN]: [Parkour] [BountifulAPI] Plugin is missing, link was unsuccessful.
+[11:49:22] [Server thread/INFO]: [Parkour] [Vault (Economy)] Successfully linked. Version: 1.7.3-b131
+[11:49:22] [Server thread/INFO]: [Parkour] [Vault (Permissions)] Successfully linked. Version: 1.7.3-b131
+[11:49:22] [Server thread/INFO]: [Parkour] [PlaceholderAPI] Successfully linked. Version: 2.11.6
+[11:49:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: parkour [7.2.5]
+[11:49:22] [Server thread/INFO]: [Parkour] Enabled Parkour v7.2.5
+[11:49:22] [Thread-43/INFO]: [Parkour] Checking for update...
+[11:49:23] [Thread-43/INFO]: [Parkour] No update available.
+[11:49:23] [Server thread/INFO]: [Maintenance] Enabling Maintenance v4.3.0
+[11:49:24] [Server thread/INFO]: [TheGlow] Enabling TheGlow v1.2.1-STABLE
+[11:49:24] [Server thread/INFO]: [TheGlow] Registering files...
+[11:49:24] [Server thread/INFO]: [TheGlow] Registering commands...
+[11:49:24] [Server thread/INFO]: [TheGlow] Registering command: glow, aliases: [gw]
+[11:49:24] [Server thread/INFO]: [TheGlow] Registering command: theglow, aliases: [jglow]
+[11:49:24] [Server thread/INFO]: [TheGlow] Registering Hooks...
+[11:49:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: theglow [1.2.1-STABLE]
+[11:49:24] [Server thread/INFO]: [TheGlow] Hooked onto PlaceholderAPI
+[11:49:24] [Server thread/INFO]: [TheGlow] Registering Metrics...
+[11:49:24] [Server thread/INFO]: [xshyo.us.theglow.libs.hikaricp.HikariDataSource] HikariPool-1 - Starting...
+[11:49:24] [Server thread/INFO]: [xshyo.us.theglow.libs.hikaricp.pool.HikariPool] HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@558d82ac
+[11:49:24] [Server thread/INFO]: [xshyo.us.theglow.libs.hikaricp.HikariDataSource] HikariPool-1 - Start completed.
+[11:49:24] [Server thread/INFO]: [TheGlow] Connected to SQLite database correctly.
+[11:49:24] [Server thread/INFO]: [TheGlow] Correctly loaded Glow ID: red.
+[11:49:24] [Server thread/INFO]: [TheGlow] Correctly loaded Glow ID: dark_red.
+[11:49:24] [Server thread/INFO]: [TheGlow] Correctly loaded Glow ID: green.
+[11:49:24] [Server thread/INFO]: [TheGlow] Correctly loaded Glow ID: yellow.
+[11:49:24] [Server thread/INFO]: [TheGlow] Correctly loaded Glow ID: black.
+[11:49:24] [Server thread/INFO]: [TheGlow] Correctly loaded Glow ID: gray.
+[11:49:24] [Server thread/INFO]: [TheGlow] Correctly loaded Glow ID: white.
+[11:49:24] [Server thread/INFO]: [TheGlow] Correctly loaded Glow ID: blue.
+[11:49:24] [Server thread/INFO]: [TheGlow] Correctly loaded Glow ID: aqua.
+[11:49:24] [Server thread/INFO]: [TheGlow] Correctly loaded Glow ID: gold.
+[11:49:24] [Server thread/INFO]: [TheGlow] Correctly loaded Glow ID: dark_purple.
+[11:49:24] [Server thread/INFO]: [TheGlow] Correctly loaded Glow ID: dark_gray.
+[11:49:24] [Server thread/INFO]: [TheGlow] Correctly loaded Glow ID: light_purple.
+[11:49:24] [Server thread/INFO]: [TheGlow] Server version: 1.21.4-227-7675321 (MC: 1.21.4) 1.21.4-R0.1-SNAPSHOT
+[11:49:24] [Server thread/INFO]: [TheGlow] Done and enabled in 60.03ms
+[11:49:24] [Server thread/INFO]: [DeluxeWithdraw] Enabling DeluxeWithdraw v2025.04
+[11:49:24] [Server thread/INFO]: [DeluxeWithdraw] [STDOUT] [Spigotunlocked.com] - COSMO
+[11:49:24] [Server thread/WARN]: Nag author(s): '[Norska]' of 'DeluxeWithdraw v2025.04' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[11:49:25] [Server thread/INFO]: [DeluxeWithdraw] 2025.04, a premium resource by Norska - Thanks for purchasing!
+[11:49:25] [Server thread/INFO]: Join www.norska.dev/discord/ for support!
+[11:49:25] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.14.1-DEV-199
+[11:49:25] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into PlaceholderAPI!
+[11:49:25] [Folia Async Scheduler Thread #3/INFO]: [TheGlow] An update for TheGlow (1.2.4-STABLE) is available at:
+[11:49:25] [Folia Async Scheduler Thread #3/INFO]: [TheGlow] https://discord.com/invite/s3Qu3Taz2y
+[11:49:25] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into Vault!
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: afkshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 1 in menu: afkshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 3 in menu: afkshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 4 in menu: afkshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 5 in menu: afkshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 6 in menu: afkshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 9 in menu: afkshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 10 in menu: afkshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 11 in menu: afkshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: claimshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: main in menu: claimshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: playtime. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: playtime2. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: playtime3. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Option 'hide_attributes' of item 'date-time' in menu 'stats_menu' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ATTRIBUTES].
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Option 'hide_attributes' of item 'player-info' in menu 'stats_menu' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ATTRIBUTES].
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Option 'hide_attributes' of item 'server-info' in menu 'stats_menu' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ATTRIBUTES].
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Option 'hide_attributes' of item 'player-health' in menu 'stats_menu' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ATTRIBUTES].
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Option 'hide_attributes' of item 'player-kills' in menu 'stats_menu' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ATTRIBUTES].
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Option 'hide_attributes' of item 'player-deaths' in menu 'stats_menu' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ATTRIBUTES].
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Option 'hide_attributes' of item 'player-money' in menu 'stats_menu' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ATTRIBUTES].
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Option 'hide_attributes' of item 'player-playtime' in menu 'stats_menu' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ATTRIBUTES].
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Option 'hide_attributes' of item 'player-location' in menu 'stats_menu' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ATTRIBUTES].
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Material for item: filler in menu: tutorial is not present!
+Skipping item: filler
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: rtp in menu: tutorial. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: voting in menu: tutorial. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: economy in menu: tutorial. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: rtp. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: overworld in menu: rtp. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: nether in menu: rtp. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: end in menu: rtp. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: crates in menu: warps. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Option 'hide_attributes' of item 'pvp_arena' in menu 'warps' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ATTRIBUTES].
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Option 'hide_enchantments' of item 'pvp_arena' in menu 'warps' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ENCHANTS].
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: pvp_arena in menu: warps. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: spawner in menu: warps. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Option 'hide_attributes' of item 'ranks' in menu 'warps' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ATTRIBUTES].
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: ranks in menu: warps. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Option 'hide_attributes' of item 'leaderboard' in menu 'warps' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ATTRIBUTES].
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: leaderboard in menu: warps. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Option 'hide_attributes' of item 'afk' in menu 'warps' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ATTRIBUTES].
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Option 'hide_enchantments' of item 'afk' in menu 'warps' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ENCHANTS].
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: afk in menu: warps. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: coinshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: main in menu: coinshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: store in menu: coinshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Option 'hide_enchantments' of item 'player-tags' in menu 'coinshop' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ENCHANTS].
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: player-tags in menu: coinshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Option 'hide_enchantments' of item 'crate-keys' in menu 'coinshop' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ENCHANTS].
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: crate-keys in menu: coinshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Option 'hide_enchantments' of item 'chat-colors' in menu 'coinshop' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ENCHANTS].
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: chat-colors in menu: coinshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Option 'hide_enchantments' of item 'ranks' in menu 'coinshop' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ENCHANTS].
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: ranks in menu: coinshop. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Option 'hide_enchantments' of item 'particles' in menu 'coinshop' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ENCHANTS].
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Option 'hide_enchantments' of item 'emotes' in menu 'coinshop' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ENCHANTS].
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Option 'hide_enchantments' of item 'pets' in menu 'coinshop' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ENCHANTS].
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Option 'hide_enchantments' of item 'perks' in menu 'coinshop' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ENCHANTS].
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: coinshop-cratekeys. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: back in menu: coinshop-cratekeys. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: common in menu: coinshop-cratekeys. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: common-3 in menu: coinshop-cratekeys. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: common-5 in menu: coinshop-cratekeys. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: heart in menu: coinshop-cratekeys. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: heart-3 in menu: coinshop-cratekeys. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: heart-5 in menu: coinshop-cratekeys. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: slayer in menu: coinshop-cratekeys. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: slayer-3 in menu: coinshop-cratekeys. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: slayer-5 in menu: coinshop-cratekeys. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: bonus in menu: coinshop-cratekeys. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: bonus-3 in menu: coinshop-cratekeys. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: bonus-5 in menu: coinshop-cratekeys. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: spawner in menu: coinshop-cratekeys. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: spawner-3 in menu: coinshop-cratekeys. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: spawner-5 in menu: coinshop-cratekeys. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: back in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 1 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 2 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 3 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 4 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 5 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 6 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 7 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 8 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 9 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 10 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 11 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 12 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 13 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 14 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 15 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 16 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 17 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 18 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 19 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 20 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 21 in menu: coinshop-playertags. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: coinshop-chatcolors. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: back in menu: coinshop-chatcolors. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: coinshop-ranks. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: back in menu: coinshop-ranks. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: ruthless in menu: coinshop-ranks. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: slayer in menu: coinshop-ranks. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: reaper in menu: coinshop-ranks. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: prime in menu: coinshop-ranks. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: vip in menu: coinshop-ranks. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: coinshop-particles. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: coinshop-emotes. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: coinshop-pets. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: coinshop-perks. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: back in menu: coinshop-perks. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: sit in menu: coinshop-perks. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: lay in menu: coinshop-perks. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: bellyflop in menu: coinshop-perks. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: crawl in menu: coinshop-perks. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: teams. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: create in menu: teams. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: leave in menu: teams. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: disband in menu: teams. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 1 in menu: teams. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 2 in menu: teams. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 3 in menu: teams. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 4 in menu: teams. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: 5 in menu: teams. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: cosmetics. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Option 'hide_enchantments' of item 'info' in menu 'cosmetics' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ENCHANTS].
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Option 'hide_enchantments' of item 'chat-colors' in menu 'cosmetics' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ENCHANTS].
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: chat-colors in menu: cosmetics. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Option 'hide_enchantments' of item 'particles' in menu 'cosmetics' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ENCHANTS].
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Option 'hide_enchantments' of item 'emotes' in menu 'cosmetics' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ENCHANTS].
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Option 'hide_enchantments' of item 'pets' in menu 'cosmetics' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ENCHANTS].
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: cosmetics-particles. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: cosmetics-emotes. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: filler in menu: cosmetics-pets. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[11:49:25] [Server thread/INFO]: [DeluxeMenus] 23 GUI menus loaded!
+[11:49:25] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: deluxemenus [1.14.1-DEV-199]
+[11:49:25] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
+[11:49:25] [Server thread/INFO]: [NexusAuctionHouse] Enabling NexusAuctionHouse v2.1
+[11:49:27] [Server thread/INFO]: [AxAFKZone] Enabling AxAFKZone v1.6.3
+[11:49:28] [Server thread/INFO]: ╠ Loaded zone AFK!
+[11:49:28] [Server thread/INFO]: [FancyHolograms] Enabling FancyHolograms v2.4.2
+[11:49:28] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully enabled FancyHolograms version 2.4.2
+[11:49:28] [Server thread/INFO]: [AdvancedBan] Enabling AdvancedBan v2.3.0
+[11:49:28] [FancyLogger/INFO]: [FancyHolograms] (FancyHolograms-Holograms) INFO: Loaded 23 holograms for all loaded worlds
+[11:49:28] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[11:49:29] [FancyLogger/INFO]: [FancyHolograms] (Thread-44) WARN: 
+[11:49:29] [FancyLogger/INFO]: -------------------------------------------------------
+[11:49:29] [FancyLogger/INFO]: You are not using the latest version of the FancyHolograms plugin.
+[11:49:29] [FancyLogger/INFO]: Please update to the newest version (2.5.0).
+[11:49:29] [FancyLogger/INFO]: https://modrinth.com/plugin/FancyHolograms
+[11:49:29] [FancyLogger/INFO]: -------------------------------------------------------
+[11:49:29] [FancyLogger/INFO]: 
+[11:49:31] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.pool.PoolBase] HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+[11:49:31] [Server thread/INFO]: [me.leoko.advancedban.shaded.com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[11:49:31] [Server thread/INFO]: 
+ 
+[]=====[Enabling AdvancedBan]=====[]
+| Information:
+|   Name: AdvancedBan
+|   Developer: Leoko
+|   Version: 2.3.0
+|   Storage: HSQLDB (local)
+| Support:
+|   Github: https://github.com/DevLeoko/AdvancedBan/issues
+|   Discord: https://discord.gg/ycDG6rS
+| Twitter: @LeokoGar
+| Update:
+|   You have the newest version
+[]================================[]
+ 
+[11:49:31] [Server thread/INFO]: [Images] Enabling Images v2.5.4
+[11:49:31] [Server thread/INFO]: [Images] PaperMC server detected. Adjustments will be made to accommodate...
+[11:49:31] [Server thread/INFO]: [DeluxeTags] Enabling DeluxeTags v1.8.2-Release
+[11:49:32] [Server thread/INFO]: [DeluxeTags] Using standard hex colors format: #aaFF00
+[11:49:32] [Server thread/INFO]: [DeluxeTags] 23 tags loaded
+[11:49:32] [Server thread/INFO]: [DeluxeTags] Loading DeluxeTags messages.yml
+[11:49:32] [Server thread/INFO]: [DeluxeTags] PAPI Chat enabled. This means your chat plugin will use placeholders to fetch the tags!
+[11:49:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: deluxetags [1.8.2-Release]
+[11:49:32] [Server thread/INFO]: [DeluxeTags] ----------------------------
+[11:49:32] [Server thread/INFO]: [DeluxeTags]      DeluxeTags Updater
+[11:49:32] [Server thread/INFO]: [DeluxeTags]  
+[11:49:32] [Server thread/INFO]: [DeluxeTags] You are running 1.8.2-Release
+[11:49:32] [Server thread/INFO]: [DeluxeTags] The latest version
+[11:49:32] [Server thread/INFO]: [DeluxeTags] of DeluxeTags!
+[11:49:32] [Server thread/INFO]: [DeluxeTags]  
+[11:49:32] [Server thread/INFO]: [DeluxeTags] ----------------------------
+[11:49:32] [Server thread/INFO]: [Vulcan] Enabling Vulcan v2.9.5
+[11:49:36] [Server thread/INFO]: [Vulcan] Server Version: .1.21.4 detected!
+[11:49:36] [Server thread/INFO]: [Vulcan] GSit found. Enabling hook!
+[11:49:36] [Server thread/INFO]: [Vulcan] BStats enabled!
+[11:49:37] [Server thread/ERROR]: [Vulcan] Failed to register events for class me.frep.vulcan.spigot.Vulcan_nO because dev/geco/gsit/api/event/PlayerGetUpPlayerSitEvent does not exist.
+[11:49:37] [Server thread/INFO]: [Vulcan] Registered GSit Listener!
+[11:49:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: Vulcan [2.9.5]
+[11:49:37] [Server thread/INFO]: [Vulcan] PlaceholderAPI found. Enabling hook!
+[11:49:37] [Server thread/INFO]: [Vouchers] Enabling Vouchers v3.28.0
+[11:49:37] [Server thread/INFO]:  
+[11:49:37] [Server thread/INFO]: =============================
+[11:49:37] [Server thread/INFO]: Vouchers v3.28.0 by Tweetzy
+[11:49:37] [Server thread/INFO]: Developer: Kiran Hart
+[11:49:38] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: vouchers [1.0.0]
+[11:49:38] [Server thread/INFO]: [FlightCore] Enabling metrics for Vouchers
+[11:49:38] [Server thread/INFO]: =============================
+[11:49:38] [Server thread/INFO]:  
+[11:49:38] [Server thread/INFO]: [xAntiIP] Enabling xAntiIP v1.0
+[11:49:38] [Server thread/INFO]: [xAntiIP] xAntiIP has been enabled!
+[11:49:38] [Server thread/INFO]: [DailyRewards] Enabling DailyRewards v${project.version}
+[11:49:39] [Server thread/INFO]: [spark] Starting background profiler...
+[11:49:40] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[11:49:40] [Server thread/INFO]: Done preparing level "world" (55.061s)
+[11:49:40] [Server thread/INFO]: Running delayed init tasks
+[11:49:41] [Craft Scheduler Thread - 11 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[11:49:41] [Craft Scheduler Thread - 12 - Essentials/INFO]: [Essentials] Fetching version information...
+[11:49:41] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
+[11:49:41] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
+[11:49:41] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.GriefPreventionFeature] Plugin 'GriefPrevention' found. Using it now.
+[11:49:41] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'GriefPrevention'
+[11:49:41] [Craft Scheduler Thread - 7 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[11:49:41] [Craft Scheduler Thread - 5 - PlayerPoints/INFO]: [RoseGarden] An update for PlayerPoints (v3.3.2) is available! You are running v3.3.0.
+[11:49:41] [Craft Scheduler Thread - 18 - ItemEdit/INFO]: [ItemEdit] New Update at https://spigotmc.org/resources/40993
+[11:49:41] [Craft Scheduler Thread - 10 - AreaResetterPro/WARN]: [AreaResetterPro] A new Version of AreaResetterPro is available. Consider updating!
+[11:49:41] [Craft Scheduler Thread - 11 - BetterTeams/WARN]: §4There is a new version of better teams released update here: https://www.spigotmc.org/resources/better-teams.17129/
+[11:49:41] [Craft Scheduler Thread - 14 - DecentHolograms/INFO]: 
+A newer version of DecentHolograms is available. Download it from: 
+- https://www.spigotmc.org/resources/96927/
+- https://modrinth.com/plugin/decentholograms
+[11:49:42] [Craft Scheduler Thread - 28 - Vault/INFO]: [Vault] Checking for Updates ... 
+[11:49:42] [Craft Scheduler Thread - 4 - UltraCosmetics/INFO]: [UltraCosmetics] You are running the latest version on Spigot.
+[11:49:42] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerpoints [3.3.0]
+[11:49:42] [Craft Scheduler Thread - 28 - Vault/INFO]: [Vault] No new version available
+[11:49:42] [Craft Scheduler Thread - 5 - DeluxeCombat/INFO]: [DeluxeCombat] Successfully fetched 15 marketplace items from the internet!
+[11:49:42] [Craft Scheduler Thread - 12 - Essentials/WARN]: [Essentials] ⚠ | You're 13 EssentialsX dev build(s) out of date!
+[11:49:42] [Craft Scheduler Thread - 12 - Essentials/WARN]: [Essentials] ✎ | Download it here: https://essentialsx.net/downloads.html
+[11:49:42] [Server thread/INFO]: [DeluxeCoinflip] Registered economy provider 'coinsengine_points' using CoinsEngine plugin.
+[11:49:42] [Server thread/INFO]: [DeluxeCoinflip] Registered economy provider 'coinsengine_money' using CoinsEngine plugin.
+[11:49:42] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[11:49:43] [Craft Scheduler Thread - 7 - DecentHolograms/INFO]: [DecentHolograms] Loaded 7 holograms!
+[11:49:43] [Server thread/INFO]: [Skript] Loading variables...
+[11:49:44] [Server thread/INFO]: [Skript] Loaded 902 variables in 0.0 seconds
+[11:49:44] [Server thread/INFO]: [Skript] Line 61: (bounty.sk)
+[11:49:44] [Server thread/INFO]:     List is missing 'and' or 'or', defaulting to 'and': (numbers between 10 and 16), (numbers between 19 and 25), (numbers between 28 and 34)
+[11:49:44] [Server thread/INFO]:     Line: set {_slots::*} to (numbers between 10 and 16), (numbers between 19 and 25), (numbers between 28 and 34)
+[11:49:44] [Server thread/INFO]:  
+[11:49:44] [Server thread/INFO]: [Skript] Line 63: (bounty.sk)
+[11:49:44] [Server thread/INFO]:     List is missing 'and' or 'or', defaulting to 'and': (integers between 0 and 8), (17, 26, 35, 44, 9, 18, 27, 36), (integers from 37 to 44)
+[11:49:44] [Server thread/INFO]:     Line: set slot (integers between 0 and 8), (17, 26, 35, 44, 9, 18, 27, 36), (integers from 37 to 44) of {_chest} to red stained glass pane named " "
+[11:49:44] [Server thread/INFO]:  
+[11:49:46] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[11:49:46] [Server thread/INFO]: [Skript] Loaded 5 scripts with a total of 24 structures in 1.9 seconds
+[11:49:46] [Server thread/INFO]: [Skript] Finished loading.
+[11:49:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: discordsrv [1.29.0]
+[11:49:46] [Server thread/INFO]: [Banknotes] Found economy provider CoinsEngine
+[11:49:46] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[11:49:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: playerlist [3.0.8]
+[11:49:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[11:49:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: pointsapi [1.0.2]
+[11:49:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: localtime [1.2]
+[11:49:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: healthbar [1.3]
+[11:49:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: essentials [1.5.2]
+[11:49:46] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion nicknamer due to a missing plugin: NickNamer
+[11:49:46] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playertime due to a missing plugin: PlayerTime
+[11:49:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: servertime [3.2]
+[11:49:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: griefprevention [1.7.0]
+[11:49:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: minedownpapi [1.1]
+[11:49:46] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playerstats due to a missing plugin: PlayerStats
+[11:49:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
+[11:49:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.3]
+[11:49:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[11:49:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[11:49:46] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion parkour due to an unknown issue.
+[11:49:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: team [1.2]
+[11:49:46] [Server thread/INFO]: 14 placeholder hook(s) registered!
+[11:49:46] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Enabled PlaceholderAPI hook...
+[11:49:46] [Server thread/INFO]: [EconomyShopGUI-Premium] [ERROR]: Failed to load cached schedule from schedulecache.json: Rotating shop with name RotatingShop does not exist
+[11:49:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: esgui [1.1.0]
+[11:49:46] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Debug mode is enabled.
+[11:49:46] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Loading item stock provider...
+[11:49:46] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Loading limited selling provider...
+[11:49:46] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Loading all items...
+[11:49:46] [Server thread/INFO]: [EconomyShopGUI-Premium] [INFO]: Completed delayed loading.
+[11:49:46] [Server thread/INFO]: Done (107.588s)! For help, type "help"
+[11:49:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5810ms or 116 ticks behind
+[11:49:46] [Server thread/INFO]: [DeluxeCoinflip] Found and using VAULT, CUSTOM_CURRENCY, COINSENGINE_POINTS, COINSENGINE_MONEY economy provider(s).
+[11:49:46] [Server thread/INFO]: [SmartSpawner] Checking for EconomyShopGUI...
+[11:49:46] [Server thread/WARN]: [SmartSpawner] EconomyShopGUI not found - integration disabled
+[11:49:46] [Server thread/INFO]: [SmartSpawner] SmartSpawner has been enabled! (Loaded in 35918ms)
+[11:49:46] [Craft Scheduler Thread - 7 - SmartSpawner/INFO]: [SmartSpawner] WorldGuard integration enabled successfully!
+[11:49:46] [Craft Scheduler Thread - 7 - SmartSpawner/INFO]: [SmartSpawner] GriefPrevention integration enabled successfully!
+[11:49:46] [Craft Scheduler Thread - 12 - Essentials/INFO]: [Essentials] Lag Notice - Slow Economy Response - Request took over {0}ms!
+[11:49:46] [Server thread/INFO]: GAMINGPROISBACK (/130.250.191.159:33414) lost connection: Disconnected
+[11:49:46] [Server thread/INFO]: GAMINGPROISBACK (/130.250.191.159:40846) lost connection: Disconnected
+[11:49:47] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
+[11:49:47] [Craft Scheduler Thread - 12 - Essentials/INFO]: [Essentials] Lag Notice - Slow Economy Response - Request took over {0}ms!
+[11:49:47] [Thread-67/INFO]: [SmartSpawner] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[11:49:47] [Thread-67/INFO]: [SmartSpawner]          🔮 ꜱᴍᴀʀᴛꜱᴘᴀᴡɴᴇʀ ᴜᴘᴅᴀᴛᴇ ᴀᴠᴀɪʟᴀʙʟᴇ 🔮
+[11:49:47] [Thread-67/INFO]: [SmartSpawner] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[11:49:47] [Thread-67/INFO]: [SmartSpawner] 
+[11:49:47] [Thread-67/INFO]: [SmartSpawner] 📦 ᴄᴜʀʀᴇɴᴛ ᴠᴇʀꜱɪᴏɴ: 1.2.8                          
+[11:49:47] [Thread-67/INFO]: [SmartSpawner] ✅ ʟᴀᴛᴇꜱᴛ ᴠᴇʀꜱɪᴏɴ: 1.3.6                           
+[11:49:47] [Thread-67/INFO]: [SmartSpawner] 
+[11:49:47] [Thread-67/INFO]: [SmartSpawner] 📥 ᴅᴏᴡɴʟᴏᴀᴅ ᴛʜᴇ ʟᴀᴛᴇꜱᴛ ᴠᴇʀꜱɪᴏɴ ᴀᴛ:
+[11:49:47] [Thread-67/INFO]: [SmartSpawner]  https://modrinth.com/plugin/9tQwxSFr/version/1.3.6 
+[11:49:47] [Thread-67/INFO]: [SmartSpawner] 
+[11:49:47] [Thread-67/INFO]: [SmartSpawner] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[11:49:47] [Craft Scheduler Thread - 12 - Essentials/INFO]: [Essentials] Lag Notice - Slow Economy Response - Request took over {0}ms!
+[11:49:47] [Craft Scheduler Thread - 12 - Essentials/INFO]: [Essentials] Lag Notice - Slow Economy Response - Request took over {0}ms!
+[11:49:47] [Craft Scheduler Thread - 19 - DeluxeCombat/INFO]: [DeluxeCombat] Checking for new updates...
+[11:49:47] [Craft Scheduler Thread - 19 - DeluxeCombat/INFO]: [DeluxeCombat] You're running the newest version of DeluxeCombat
+[11:49:48] [Craft Scheduler Thread - 17 - Images/INFO]: [Images] Loaded 0 images...
+[11:49:49] [Craft Scheduler Thread - 14 - AxTrade/INFO]: TRADE ➥ There is a new version of the plugin available! (current: 1.15.1 | latest: 1.17.0)
+[11:49:49] [Server thread/INFO]: [DeluxeWithdraw] Attempting hooks...
+[11:49:49] [Server thread/INFO]: [DeluxeWithdraw] Hooked into PlaceholderAPI!
+[11:49:49] [Server thread/INFO]: [DeluxeWithdraw] Successfully performed 1 hooks!
+[11:49:55] [Server thread/INFO]: [DeluxeCombat] Addon WorldGuard Addon (v.1.0.2, timderspieler) has been installed successfully!
+[11:49:55] [Server thread/INFO]: [DeluxeCombat] Hook WorldGuard Addon (>=7.0.0, WorldGuard Implementation) has been registered.
+[11:49:55] [Server thread/INFO]: [DeluxeCombat] Hooked into GriefPrevention, SuperVanish, packetevents, PlaceholderAPI, BetterRTP, Vault, Vault and WorldGuard.
+[11:50:12] [User Authenticator #0/INFO]: UUID of player yaddu6666 is f6bc99d3-820b-3da1-9daf-f584b023d4ad
+[11:50:15] [Server thread/INFO]: [+]yaddu6666
+[11:50:15] [Server thread/INFO]: yaddu6666[/1.39.212.42:55284] logged in with entity id 13006 at ([Spawn]30072.415799440638, 31.0, 30091.27670311211)
+[11:52:37] [User Authenticator #1/INFO]: UUID of player GAMINGPROISBACK is fd3a151c-8bc5-3d3d-8ae9-556d815d47f5
+[11:52:44] [Server thread/INFO]: GAMINGPROISBACK (formerly known as .GAMINGPROISBACK) joined the game
+[11:52:44] [Server thread/INFO]: GAMINGPROISBACK[/49.47.131.156:51674] logged in with entity id 13022 at ([world]2253.2892344614834, 64.08307781780647, 9224.016403995045)
+[11:52:52] [Server thread/INFO]: DC > GAMINGPROISBACK has been killed by Zombie!
+[11:53:10] [Server thread/INFO]: DC > GAMINGPROISBACK has been killed by Zombie!
+[11:53:26] [Server thread/INFO]: DC > GAMINGPROISBACK has been killed by Zombie!
+[11:53:42] [Server thread/INFO]: DC > GAMINGPROISBACK has been killed by Zombie!
+[11:53:50] [Server thread/INFO]: yaddu6666 issued server command: /discord
+[11:54:11] [Server thread/INFO]: DC > GAMINGPROISBACK has been killed by Zombie!
+[11:54:24] [Server thread/WARN]: [SuperVanish] Could not intercept tab-completions using ProtocolLib: Field index 0 is out of bounds for length 0
+[11:54:26] [Server thread/INFO]: DC > GAMINGPROISBACK has been killed by Zombie!
+[11:54:32] [Server thread/INFO]: GAMINGPROISBACK issued server command: /team warp Freebamboo
+[11:55:02] [Server thread/INFO]: GAMINGPROISBACK issued server command: /team warp Trialchamber 123
+[11:55:06] [Server thread/INFO]: GAMINGPROISBACK issued server command: /home
+[11:56:00] [Server thread/INFO]: GAMINGPROISBACK issued server command: /team home
+[11:56:20] [Async Chat Thread - #0/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ yaddu6666
+[11:56:50] [Server thread/INFO]: GAMINGPROISBACK issued server command: /sell
+[11:56:54] [Server thread/INFO]: SHOP ➥ GAMINGPROISBACK sold 2304x Bamboo(Farming.page2.items.7) for ₹59,904.00 with the sell gui.
+[11:57:01] [Server thread/INFO]: GAMINGPROISBACK issued server command: /sell
+[11:57:06] [Server thread/INFO]: SHOP ➥ GAMINGPROISBACK sold 1190x Bamboo(Farming.page2.items.7) for ₹30,940.00 with the sell gui.
+[11:57:09] [Server thread/INFO]: GAMINGPROISBACK issued server command: /sell
+[11:57:12] [Server thread/INFO]: SHOP ➥ GAMINGPROISBACK sold 1x Bamboo(Farming.page2.items.7) for ₹26.00 with the sell gui.
+[11:58:00] [Server thread/INFO]: GAMINGPROISBACK issued server command: /sell
+[11:58:04] [Async Chat Thread - #2/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ yaddu6666
+[11:58:18] [Async Chat Thread - #2/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ me java se hu
+[11:58:39] [Server thread/INFO]: GAMINGPROISBACK issued server command: /kit
+[11:59:13] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.4! Trying to find NMS support
+[11:59:13] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R3' loaded!
+[11:59:13] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'Vouchers' to create a bStats instance!
+[11:59:27] [Server thread/INFO]: GAMINGPROISBACK issued server command: /home
+[12:00:16] [User Authenticator #2/INFO]: UUID of player Angel_girl is 700de4c5-1d43-32b6-9640-5f1605d4c471
+[12:00:16] [Server thread/INFO]: Angel_girl joined the game
+[12:00:16] [Server thread/INFO]: Angel_girl[/124.29.230.183:35670] logged in with entity id 22184 at ([world]-5.5, 67.0, 8.5)
+[12:00:17] [Server thread/WARN]: [EssentialsSpawn] ⚠ | That kit does not exist.
+[12:00:35] [Async Chat Thread - #4/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ Welcome cuite Angel_girl to the server
+[12:00:36] [Async Chat Thread - #4/INFO]: [Not Secure] MEMBER Angel_girl  ➟ hello
+[12:00:41] [Async Chat Thread - #4/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ hello
+[12:00:50] [Server thread/INFO]: yaddu6666 issued server command: /tps
+[12:01:00] [Async Chat Thread - #4/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ Angel_girl do /kit and claim member kit
+[12:01:18] [Server thread/INFO]: Angel_girl issued server command: /kit
+[12:02:27] [Server thread/INFO]: GAMINGPROISBACK issued server command: /team home
+[12:03:13] [Server thread/INFO]: Angel_girl issued server command: /tpa GAMINGPROISBACK
+[12:03:18] [Server thread/INFO]: GAMINGPROISBACK issued server command: /tpaccept
+[12:04:07] [Async Chat Thread - #6/INFO]: [Not Secure] MEMBER Angel_girl  ➟ ah lag
+[12:04:10] [Async Chat Thread - #6/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ you want bamboo ?
+[12:04:15] [Async Chat Thread - #6/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ um
+[12:04:17] [Async Chat Thread - #6/INFO]: [Not Secure] MEMBER Angel_girl  ➟ dedo
+[12:04:44] [Server thread/INFO]: Angel_girl issued server command: /sell hand
+[12:04:46] [Server thread/INFO]: [CHAT GAMES] A(n) REACTION chat game has started in the server!
+[12:05:04] [Async Chat Thread - #6/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ ./rtp karlo
+[12:05:05] [Server thread/INFO]: Angel_girl issued server command: /sell
+[12:05:15] [Async Chat Thread - #6/INFO]: [Not Secure] MEMBER Angel_girl  ➟ kya karu
+[12:05:18] [Server thread/INFO]: GAMINGPROISBACK lost connection: Disconnected
+[12:05:18] [Server thread/INFO]: FARMS GAMINGPROISBACK left the game
+[12:05:30] [User Authenticator #3/INFO]: UUID of player GAMINGPROISBACK is fd3a151c-8bc5-3d3d-8ae9-556d815d47f5
+[12:05:33] [Server thread/INFO]: yaddu6666 lost connection: Timed out
+[12:05:33] [Server thread/INFO]: [-]yaddu6666
+[12:05:39] [Server thread/INFO]: Angel_girl lost connection: Disconnected
+[12:05:39] [Server thread/INFO]: Angel_girl left the game
+[12:05:45] [Server thread/INFO]: com.mojang.authlib.GameProfile@20cddf40[id=fd3a151c-8bc5-3d3d-8ae9-556d815d47f5,name=GAMINGPROISBACK,properties={}] lost connection: Disconnected
+[12:11:59] [User Authenticator #4/INFO]: UUID of player yaddu6666 is f6bc99d3-820b-3da1-9daf-f584b023d4ad
+[12:11:59] [Server thread/INFO]: [+]yaddu6666
+[12:11:59] [Server thread/INFO]: yaddu6666[/1.39.212.42:53522] logged in with entity id 25349 at ([Spawn]30072.415799440638, 31.0, 30091.27670311211)
+[12:12:40] [User Authenticator #4/INFO]: UUID of player GAMINGPROISBACK is fd3a151c-8bc5-3d3d-8ae9-556d815d47f5
+[12:12:43] [Server thread/INFO]: GAMINGPROISBACK joined the game
+[12:12:43] [Server thread/INFO]: GAMINGPROISBACK[/49.47.131.156:53554] logged in with entity id 25350 at ([world]2178.813516741647, 59.0, 9172.32581998108)
+[12:13:15] [Server thread/INFO]: yaddu6666 issued server command: /playtime
+[12:14:21] [Server thread/WARN]: [DeluxeMenus] Could not find and open menu playtime4
+[12:14:22] [Server thread/WARN]: [DeluxeMenus] Could not find and open menu playtime4
+[12:14:22] [Server thread/WARN]: [DeluxeMenus] Could not find and open menu playtime4
+[12:14:32] [Server thread/INFO]: DC > GAMINGPROISBACK has been killed by Creeper!
+[12:14:36] [Server thread/INFO]: GAMINGPROISBACK issued server command: /back
+[12:14:50] [User Authenticator #5/INFO]: UUID of player shlokgamer is daab5f99-496f-3a42-b202-612561a61c74
+[12:14:51] [Server thread/INFO]: shlokgamer (formerly known as .shlokgamer) joined the game
+[12:14:51] [Server thread/INFO]: shlokgamer[/157.33.107.12:34590] logged in with entity id 28780 at ([world]2001.8745521350056, 70.0, 9278.84504268342)
+[12:15:02] [Server thread/INFO]: shlokgamer issued server command: /back
+[12:16:02] [Server thread/INFO]: shlokgamer issued server command: /shop
+[12:16:23] [Server thread/INFO]: SHOP ➥ shlokgamer bought 64 x Oak Log(Blocks.page11.items.230) for ₹192.00 with the buy screen.
+[12:17:42] [User Authenticator #6/INFO]: UUID of player Kirat_YT is a47c066c-3ec5-3772-b988-16ef5d0ba140
+[12:17:43] [Server thread/INFO]: Kirat_YT (formerly known as .Kirat_YT) joined the game
+[12:17:43] [Server thread/INFO]: Kirat_YT[/152.58.78.26:53032] logged in with entity id 32327 at ([world]6625.1790555184825, 72.0, 8135.571665300124)
+[12:17:47] [User Authenticator #6/INFO]: UUID of player sonya007 is 971d45f1-5142-3b12-8b61-b152e7da8f4a
+[12:17:48] [Server thread/INFO]: sonya007 (formerly known as .sonya007) joined the game
+[12:17:48] [Server thread/INFO]: sonya007[/103.176.239.51:55122] logged in with entity id 32894 at ([world]6614.751316691524, 67.0, 8216.932757892057)
+[12:18:04] [Async Chat Thread - #9/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ yo sonya007 bhao
+[12:18:07] [Server thread/INFO]: Kirat_YT issued server command: /shop
+[12:18:13] [Async Chat Thread - #9/INFO]: [Not Secure] YOUTUBER sonya007  ➟ bhai?
+[12:18:13] [Async Chat Thread - #8/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ live ?
+[12:18:17] [Async Chat Thread - #9/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ bhai
+[12:18:20] [Server thread/INFO]: SHOP ➥ Kirat_YT bought 1 x Totem Of Undying(fight.page1.items.2) for ₹8,000.00 with the buy screen.
+[12:18:21] [Server thread/INFO]: SHOP ➥ Kirat_YT bought 1 x Totem Of Undying(fight.page1.items.2) for ₹8,000.00 with the buy screen.
+[12:18:21] [Server thread/INFO]: SHOP ➥ Kirat_YT bought 1 x Totem Of Undying(fight.page1.items.2) for ₹8,000.00 with the buy screen.
+[12:18:21] [User Authenticator #6/INFO]: UUID of player SANKY_SWORD is b16c1d68-c634-3017-a13b-47b3901e1e08
+[12:18:22] [Server thread/INFO]: SHOP ➥ Kirat_YT bought 1 x Totem Of Undying(fight.page1.items.2) for ₹8,000.00 with the buy screen.
+[12:18:22] [Server thread/INFO]: SANKY_SWORD (formerly known as .SANKY_SWORD) joined the game
+[12:18:22] [Server thread/INFO]: SANKY_SWORD[/152.59.23.26:58992] logged in with entity id 35010 at ([world]2271.950948013488, 64.0, 9218.586903805051)
+[12:18:22] [Server thread/INFO]: SHOP ➥ Kirat_YT bought 1 x Totem Of Undying(fight.page1.items.2) for ₹8,000.00 with the buy screen.
+[12:18:23] [Async Chat Thread - #9/INFO]: [Not Secure] MEMBER shlokgamer  ➟ yaddu6666 hello bro I'm new
+[12:18:23] [Server thread/INFO]: SHOP ➥ Kirat_YT bought 1 x Totem Of Undying(fight.page1.items.2) for ₹8,000.00 with the buy screen.
+[12:18:24] [Server thread/INFO]: SHOP ➥ Kirat_YT bought 1 x Totem Of Undying(fight.page1.items.2) for ₹8,000.00 with the buy screen.
+[12:18:25] [Server thread/INFO]: SHOP ➥ Kirat_YT bought 1 x Totem Of Undying(fight.page1.items.2) for ₹8,000.00 with the buy screen.
+[12:18:26] [Async Chat Thread - #10/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ yo sanky_sword
+[12:18:27] [Server thread/INFO]: SHOP ➥ Kirat_YT bought 1 x Totem Of Undying(fight.page1.items.2) for ₹8,000.00 with the buy screen.
+[12:18:32] [Server thread/INFO]: SHOP ➥ Kirat_YT bought 32 x Obsidian(fight.page1.items.3) for ₹1,000.00 with the buy screen.
+[12:18:36] [Server thread/INFO]: SHOP ➥ Kirat_YT bought 64 x End Crystal(fight.page1.items.4) for ₹160,000.00 with the buy screen.
+[12:18:37] [User Authenticator #6/INFO]: UUID of player LuckyBiala is 3eda9ab1-9ef5-34d1-8804-224f77da9de0
+[12:18:38] [Server thread/INFO]: LuckyBiala (formerly known as .LuckyBiala) joined the game
+[12:18:38] [Server thread/INFO]: LuckyBiala[/106.78.28.230:59216] logged in with entity id 36069 at ([world]2034.6224915761309, 65.0, 9196.667309403865)
+[12:18:39] [Async Chat Thread - #10/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ shlokgamer is player from three days
+[12:18:42] [Server thread/INFO]: SANKY_SWORD issued server command: /sell
+[12:18:43] [Server thread/INFO]: SHOP ➥ Kirat_YT bought 33 x Wind Charge(fight.page1.items.1) for ₹16,500.00 with the buy screen.
+[12:18:44] [User Authenticator #6/INFO]: UUID of player CHIRAG1025 is 508c8a59-f60e-3b34-af4d-19279b150917
+[12:18:45] [Server thread/INFO]: SHOP ➥ SANKY_SWORD sold 1100x Bamboo(Farming.page2.items.7) for ₹28,600.00 with the sell gui.
+[12:18:45] [Server thread/INFO]: CHIRAG1025 (formerly known as .CHIRAG1025) joined the game
+[12:18:45] [Server thread/INFO]: CHIRAG1025[/103.208.70.238:59224] logged in with entity id 36316 at ([world]1947.513773914402, 65.875, 9113.828936957165)
+[12:18:49] [Async Chat Thread - #10/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ and he is not grinding
+[12:18:51] [Async Chat Thread - #10/INFO]: [Not Secure] KING LuckyBiala  ➟ haahhaha
+[12:18:52] [Async Chat Thread - #10/INFO]: [Not Secure] VIP CHIRAG1025  ➟ lol
+[12:18:52] [Async Chat Thread - #10/INFO]: [Not Secure] MEMBER shlokgamer  ➟ yes
+[12:18:54] [Async Chat Thread - #8/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ only begging
+[12:19:02] [Server thread/INFO]: SHOP ➥ Kirat_YT bought 1 x Orange Shulker Box(fight.page2.items.14) for ₹25,000.00 with the buy screen.
+[12:19:07] [Server thread/INFO]: LuckyBiala issued server command: /tpa CHIRAG1025
+[12:19:07] [Async Chat Thread - #8/INFO]: [Not Secure] MEMBER shlokgamer  ➟ bro tp me
+[12:19:14] [Server thread/INFO]: CHIRAG1025 issued server command: /tpaccept
+[12:19:15] [Server thread/INFO]: shlokgamer issued server command: /tpa GAMINGPROISBACK
+[12:19:18] [Async Chat Thread - #10/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ yo sanky_sword
+[12:19:28] [Server thread/INFO]: CHIRAG1025 issued server command: /home
+[12:19:29] [Async Chat Thread - #10/INFO]: [Not Secure] YOUTUBER SANKY_SWORD  ➟ Yoo
+[12:19:36] [Async Chat Thread - #10/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ live ?
+[12:19:43] [Async Chat Thread - #10/INFO]: [Not Secure] MEMBER shlokgamer  ➟ lo tp
+[12:19:44] [Async Chat Thread - #10/INFO]: [Not Secure] KING LuckyBiala  ➟ :)
+[12:19:46] [Server thread/INFO]: [CHAT GAMES] A(n) TRIVIA chat game has started in the server!
+[12:19:50] [Async Chat Thread - #10/INFO]: [Not Secure] VIP CHIRAG1025  ➟ haha
+[12:19:56] [Server thread/INFO]: CHIRAG1025 issued server command: /tpahere LuckyBiala
+[12:20:02] [Server thread/INFO]: shlokgamer issued server command: /kit
+[12:20:02] [Server thread/INFO]: LuckyBiala issued server command: /tpaccept
+[12:20:07] [Async Chat Thread - #10/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ i am first like again
+[12:20:08] [Server thread/INFO]: sonya007 lost connection: Disconnected
+[12:20:08] [Server thread/INFO]: bhaichara sonya007 left the game
+[12:20:16] [Async Chat Thread - #8/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ sanky_sword
+[12:20:18] [Async Chat Thread - #10/INFO]: [Not Secure] VIP CHIRAG1025  ➟ karli hehe
+[12:20:26] [Async Chat Thread - #10/INFO]: [Not Secure] KING LuckyBiala  ➟ chirag bhai neth main upgrade karo?
+[12:20:27] [Async Chat Thread - #10/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ idhar 30 layer niche tak mine karna ha
+[12:20:38] [Async Chat Thread - #10/INFO]: [Not Secure] KING LuckyBiala  ➟ chirag bhai neth main upgrade karo?
+[12:20:50] [Server thread/INFO]: SANKY_SWORD lost connection: Disconnected
+[12:20:50] [Server thread/INFO]: bhaichara SANKY_SWORD left the game
+[12:20:57] [Server thread/INFO]: Kirat_YT lost connection: Disconnected
+[12:20:57] [Server thread/INFO]: Kirat_YT left the game
+[12:21:01] [User Authenticator #7/INFO]: UUID of player Kirat_YT is a47c066c-3ec5-3772-b988-16ef5d0ba140
+[12:21:01] [Server thread/INFO]: Kirat_YT joined the game
+[12:21:01] [Server thread/INFO]: Kirat_YT[/152.58.78.26:38108] logged in with entity id 58060 at ([world]6625.1790555184825, 72.0, 8135.571665300124)
+[12:21:05] [User Authenticator #7/INFO]: UUID of player sonya007 is 971d45f1-5142-3b12-8b61-b152e7da8f4a
+[12:21:05] [Server thread/INFO]: bhaichara sonya007 joined the game
+[12:21:05] [Server thread/INFO]: sonya007[/103.176.239.51:38116] logged in with entity id 58276 at ([world]6610.359154173551, 66.875, 8231.699999988079)
+[12:21:06] [Server thread/INFO]: CHIRAG1025 issued server command: /playtime
+[12:21:13] [Server thread/INFO]: GAMINGPROISBACK issued server command: /team name bhaichara2.O
+[12:21:16] [Async Chat Thread - #10/INFO]: [Not Secure] KING LuckyBiala  ➟ ruko aata mai 20-25 min tak
+[12:21:19] [Server thread/INFO]: GAMINGPROISBACK issued server command: /team name bhaichara
+[12:21:22] [Server thread/INFO]: shlokgamer lost connection: Disconnected
+[12:21:22] [Server thread/INFO]: DOMINATORS shlokgamer left the game
+[12:21:23] [Server thread/INFO]: LuckyBiala issued server command: /afk
+[12:21:29] [Async Chat Thread - #10/INFO]: [Not Secure] VIP CHIRAG1025  ➟ bye badme ata
+[12:21:40] [Server thread/INFO]: CHIRAG1025 issued server command: /warp
+[12:21:40] [Server thread/INFO]: sonya007 lost connection: Disconnected
+[12:21:43] [Server thread/INFO]: CHIRAG1025 issued server command: /warp afk
+[12:21:58] [Server thread/INFO]: LuckyBiala lost connection: Disconnected
+[12:21:58] [Server thread/INFO]: SLAYERS LuckyBiala left the game
+[12:22:38] [User Authenticator #8/INFO]: UUID of player sonya007 is 971d45f1-5142-3b12-8b61-b152e7da8f4a
+[12:22:38] [Server thread/INFO]: bhaichara sonya007 joined the game
+[12:22:38] [Server thread/INFO]: sonya007[/103.176.239.51:38220] logged in with entity id 59613 at ([world]6610.167146551311, 67.5, 8233.342948238835)
+[12:22:39] [Async Chat Thread - #11/INFO]: [Not Secure] VIP CHIRAG1025  ➟ afk
+[12:22:49] [Server thread/INFO]: POINTS ➥ Added 1✺ to .CHIRAG1025's balance. New balance: 43✺.
+[12:23:08] [User Authenticator #8/INFO]: UUID of player SANKY_SWORD is b16c1d68-c634-3017-a13b-47b3901e1e08
+[12:23:11] [Server thread/INFO]: bhaichara SANKY_SWORD joined the game
+[12:23:11] [Server thread/INFO]: SANKY_SWORD[/152.59.23.26:48696] logged in with entity id 60116 at ([world]2225.775403260628, 65.0, 9224.546862421228)
+[12:23:16] [Async Chat Thread - #11/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ sanky_sword
+[12:23:23] [Async Chat Thread - #11/INFO]: [Not Secure] YOUTUBER SANKY_SWORD  ➟ Yoo
+[12:23:39] [Async Chat Thread - #12/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ ye jagah mine karne me help karo
+[12:23:42] [User Authenticator #8/INFO]: UUID of player ROLEX_SIR is 3f51ecd0-4ac5-3949-a3a0-e14b71595165
+[12:23:43] [Server thread/INFO]: ROLEX_SIR joined the game
+[12:23:43] [Server thread/INFO]: ROLEX_SIR[/103.153.105.104:45150] logged in with entity id 65509 at ([world]0.5, 65.0, -1.5)
+[12:23:43] [Server thread/WARN]: [EssentialsSpawn] ⚠ | That kit does not exist.
+[12:23:44] [Async Chat Thread - #12/INFO]: [Not Secure] YOUTUBER SANKY_SWORD  ➟ ohk
+[12:23:49] [Server thread/INFO]: POINTS ➥ Added 1✺ to .CHIRAG1025's balance. New balance: 44✺.
+[12:23:49] [Async Chat Thread - #12/INFO]: [Not Secure] YOUTUBER SANKY_SWORD  ➟ kay karna he
+[12:23:50] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (1/25)
+[12:23:50] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (2/25)
+[12:23:52] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (3/25)
+[12:23:52] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (4/25)
+[12:23:52] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (5/25)
+[12:23:52] [Server thread/INFO]: SANKY_SWORD issued server command: /pv 1
+[12:23:52] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (6/25)
+[12:23:53] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (7/25)
+[12:23:53] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (8/25)
+[12:23:53] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (8/35)
+[12:23:55] [Server thread/INFO]: SANKY_SWORD issued server command: /pv 2
+[12:23:59] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (10/35)
+[12:24:00] [Async Chat Thread - #12/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ sanky_sword
+[12:24:02] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (12/35)
+[12:24:02] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (9/25)
+[12:24:03] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (14/35)
+[12:24:04] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (10/25)
+[12:24:04] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (16/35)
+[12:24:07] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (18/35)
+[12:24:09] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (20/35)
+[12:24:10] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (22/35)
+[12:24:11] [Server thread/INFO]: SANKY_SWORD lost connection: Disconnected
+[12:24:11] [Server thread/INFO]: bhaichara SANKY_SWORD left the game
+[12:24:12] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (24/35)
+[12:24:13] [User Authenticator #8/INFO]: UUID of player SANKY_SWORD is b16c1d68-c634-3017-a13b-47b3901e1e08
+[12:24:13] [Server thread/INFO]: bhaichara SANKY_SWORD joined the game
+[12:24:13] [Server thread/INFO]: SANKY_SWORD[/152.59.23.26:47958] logged in with entity id 70517 at ([world]2225.775403260628, 65.0, 9224.546862421228)
+[12:24:15] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (26/35)
+[12:24:17] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (28/35)
+[12:24:19] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (30/35)
+[12:24:21] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (32/35)
+[12:24:21] [Async Chat Thread - #12/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ media pickaxe use karlo
+[12:24:33] [Async Chat Thread - #12/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ ye jaha last tak ha
+[12:24:33] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (34/35)
+[12:24:38] [Server thread/INFO]: ROLEX_SIR lost connection: Internal Exception: io.netty.handler.timeout.ReadTimeoutException
+[12:24:38] [Server thread/INFO]: [-]ROLEX_SIR
+[12:24:38] [Server thread/INFO]: Kicked ROLEX_SIR: Internal Exception: io.netty.handler.timeout.ReadTimeoutException
+[12:24:43] [User Authenticator #8/INFO]: UUID of player ROLEX_SIR is 3f51ecd0-4ac5-3949-a3a0-e14b71595165
+[12:24:43] [Server thread/INFO]: [+]ROLEX_SIR
+[12:24:43] [Server thread/INFO]: ROLEX_SIR[/103.153.105.104:34020] logged in with entity id 73750 at ([Spawn]30055.24988221344, 34.0, 30065.807248886125)
+[12:24:49] [Server thread/INFO]: POINTS ➥ Added 1✺ to .CHIRAG1025's balance. New balance: 45✺.
+[12:24:52] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (8/35)
+[12:24:56] [Async Chat Thread - #11/INFO]: [Not Secure] YOUTUBER sonya007  ➟ ROLEX_SIR Kirat_YT live on youtube
+[12:24:59] [Async Chat Thread - #11/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ abe
+[12:25:00] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (10/35)
+[12:25:03] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (12/35)
+[12:25:04] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (1/25)
+[12:25:04] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (2/25)
+[12:25:04] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (14/35)
+[12:25:04] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (3/25)
+[12:25:05] [Async Chat Thread - #12/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ teri screen nhai arhai
+[12:25:05] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (16/35)
+[12:25:07] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (18/35)
+[12:25:08] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (20/35)
+[12:25:10] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (22/35)
+[12:25:13] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (24/35)
+[12:25:13] [Async Chat Thread - #11/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ teri screen nhai arhai
+[12:25:14] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (26/35)
+[12:25:15] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (28/35)
+[12:25:17] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (30/35)
+[12:25:21] [Async Chat Thread - #11/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ thik kar
+[12:25:29] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (32/35)
+[12:25:30] [Server thread/INFO]: ROLEX_SIR issued server command: /home
+[12:25:31] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /list 
+[12:25:31] [Server thread/INFO]: ☺ | There are 7/50 players online.
+[12:25:31] [Server thread/INFO]: Admins&r: yaddu6666
+[12:25:31] [Server thread/INFO]: default&r: GAMINGPROISBACK, Kirat_YT, ROLEX_SIR
+[12:25:31] [Server thread/INFO]: vip&r: CHIRAG1025
+[12:25:31] [Server thread/INFO]: youtuber&r: SANKY_SWORD, sonya007
+[12:25:34] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (34/35)
+[12:25:35] [Server thread/INFO]: ROLEX_SIR lost connection: Internal Exception: io.netty.handler.timeout.ReadTimeoutException
+[12:25:35] [Server thread/INFO]: [-]ROLEX_SIR
+[12:25:35] [Server thread/INFO]: Kicked ROLEX_SIR: Internal Exception: io.netty.handler.timeout.ReadTimeoutException
+[12:25:35] [User Authenticator #8/INFO]: UUID of player ROLEX_SIR is 3f51ecd0-4ac5-3949-a3a0-e14b71595165
+[12:25:36] [Server thread/INFO]: [+]ROLEX_SIR
+[12:25:36] [Server thread/INFO]: ROLEX_SIR[/103.153.105.104:47158] logged in with entity id 74728 at ([Spawn]30054.815542286888, 33.0, 30048.18667762007)
+[12:25:40] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (1/25)
+[12:25:40] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (2/25)
+[12:25:41] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (3/25)
+[12:25:41] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (4/25)
+[12:25:44] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (8/35)
+[12:25:45] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (5/25)
+[12:25:45] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (10/35)
+[12:25:47] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (12/35)
+[12:25:48] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (14/35)
+[12:25:49] [Server thread/INFO]: POINTS ➥ Added 1✺ to .CHIRAG1025's balance. New balance: 46✺.
+[12:25:49] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (6/25)
+[12:25:49] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (16/35)
+[12:25:50] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (7/25)
+[12:25:50] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (8/25)
+[12:25:50] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (18/35)
+[12:25:51] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Speed *(Type E)* (2/20)
+[12:25:51] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (9/25)
+[12:25:52] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (10/25)
+[12:25:52] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (20/35)
+[12:25:52] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (11/25)
+[12:25:52] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (12/25)
+[12:25:53] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Speed *(Type E)* (3/20)
+[12:25:53] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (13/25)
+[12:25:53] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (22/35)
+[12:25:54] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (24/35)
+[12:25:55] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (14/25)
+[12:25:55] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (26/35)
+[12:25:56] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (15/25)
+[12:25:56] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (16/25)
+[12:25:57] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (28/35)
+[12:25:57] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Speed *(Type E)* (4/20)
+[12:25:57] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (17/25)
+[12:25:57] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (18/25)
+[12:25:58] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (19/25)
+[12:25:58] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (30/35)
+[12:25:58] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Speed *(Type E)* (5/20)
+[12:25:58] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (20/25)
+[12:25:59] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (21/25)
+[12:25:59] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (22/25)
+[12:25:59] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (32/35)
+[12:25:59] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (23/25)
+[12:26:00] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (24/25)
+[12:26:00] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Speed *(Type E)* (6/20)
+[12:26:00] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (25/25)
+[12:26:00] [Craft Scheduler Thread - 72 - AdvancedBan/INFO]: BONUSMC ➟  ROLEX_SIR was successfully kicked!
+[12:26:00] [Server thread/INFO]: ROLEX_SIR lost connection: BONUSMC ➟  You got kicked
+
+Reason » [Vulcan] Unfair Advantage
+
+[12:26:00] [Server thread/INFO]: [-]ROLEX_SIR
+[12:26:02] [User Authenticator #8/INFO]: UUID of player ROLEX_SIR is 3f51ecd0-4ac5-3949-a3a0-e14b71595165
+[12:26:02] [Server thread/INFO]: [+]ROLEX_SIR
+[12:26:02] [Server thread/INFO]: ROLEX_SIR[/103.153.105.104:32994] logged in with entity id 75287 at ([Spawn]30074.020642381867, 32.66918706563166, 30087.240489148033)
+[12:26:05] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (1/25)
+[12:26:05] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (2/25)
+[12:26:06] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (3/25)
+[12:26:09] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (8/35)
+[12:26:11] [Async Chat Thread - #11/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ mine kardene last hole wala block tak
+[12:26:11] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (10/35)
+[12:26:13] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (12/35)
+[12:26:14] [Async Chat Thread - #11/INFO]: [Not Secure] YOUTUBER SANKY_SWORD  ➟ or kitna karna he
+[12:26:14] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (14/35)
+[12:26:14] [Server thread/INFO]: ROLEX_SIR issued server command: /daily
+[12:26:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /eco give ROLEX_SIR 1500
+[12:26:18] [Server thread/INFO]: ⛃ | ₹1,500 Have been given to ROLEX_SIR!
+[12:26:19] [User Authenticator #8/INFO]: UUID of player Angel_girl is 700de4c5-1d43-32b6-9640-5f1605d4c471
+[12:26:19] [Server thread/INFO]: Angel_girl joined the game
+[12:26:19] [Server thread/INFO]: Angel_girl[/124.29.230.183:44102] logged in with entity id 75494 at ([world]2205.5972939197295, 63.0, 9169.147555844938)
+[12:26:22] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /eco give ROLEX_SIR 400
+[12:26:22] [Server thread/INFO]: ⛃ | ₹400 Have been given to ROLEX_SIR!
+[12:26:22] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /eco give ROLEX_SIR 300
+[12:26:22] [Server thread/INFO]: ⛃ | ₹300 Have been given to ROLEX_SIR!
+[12:26:23] [Async Chat Thread - #12/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ sanky_sword
+[12:26:23] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (16/35)
+[12:26:24] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (18/35)
+[12:26:27] [Async Chat Thread - #12/INFO]: [Not Secure] YOUTUBER SANKY_SWORD  ➟ karna kay he base bana he
+[12:26:31] [Async Chat Thread - #12/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ ye pura base acha rehega
+[12:26:33] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (20/35)
+[12:26:34] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (22/35)
+[12:26:37] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (24/35)
+[12:26:38] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (26/35)
+[12:26:39] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (4/25)
+[12:26:40] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (28/35)
+[12:26:41] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (30/35)
+[12:26:42] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (32/35)
+[12:26:43] [Async Chat Thread - #11/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ underground
+[12:26:43] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (34/35)
+[12:26:44] [Server thread/INFO]: ROLEX_SIR lost connection: Internal Exception: io.netty.handler.timeout.ReadTimeoutException
+[12:26:44] [Server thread/INFO]: [-]ROLEX_SIR
+[12:26:44] [Server thread/INFO]: Kicked ROLEX_SIR: Internal Exception: io.netty.handler.timeout.ReadTimeoutException
+[12:26:46] [User Authenticator #8/INFO]: UUID of player ROLEX_SIR is 3f51ecd0-4ac5-3949-a3a0-e14b71595165
+[12:26:47] [Server thread/INFO]: [+]ROLEX_SIR
+[12:26:47] [Server thread/INFO]: ROLEX_SIR[/103.153.105.104:53728] logged in with entity id 76056 at ([Spawn]30061.227621855578, 31.0, 30103.718045719852)
+[12:26:49] [Server thread/INFO]: POINTS ➥ Added 1✺ to .CHIRAG1025's balance. New balance: 47✺.
+[12:26:50] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (1/25)
+[12:26:50] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (2/25)
+[12:26:51] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (3/25)
+[12:26:55] [Server thread/INFO]: ROLEX_SIR issued server command: /rtp
+[12:27:02] [Server thread/INFO]: sonya007 issued server command: /team home
+[12:27:03] [Server thread/INFO]: ROLEX_SIR issued server command: /betterrtp world world
+[12:27:07] [Async Chat Thread - #11/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ ise hole tak
+[12:27:11] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (8/35)
+[12:27:14] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (10/35)
+[12:27:16] [Server thread/INFO]: DC > GAMINGPROISBACK didnt knew that the hill was this high
+[12:27:17] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (12/35)
+[12:27:19] [Server thread/INFO]: GAMINGPROISBACK issued server command: /back
+[12:27:21] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (14/35)
+[12:27:23] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (4/25)
+[12:27:23] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type A) (5/25)
+[12:27:23] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (16/35)
+[12:27:24] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (18/35)
+[12:27:24] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type C) (1/10)
+[12:27:24] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Speed (Type B) (2/20)
+[12:27:24] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type C) (2/10)
+[12:27:24] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type C) (3/10)
+[12:27:24] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Speed (Type B) (3/20)
+[12:27:24] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Speed (Type D) (2/20)
+[12:27:24] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type C) (4/10)
+[12:27:25] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Speed (Type B) (4/20)
+[12:27:25] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Speed (Type D) (3/20)
+[12:27:25] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type C) (5/10)
+[12:27:25] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type C) (6/10)
+[12:27:25] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Speed (Type B) (5/20)
+[12:27:25] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Speed (Type D) (4/20)
+[12:27:25] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type C) (7/10)
+[12:27:25] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Speed (Type B) (6/20)
+[12:27:25] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Speed (Type D) (5/20)
+[12:27:25] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type C) (8/10)
+[12:27:25] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Speed (Type B) (7/20)
+[12:27:25] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Speed (Type D) (6/20)
+[12:27:25] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Speed (Type B) (8/20)
+[12:27:25] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Timer (Type D) (20/35)
+[12:27:25] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Speed (Type D) (7/20)
+[12:27:25] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Speed (Type B) (9/20)
+[12:27:25] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Speed (Type D) (8/20)
+[12:27:26] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Jump (Type C) (9/10)
+[12:27:26] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Speed (Type B) (10/20)
+[12:27:26] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Speed (Type D) (9/20)
+[12:27:26] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Speed (Type D) (10/20)
+[12:27:26] [pool-139-thread-1/INFO]: [Vulcan] ROLEX_SIR failed Improbable (Type B) (1/1)
+[12:27:26] [Craft Scheduler Thread - 47 - AdvancedBan/INFO]: BONUSMC ➟  ROLEX_SIR was successfully kicked!
+[12:27:26] [Server thread/INFO]: ROLEX_SIR lost connection: BONUSMC ➟  You got kicked
+
+Reason » [Vulcan] Unfair Advantage
+
+[12:27:26] [Server thread/INFO]: ROLEX_SIR left the game
+[12:27:31] [Server thread/INFO]: GAMINGPROISBACK issued server command: /back
+[12:27:31] [Server thread/INFO]: DC > GAMINGPROISBACK didnt knew that the hill was this high
+[12:27:33] [Server thread/INFO]: GAMINGPROISBACK issued server command: /back
+[12:27:49] [Server thread/INFO]: POINTS ➥ Added 1✺ to .CHIRAG1025's balance. New balance: 48✺.
+[12:27:49] [Server thread/INFO]: Angel_girl lost connection: Disconnected
+[12:27:49] [Server thread/INFO]: Angel_girl left the game
+[12:27:51] [Async Chat Thread - #11/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ idhar tak karna ha
+[12:27:55] [Server thread/INFO]: GAMINGPROISBACK issued server command: /tpahere SANKY_SWORD
+[12:28:03] [Async Chat Thread - #12/INFO]: [Not Secure] YOUTUBER SANKY_SWORD  ➟ itna base nahi banate
+[12:28:05] [Async Chat Thread - #12/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ haaa
+[12:28:08] [Server thread/INFO]: SANKY_SWORD issued server command: /tpaccept
+[12:28:16] [Server thread/INFO]: sonya007 issued server command: /tpa SANKY_SWORD
+[12:28:21] [Server thread/INFO]: SANKY_SWORD issued server command: /tpaccept
+[12:28:26] [Server thread/WARN]: sonya007 moved too quickly! 303.09164671847634,-7.0,111.46226288630896
+[12:28:49] [Server thread/INFO]: POINTS ➥ Added 1✺ to .CHIRAG1025's balance. New balance: 49✺.
+[12:28:50] [Server thread/INFO]: GAMINGPROISBACK issued server command: /pv 1
+[12:29:49] [Server thread/INFO]: POINTS ➥ Added 1✺ to .CHIRAG1025's balance. New balance: 50✺.
+[12:30:12] [Server thread/INFO]: DC > GAMINGPROISBACK has been killed by Spider!
+[12:30:24] [Netty Epoll Server IO #1/INFO]: [Vulcan] SANKY_SWORD position was updated for being on a ghost block! (world, 2238, 58, 9208) §7[9]
+[12:30:26] [Server thread/INFO]: DC > GAMINGPROISBACK has been killed by Spider!
+[12:30:27] [Server thread/INFO]: DC > sonya007 has been killed by Zombie!
+[12:30:28] [Async Chat Thread - #13/INFO]: [Not Secure] MEMBER GAMINGPROISBACK  ➟ underground base bana rhai
+[12:30:29] [Server thread/INFO]: GAMINGPROISBACK lost connection: Disconnected
+[12:30:29] [Server thread/INFO]: FARMS GAMINGPROISBACK left the game
+[12:30:31] [Server thread/INFO]: SANKY_SWORD lost connection: Disconnected
+[12:30:31] [Server thread/INFO]: bhaichara SANKY_SWORD left the game
+[12:30:40] [Server thread/INFO]: sonya007 lost connection: Timed out
+[12:30:40] [Server thread/INFO]: sonya007 left the game
+[12:30:47] [Server thread/INFO]: yaddu6666 lost connection: Timed out
+[12:30:47] [Server thread/INFO]: [-]yaddu6666
+[12:30:48] [Server thread/INFO]: CHIRAG1025 lost connection: Timed out
+[12:30:48] [Server thread/INFO]: [-]CHIRAG1025
+[12:30:49] [Server thread/INFO]: Kirat_YT lost connection: Timed out
+[12:31:00] [User Authenticator #9/INFO]: UUID of player SANKY_SWORD is b16c1d68-c634-3017-a13b-47b3901e1e08
+[12:31:02] [Server thread/INFO]: SANKY_SWORD (/152.59.23.26:46440) lost connection: Disconnected
+[12:34:22] [User Authenticator #10/INFO]: UUID of player Snowbell11 is 68ba6572-683d-34d2-abc3-86b1903acac7
+[12:34:32] [Server thread/INFO]: com.mojang.authlib.GameProfile@61ded5c3[id=68ba6572-683d-34d2-abc3-86b1903acac7,name=Snowbell11,properties={}] lost connection: Disconnected
+[12:34:34] [User Authenticator #10/INFO]: UUID of player Snowbell11 is 68ba6572-683d-34d2-abc3-86b1903acac7
+[12:34:34] [Server thread/INFO]: Snowbell11 joined the game
+[12:34:34] [Server thread/INFO]: Snowbell11[/152.59.88.136:36834] logged in with entity id 78768 at ([world]-4.5, 66.0, 1.5)
+[12:34:34] [Server thread/WARN]: [EssentialsSpawn] ⚠ | That kit does not exist.
+[12:34:46] [Server thread/INFO]: [CHAT GAMES] A(n) UNREVERSE chat game has started in the server!
+[12:34:54] [Netty Epoll Server IO #3/INFO]: Disconnecting yaddu6666 (/1.39.212.42:32683): This server requires you to connect with Velocity.
+[12:34:54] [Server thread/INFO]: yaddu6666 (/1.39.212.42:32683) lost connection: This server requires you to connect with Velocity.
+[12:34:55] [User Authenticator #10/INFO]: UUID of player shlokgamer is daab5f99-496f-3a42-b202-612561a61c74
+[12:34:56] [Server thread/INFO]: shlokgamer joined the game
+[12:34:56] [Server thread/INFO]: shlokgamer[/157.33.228.165:44022] logged in with entity id 78769 at ([world]1971.7350551991742, 71.0, 9334.175562510594)
+[12:34:57] [User Authenticator #10/INFO]: UUID of player yaddu6666 is f6bc99d3-820b-3da1-9daf-f584b023d4ad
+[12:34:58] [Server thread/INFO]: [+]yaddu6666
+[12:34:58] [Server thread/INFO]: yaddu6666[/1.39.212.42:56848] logged in with entity id 78992 at ([Spawn]30075.833938374093, 31.0, 30083.033542019682)
+[12:35:26] [Async Chat Thread - #15/INFO]: [Not Secure] MEMBER Snowbell11  ➟ hi guys
+[12:35:42] [Async Chat Thread - #15/INFO]: [Not Secure] MEMBER Snowbell11  ➟ nice spawn dude
+[12:35:59] [Async Chat Thread - #15/INFO]: [Not Secure] MEMBER shlokgamer  ➟ hello guys
+[12:36:14] [Async Chat Thread - #15/INFO]: [Not Secure] MEMBER shlokgamer  ➟ Snowbell11 tp me lo
+[12:36:17] [Server thread/INFO]: Snowbell11 issued server command: /rtp
+[12:36:20] [Server thread/INFO]: Snowbell11 issued server command: /betterrtp world world
+[12:36:26] [Server thread/INFO]: shlokgamer issued server command: /tpahere Snowbell11
+[12:36:33] [Async Chat Thread - #15/INFO]: [Not Secure] MEMBER shlokgamer  ➟ tp lo
+[12:36:39] [Async Chat Thread - #15/INFO]: [Not Secure] MEMBER shlokgamer  ➟ bro
+[12:36:41] [Server thread/INFO]: Snowbell11 issued server command: /tpaccept
+[12:37:04] [Server thread/INFO]: shlokgamer lost connection: Disconnected
+[12:37:04] [Server thread/INFO]: DOMINATORS shlokgamer left the game
+[12:37:29] [Server thread/INFO]: yaddu6666 lost connection: Timed out
+[12:37:29] [Server thread/INFO]: [-]yaddu6666
+[12:37:35] [Server thread/INFO]: Snowbell11 lost connection: Timed out
+[12:37:35] [Server thread/INFO]: Snowbell11 left the game
+[12:37:48] [User Authenticator #11/INFO]: UUID of player yaddu6666 is f6bc99d3-820b-3da1-9daf-f584b023d4ad
+[12:38:04] [Server thread/INFO]: com.mojang.authlib.GameProfile@c4bba12[id=f6bc99d3-820b-3da1-9daf-f584b023d4ad,name=yaddu6666,properties={}] lost connection: Timed out
+[12:38:30] [User Authenticator #11/INFO]: UUID of player Snowbell11 is 68ba6572-683d-34d2-abc3-86b1903acac7
+[12:38:31] [Server thread/INFO]: sonya007 (/130.250.191.159:46206) lost connection: Disconnected
+[12:38:37] [User Authenticator #11/INFO]: UUID of player sonya007 is 971d45f1-5142-3b12-8b61-b152e7da8f4a
+[12:38:47] [User Authenticator #11/INFO]: UUID of player yaddu6666 is f6bc99d3-820b-3da1-9daf-f584b023d4ad
+[12:38:48] [Server thread/INFO]: com.mojang.authlib.GameProfile@70df9099[id=68ba6572-683d-34d2-abc3-86b1903acac7,name=Snowbell11,properties={}] lost connection: Timed out
+[12:38:52] [Server thread/INFO]: com.mojang.authlib.GameProfile@3d6e3706[id=971d45f1-5142-3b12-8b61-b152e7da8f4a,name=sonya007,properties={}] lost connection: Disconnected
+[12:38:55] [User Authenticator #11/INFO]: UUID of player sonya007 is 971d45f1-5142-3b12-8b61-b152e7da8f4a
+[12:39:03] [Server thread/INFO]: sonya007 joined the game
+[12:39:03] [Server thread/INFO]: sonya007[/103.176.239.51:38464] logged in with entity id 87760 at ([world]6626.5, 72.5, 8133.5)
+[12:39:06] [Server thread/INFO]: com.mojang.authlib.GameProfile@bf9b743[id=f6bc99d3-820b-3da1-9daf-f584b023d4ad,name=yaddu6666,properties={}] lost connection: Timed out
+[12:39:41] [Netty Epoll Server IO #1/INFO]: [Vulcan] §csonya007 §7was kicked for not replying to Transaction Packets! §7(§c45782ms§7)
+[12:39:41] [Netty Epoll Server IO #1/INFO]: [Vulcan] §csonya007 §7was kicked for not replying to KeepAlive Packets! §7(§c45783ms§7)
+[12:39:41] [Server thread/INFO]: sonya007 lost connection: Internal Exception: io.netty.handler.timeout.ReadTimeoutException
+[12:39:41] [Server thread/INFO]: sonya007 left the game
